@@ -15,4 +15,13 @@ namespace YAS4CG.Model
 
         public string Desc { get; set; }
     }
+
+    internal class SpecialAttribute
+    {
+        public string Name { get; set; }
+
+        public double Value { get; set; }
+
+        public string Desc { get; set; }
+    }
 }

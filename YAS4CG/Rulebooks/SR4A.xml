@@ -1,4 +1,66 @@
 <Rulebook name='SR4A'>
+<!-- Start Attributes -->
+	<Attribute name ='Agility'>
+		<Desc>
+			Agility represents fine motor control—manual dexterity, flexibility, balance, and coordination. A character with a low Agility may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Agility ratings may belong to characters that are “natural” athletes.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Body'>
+		<Desc>
+			The Body attribute determines a character’s resistance to outside forces. It represents the character’s cardiovascular fitness and endurance, immune system, how well she heals, her tolerance for drugs and alcohol, and, to some extent, her muscle and bone structure and weight. Low Body could mean a character is skinny and frail-boned or has bad eating and health habits. High Body means a character is better fed, tough as nails, has strong bones with some spring to them, and an immune system that won’t quit. Body does not necessarily correlate with physical size—a fat, out of shape character likely has a low Body, but a small character who is wiry and athletic may have a high Body.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Reaction'>
+		<Desc>
+			A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Strength'>
+		<Desc>
+			Strength denotes what a character’s muscles can do, including things such as raw lifting power and running speed. Strength is somewhat dependent on a character’s size and metatype. If your character is a 5’3” tall, 115-pound human girl, she’s unlikely to possess an unaugmented Strength attribute of 6. On the other hand, dwarfs have a muscle density that rivals that of reptiles. Characters with low Strength may be small, skinny, or slight, or simply too busy to work out. A high-Strength character may be tough and wiry, know how to use her body to her best advantage, work out every day, or simply be fraggin’ BIG.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Charisma'>
+		<Desc>
+			Charisma is a nebulous attribute. More than just looks, Charisma represents a character’s personal aura, self-image, ego, willingness to find out what people want and give it to them, and ability to recognize what she can and can’t get out of people. A whiny demeanor, a me-first attitude, or an inability to read body language or subtle hints are just a few traits that can give a character low Charisma. A character with high Charisma might simply enjoy entertaining others, may excel at making friends and/or manipulating people, or may be all flash and fun with whomever it is today. A high-Charisma character might deliver jokes at the right moment, have a sexy way of carrying herself, or command respect because her timing is always impeccable.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Intuition'>
+		<Desc>
+			Intuition covers “mental alertness”—the ability to take in and process information, to read a crowd, to assess a situation for danger or opportunity. A character with little Intuition may be unobservant, may rarely think things fully through, or could simply be “slow.” A character with a high Intuition is adept at making the best of a bad situation, knowing when to leave before an encounter escalates, noticing small clues, and working from instinct.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Logic'>
+		<Desc>
+			Logic represents a character’s memorizing ability and raw brainpower. It denotes how fast a character learns, how much she can remember, and how well she can execute pre-planned sequences. A Logic-lacking character might get overwhelmed when confronted with a lot of details and may have a poor memory—especially for facts and figures. Characters with a high Logic rating will likely be excellent book-learners, able to deal with computer and magic theory with ease, and capable of building (and tearing down!) machinery and electronics.
+		</Desc>
+	</Attribute>
+	<Attribute name ='Willpower'>
+		<Desc>
+			Willpower keeps a character going when she wants to give up, or enables her to control her habits and emotions. Willpower determines whether or not a character is going to take charge of her life. A character with low Willpower might defer to other people when big decisions are being made, for example. A high-Willpower character is more assured and possesses a never-say-die streak. Such characters go down to the monowire because that’s exactly the fragging point. Willpower also represents a character’s cool under fire, her ability to resist intimidation and manipulation, and her resolve to stick to her guns when the pressure is on.
+		</Desc>
+	</Attribute>
+	<SpecialAttribute name ='Edge'>
+		<Desc>
+			A character’s Edge represents that special something that can turn the tide and save the day—a successful gut check, a moment of brilliant inspiration or creativity, or a once-in-a-lifetime physical feat. Edge is a combination of luck, timing, and the favor of the gods. Characters with low Edge are unlikely to get unexpected breaks in life, much less win the lottery. A high-Edge character, however, is graced with good fortune and has an uncanny ability to succeed despite the odds. Edge can be spent at certain points in the game to help tip the odds in your character’s favor. Unlike other attributes, Edge provides Edge points that may be spent in certain ways—once used, these points are not regained until certain ingame events occur, at the discretion of the gamemaster (see Edge, p. 74).
+		</Desc>
+	</SpecialAttribute>
+	<SpecialAttribute name ='Initiative'>
+		<Desc>
+			A derived attribute, Initiative is the sum of Reaction and Intuition, plus any additional dice from implanted or magical reflex enhancers. As it sounds, Initiative is used to make Initiative Tests (p. 144), which determine the character’s Initiative Score for a Combat Turn. Any enhancements to Reaction and Intuition also affect Initiative.
+		</Desc>
+	</SpecialAttribute>
+	<SpecialAttribute name ='Magic'>
+		<Desc>
+			Magic is a measure of the ability to use magic and of the body’sattunement to the mana that flows through our plane. Those with strong Magic ratings are able to handle powerful magic and mana manipulation. Those with weak Magic ratings are more sensitive and more easily drained by the use of magic. Those with no Magic rating have no magical capabilities and are tuned out from the magical realms. Serious damage to the body and invasive additions such as cyberware and bioware reduce the Magic attribute. Magic and Resonance are mutually exclusive attributes. A character who possesses a quality that grants a Magic of 1 or higher cannot have a Resonance attribute.
+		</Desc>
+	</SpecialAttribute>
+	<SpecialAttribute name ='Resonance'>
+		<Desc>
+			Resonance is a special attribute for technomancers, characters able to manipulate the Matrix with their minds alone (see Technomancers, p. 221). Resonance is an attunement to the echoes and transmissions that permeate the electronic world, an alignment with the wireless gestalt. The exact nature of Resonance is even more controversial than magic—some claim that Resonance is a form of magic that has adapted to the virtual and augmented realities of the modern world, others claim that Resonance is some new stage in the evolution of metahuman consciousness—but no one knows for sure. Resonance and Magic are mutually exclusive attributes. A character who possesses a quality that grants a Resonance of 1 or higher cannot have a Magic attribute.
+		</Desc>
+	</SpecialAttribute>	
+<!-- End Attributes -->
 <!-- Start Metatypes -->
 	<Metatype name ='Human'>
 		<BPCost>0</BPCost>
