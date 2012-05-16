@@ -5,15 +5,9 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    internal class Character
+    class Rulebook
     {
         public string Name { get; set; }
-
-        public int BPTotal { get; set; }
-
-        public int Initiative { get; set; }
-
-        public MetaType MetaType { get; set; }
 
         //Key -> Attribute.Name
         public Dictionary<string, Attribute> Attributes { get; set; }
@@ -53,7 +47,5 @@ namespace YAS4CG.Model
 
         //Key -> Sprite.Name
         public Dictionary<string, Sprite> Sprites { get; set; }
-
-        public string Desc { get; set; }
     }
 }

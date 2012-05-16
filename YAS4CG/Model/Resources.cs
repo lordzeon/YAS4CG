@@ -7,11 +7,7 @@ namespace YAS4CG.Model
 {
     internal class Resource
     {
-        public int ID { get; set; }
-
         public string Name { get; set; }
-
-        public Dictionary<ResourceCostType, float> Costs { get; set; }
 
         public string Desc { get; set; }
     }
@@ -43,25 +39,51 @@ namespace YAS4CG.Model
         public Dictionary<string, Quality> Qualities { get; set; }
     }
 
-    //TODO: ADD MORE
-
-    internal enum ResourceType
+    internal class Vehicle : Resource
     {
-        Weapon,
-        Gear,
-        Augmentation,
-        Vehicle,
-        Spell,
-        Spirit,
-        BondingFoci,
-        ComplexForm,
-        Sprite
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
     }
 
-    internal enum ResourceCostType
+    internal class Drone : Resource
     {
-        BP,
-        Nuyen,
-        Essence
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class Spell : Resource
+    {
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class Spirit : Resource
+    {
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class BondingFocus : Resource
+    {
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class ComplexForm : Resource
+    {
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+    internal class Sprite : Resource
+    {
+        public Dictionary<string, string> Stats { get; set; }
+
+        public int Cost { get; set; }
     }
 }
