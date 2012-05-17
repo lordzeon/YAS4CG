@@ -130,9 +130,13 @@ namespace YAS4CG.Model
 
     internal class Spell : Resource
     {
+        public string Name { get; set; }
+
         public string Type { get; set; }
 
-        public Dictionary<string, string> Stats { get; set; }
+        public string Stats { get; set; }
+
+        public string Desc { get; set; }
 
         public int Cost { get { return 3; } }
     }
@@ -162,10 +166,40 @@ namespace YAS4CG.Model
 
     internal class Sprite : Resource
     {
-        public Dictionary<string, Attribute> Attributes { get; set; }
+        public string Stats { get; set; }
 
-        public Dictionary<string, string> Stats { get; set; }
+        public string Skills { get; set; }
+
+        public string ComplexForms { get; set; }
+
+        public string Powers { get; set; }
+
+        public string OptionalCFs { get; set; }
+
+        public string Desc { get; set; }
 
         public int Cost { get; set; }
     }
+
+    internal sealed class LifeStyle
+    {
+        public static readonly LifeStyle Streets = new LifeStyle(0, "The character lives on the streets—or in the sewers, steam tunnels, condemned buildings, or whatever temporary flop she can get. Food is wherever the character  finnds it, bathing is a thing of the past, and the character’s only security is what she creates for herself.  This lifestyle is the bottom of the ladder, inhabited by down-and-outers of all stripes.");
+        public static readonly LifeStyle Squatter = new LifeStyle(500, "Life stinks for the squatter, and most of the time so does the character. She eats low-grade nutrisoy and yeast, adding flavors with an eyedropper. Her home is a squatted building, perhaps fixed up a bit, possibly even converted into barracks or divided into closet-sized rooms and shared with other squatters. Or maybe she just rents a coffin-sized sleep tank by the night. The only thing worse than the Squatter lifestyle is living on the streets.");
+        public static readonly LifeStyle Low = new LifeStyle(2000, "With this lifestyle, the character has an apartment, and nobody is likely to bother her much if she keeps the door bolted. She can count on regular meals; the nutrisoy may not taste great, but at least it’s hot. Power and water are available during assigned rationing periods. Security depends on how regular the payments to the local street gang are. Factory workers, petty crooks, and other folks stuck in a rut, just starting out, or down on their luck tend to have Low lifestyles.");
+        public static readonly LifeStyle Middle = new LifeStyle(5000, "The Middle lifestyle offers a nice house or condo with lots of comforts. Characters with this lifestyle sometimes eat nutrisoy as well as higherpriced natural food, but at least the autocook has a full suite of flavor faucets. This is the lifestyle of ordinary successful wage-earners or criminals.");
+        public static readonly LifeStyle High = new LifeStyle(10000, "A High lifestyle offers a roomy house or condo, good food, and the technology that makes life easy. The character may not have the same perks as the really big boys, but neither does she have as many people gunning for her. Her home is in a secure zone or protected by good, solid bribes to the local police contractor and gang boss. She has a housekeeping service or enough tech to take care of most chores. This is the life for the well-to-do on either side of the law: mid-level managers, senior Mob bosses, and the like.");
+        public static readonly LifeStyle Luxury = new LifeStyle(100000, "This lifestyle o ers the best of everything: ritzy digs, lots of high-tech toys, the best food and drink, you name it. The character has a household staff, maid service, or sophisticated drones to do the chores. She gets by in her massive mansion, snazzy condo, or the penthouse suite in a top hotel. Home security is top-of-the-line, with well-trained guards, astral security, and quick response times. Her home entertainment system is better than that in public theaters and accessible from anywhere in the home. She’s on the VIP list at several exclusive restaurants and clubs, both real and virtual. This is the life for the high-stakes winners in the world of Shadowrun: high-level executives, government big shots, Yakuza bigwigs, and the few shadowrunners who pull o the big scores (and live to spend their pay).");
+        
+        public LifeStyle(int cost, string desc)
+        {
+            Cost = cost;
+            Desc = desc;
+        }
+
+        public int Cost { get; set; }
+
+        public string Desc { get; set; }
+    }
+
+
 }

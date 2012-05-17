@@ -61,6 +61,1373 @@
 		</Desc>
 	</SpecialAttribute>	
 <!-- End Attributes -->
+<!-- Start Qualities -->
+	<Quality name='Ambidextrous' cost='5'>
+		<Desc>
+			The character can use and handle objects equally well with both hands. The character does not suffer any modifiers for using an off-hand weapon (see p 150). When using two weapons at once, however, the character must still split his dice pool.
+		</Desc>
+	</Quality>
+	<Quality name='Animal Empathy' cost='10'>
+		<Desc>
+			A character with Animal Empathy has an instinctive feel for handling animals of all kinds. The character receives a +2 dice pool modifier for all tests involving the influence or control of an animal (including riding). Characters with this quality become more sensitive to the animal’s point of view, and are typically reluctant to harm or show cruelty to an animal. This quality does not affect a character’s interaction with sentient critters, such as sasquatches, naga, or dragons.
+		</Desc>
+	</Quality>
+	<Quality name='Aptitude' cost='10'>
+		<Desc>
+			A character with the Aptitude quality is a prodigy in one particular skill. Characters with this quality may improve one Active skill one point above its natural maximum to a 7. Note that this doesn’t actually increase a skill that’s currently at Rating 6; it just opens the door for further advancement. Increasing a skill level beyond 6 costs double the normal Karma Cost (see Character Improvement, p. 269). The Aptitude quality may be taken during character creation to allow a beginning character to start with a skill of 7. If a character takes advantage of this quality, the cost for raising the skill from 6 to 7 is also twice normal, or 8 BP. Characters may only take the Aptitude quality once.
+		</Desc>
+	</Quality>
+		<Quality name='Astral Chameleon' cost='5'>
+		<Desc>
+			With the Astral Chameleon quality, the character’s astral signature blends into the background of astral space more quickly. All signatures left by the character last only half as long, and others assensing the signature receive a –2 dice pool modifier. Only characters with the Adept, Magician, or Mystic Adept qualities may take this quality.
+		</Desc>
+	</Quality>
+		<Quality name='Blandness' cost='10'>
+		<Desc>
+			This character blends into any crowd. He is average in height, weight, and appearance, and has a distinct lack of distinguishing physical characteristics or mannerisms. Anyone attempting to describe the character cannot come up with anything more precise than “he was kinda average.” Individuals attempting to shadow or physically locate the character through social means or in even slightly crowded settings receive a –2 dice pool modifier on all tests made during such attempts.
+		</Desc>
+	</Quality>
+		<Quality name='Codeslinger' cost='10'>
+		<Desc>
+			A codeslinger is particularly adept at performing a particular Matrix action and receives a +2 dice pool modifier to that Matrix action. Only Matrix actions with an associated success test apply; Codeslinger does not apply to actions that do not require a success test, such as Jack Out. Codeslinger may only be taken once.
+		</Desc>
+	</Quality>
+		<Quality name='Double Jointed' cost='5'>
+		<Desc>
+			A Double Jointed character has unusually flexible joints and can bend and contort his body into extreme positions. The character receives a +2 dice pool modifier for Escape Artist Tests (p. 133). At the gamemaster’s discretion, the character may be able to squeeze into small, cramped spaces where less limber characters couldn’t fit.
+		</Desc>
+	</Quality>
+		<Quality name='Erased A' cost='5'>
+		<Desc>
+			Better than SINless—the character with this quality officially doesn’t exist and never did; someone or something actively works to remove her traces from the system. Maybe it’s an elite hacker who owes her a favor or an AI she befriended, but the end result is that her data trail and records vanish from all but the most secure systems shortly after being entered. For 5 BP, criminal SINs and unwanted data disappear within a week. For 10 BP, any SIN, undesirable credit history, or personal information on the Matrix that she wishes is burnt after 24 hours. Obviously, the eraser will preserve any data the character wishes preserved and that is vital for her to function in society. Note that vanishing data may prove an unwanted complication if the character is in custody or doing prison time (the Man may “forget” she is there).
+		</Desc>
+	</Quality>
+	<Quality name='Erased B' cost='10'>
+		<Desc>
+			*Choose Erased 1 or 2 but not both* Better than SINless—the character with this quality officially doesn’t exist and never did; someone or something actively works to remove her traces from the system. Maybe it’s an elite hacker who owes her a favor or an AI she befriended, but the end result is that her data trail and records vanish from all but the most secure systems shortly after being entered. For 5 BP, criminal SINs and unwanted data disappear within a week. For 10 BP, any SIN, undesirable credit history, or personal information on the Matrix that she wishes is burnt after 24 hours. Obviously, the eraser will preserve any data the character wishes preserved and that is vital for her to function in society. Note that vanishing data may prove an unwanted complication if the character is in custody or doing prison time (the Man may “forget” she is there).
+		</Desc>
+	</Quality>
+	<Quality name='Exceptional Attribute' cost='20'>
+		<Desc>
+			The Exceptional Attribute quality allows a character to possess a natural Physical or Mental attribute at a level above the metatype maximum. A character with this quality has one attribute with a natural maximum one point higher than his metatype would normally allow (for example, a human character would have one attribute with a natural maximum of 7). This also increases the augmented maximum for that attribute as appropriate. This quality may only be taken once.
+		</Desc>
+	</Quality>
+	<Quality name='First Impression' cost='5'>
+		<Desc>
+			A character with the First Impression quality slides easily into new situations, groups, cities, and jobs. Whenever attempting to fit into a new environment—such as infiltrating a group or trying to meet contacts in a new city—the character gains a +2 dice pool modifier on any Social Tests during the first meeting. This modifier does not apply to second and subsequent encounters.
+		</Desc>
+	</Quality>
+	<Quality name='Focused Concentration 1' cost='10'>
+		<Desc>
+			A magician character with Focused Concentration has a naturally strong ability to concentrate. This allows him to channel mana more efficiently, making him less susceptible to Drain. A character with this quality gains a +1 dice pool modifier per rating point for all Drain Tests. Only characters with the Magician or Mystic Adept qualities may take Focused Concentration.
+		</Desc>
+	</Quality>
+	<Quality name='Focused Concentration 2' cost='10'>
+		<Desc>
+			A magician character with Focused Concentration has a naturally strong ability to concentrate. This allows him to channel mana more efficiently, making him less susceptible to Drain. A character with this quality gains a +1 dice pool modifier per rating point for all Drain Tests. Only characters with the Magician or Mystic Adept qualities may take Focused Concentration.
+		</Desc>
+	</Quality>
+	<Quality name='Guts' cost='5'>
+		<Desc>
+			A character with Guts is not easily frightened. He receives a +2 dice pool modifier on tests made to resist fear and intimidation, including magically induced fear from spells or critter powers.
+		</Desc>
+	</Quality>
+	<Quality name='High Pain Tolerance 1' cost='5'>
+		<Desc>
+			A character with Guts is not easily frightened. He receives a +2 dice pool modifier on tests made to resist fear and intimidation, including magically induced fear from spells or critter powers.
+		</Desc>
+	</Quality>
+	<Quality name='High Pain Tolerance 2' cost='5'>
+		<Desc>
+			A character with Guts is not easily frightened. He receives a +2 dice pool modifier on tests made to resist fear and intimidation, including magically induced fear from spells or critter powers.
+		</Desc>
+	</Quality>
+	<Quality name='High Pain Tolerance 3' cost='5'>
+		<Desc>
+			A character with Guts is not easily frightened. He receives a +2 dice pool modifier on tests made to resist fear and intimidation, including magically induced fear from spells or critter powers.
+		</Desc>
+	</Quality>
+	<Quality name='Home Ground' cost='10'>
+		<Desc>
+			Home Ground provides a character with a +2 dice pool modifier for all Active Skill Tests made within the character’s home turf. Any Knowledge skills relevant to the people, places, or things within this area receive a +4 dice pool modifier. The character’s home turf is a particular location with which the character is intimately familiar. The location must either be a small area—no larger than a large building or small neighborhood—or an environment encountered infrequently during the campaign. For example, in a Seattle-based campaign, the desert would be an infrequently encountered region and could be considered home ground. The desert would not be a suitable home ground for a campaign set in the magic-soaked Mojave. Gamemasters must approve all home grounds in their campaigns. For hackers and technomancers, a home ground might be a particular computer network the character knows extremely well. In this case, the character receives a +2 dice pool modifier for all tests made while accessing that network. Favorite data havens like the Denver Nexus make suitable home grounds for hacker characters. Many corporate hackers have the Home Ground quality for their corporate systems. All home grounds must be fixed locations—characters cannot move them around. If a character’s home ground is destroyed, the quality is lost.
+		</Desc>
+	</Quality>
+	<Quality name='Human-Looking' cost='5'>
+		<Desc>
+			A metahuman character with the Human-Looking quality can “pass” for human in most circumstances. Human NPCs respond with neutral attitudes toward such characters when making Social Skill Tests (see p. 130). The character may suffer increased animosity from metahuman NPCs who are prejudiced against humans and who mistake him for human (or think that he is trying too hard to “look human”). Only elves, dwarfs, and orks can take the Human-Looking quality.
+		</Desc>
+	</Quality>
+	<Quality name='Lucky' cost='20'>
+		<Desc>
+			This quality allows a character to possess an Edge attribute one point higher than his metatype maximum. (For example, a human character could raise his Edge to 8.) Note that this does not actually increase the character’s Edge, it just allows him to do so; the Karma cost for improvement must still be paid (see Character Improvement, p. 269). This quality may only be taken once.
+		</Desc>
+	</Quality>
+	<Quality name='Magician' cost='15'>
+		<Desc>
+			A character with this quality is a magician and starts with a Magic attribute of 1. This may be increased like any other attribute, up to a maximum of 6 + initiation grade (see Purchase Attributes, p. 82). A character with this quality cannot take the Adept, Mystic Adept, or Technomancer qualities. Magicians can cast spells and conjure spirits (see p. 176). The Combat Mage, Occult Investigator, Radical Eco-Shaman, and Street Shaman sample characters on pp. 99, 106, 107, and 111 are examples of magicians. Each magician follows a specific magical tradition that defines his worldview and how he perceives and manipulates magic. Two common traditions—hermetic and shamanic—are described in this book, but players can also devise their own (see Traditions, p. 180). Magicians may also have a mentor spirit (see Mentor Spirits, p. 200) that confers its own benefits or penalties; players should note these, especially when choosing spells. Magicians also have astral perception and the ability to astrally project (see The Astral World, p. 191). Though this quality is inexpensive, gamemasters should be careful not to allow it to be abused. It should only be taken for characters that are intended to be played as magicians.
+		</Desc>
+	</Quality>
+	<Quality name='Magic Resistance 1' cost='5'>
+		<Desc>
+			For every 5 BP spent on Magic Resistance, a character receives 1 additional die for Spell Resistance Tests (see p. 183). The Magical Resistance quality, however, works even against beneficial spells such as Heal. Characters with the Adept, Magician, or Mystic Adept qualities cannot take this quality. A magically resistant character cannot choose to lower his magical resistance; it affects all spells and magical effects, good or bad. A character with Magic Resistance is never a willing subject for spells that require a voluntary subject; such spells automatically fail when used on magic resistant characters.
+		</Desc>
+	</Quality>
+	<Quality name='Magic Resistance 2' cost='5'>
+		<Desc>
+			For every 5 BP spent on Magic Resistance, a character receives 1 additional die for Spell Resistance Tests (see p. 183). The Magical Resistance quality, however, works even against beneficial spells such as Heal. Characters with the Adept, Magician, or Mystic Adept qualities cannot take this quality. A magically resistant character cannot choose to lower his magical resistance; it affects all spells and magical effects, good or bad. A character with Magic Resistance is never a willing subject for spells that require a voluntary subject; such spells automatically fail when used on magic resistant characters.
+		</Desc>
+	</Quality>
+	<Quality name='Magic Resistance 3' cost='5'>
+		<Desc>
+			For every 5 BP spent on Magic Resistance, a character receives 1 additional die for Spell Resistance Tests (see p. 183). The Magical Resistance quality, however, works even against beneficial spells such as Heal. Characters with the Adept, Magician, or Mystic Adept qualities cannot take this quality. A magically resistant character cannot choose to lower his magical resistance; it affects all spells and magical effects, good or bad. A character with Magic Resistance is never a willing subject for spells that require a voluntary subject; such spells automatically fail when used on magic resistant characters.
+		</Desc>
+	</Quality>
+	<Quality name='Magic Resistance 4' cost='5'>
+		<Desc>
+			For every 5 BP spent on Magic Resistance, a character receives 1 additional die for Spell Resistance Tests (see p. 183). The Magical Resistance quality, however, works even against beneficial spells such as Heal. Characters with the Adept, Magician, or Mystic Adept qualities cannot take this quality. A magically resistant character cannot choose to lower his magical resistance; it affects all spells and magical effects, good or bad. A character with Magic Resistance is never a willing subject for spells that require a voluntary subject; such spells automatically fail when used on magic resistant characters.
+		</Desc>
+	</Quality>
+	<Quality name='Mentor Spirit' cost='5'>
+		<Desc>
+			This quality is only available to characters with either the Magician, Adept, or Mystic Adept quality. The character has a patron mentor spirit (see Mentor Spirits, p. 200) that guides him in his practice of magic and provides certain advantages and disadvantages. A character may only ever have one mentor spirit.
+		</Desc>
+	</Quality>
+	<Quality name='Murky Link' cost='10'>
+		<Desc>
+			Any ritual sorcery (p. 184) directed against the character receives a –3 dice pool modifier. Note that this quality may work against the character in some circumstances, such as when friendly magicians want to use ritual sorcery to locate or aid the character.
+		</Desc>
+	</Quality>
+	<Quality name='Mystic Adept' cost='10'>
+		<Desc>
+			Mystic adepts are a hybrid between magicians and adepts. Mystic adepts choose whether to dedicate their individual Magic attribute points toward somatic adept powers (gaining 1 Power point per Magic attribute point allocated) or towards Magic skills such as spellcasting and conjuring instead. A character must purchase this quality in order to be a mystic adept and starts with a Magic attribute of 1. This may be increased like any other attribute, up to a maximum of 6 + initiation grade (see Purchase Attributes, p. 82). A character with this quality cannot take the Adept, Magician, or Technomancer qualities. Like adepts, mystic adepts do not have access to astral space unless they purchase the Astral Perception adept power. Mystic adepts may not astrally project. Though this quality is inexpensive, gamemasters should be careful not to allow it to be abused. It should only be taken for characters that intend to explore their nature as mystic adepts.
+		</Desc>
+	</Quality>
+	<Quality name='Natural Immunity A' cost='5'>
+		<Desc>
+			Characters with Natural Immunity have an innate or developed immunity to one single disease or toxin. This quality is available at two levels. If purchased at the 5 BP level, the character is immune to a single natural disease or toxin. If Natural Immunity is purchased at the full 15 BP level, the character is immune to a single synthetic (artificially created) disease or toxin. Natural Immunity does not affect diseases or toxins which are magically based, such as HMHVV. The player and gamemaster must agree on the disease, drug, or poison to which the character is immune. It must be something the character would have a reasonable chance of coming into contact with. The character can take one dose of the agent every (12 – Body) hours with no ill effects. If the character ingests more than a single dose during that period, he takes damage as normal, but recovery time is halved. Note that characters with Natural Immunity to a disease may still infect other characters with the disease, even though they are not suffering any ill effects from it.
+		</Desc>
+	</Quality>
+	<Quality name='Natural Immunity B' cost='15'>
+		<Desc>
+			Characters with Natural Immunity have an innate or developed immunity to one single disease or toxin. This quality is available at two levels. If purchased at the 5 BP level, the character is immune to a single natural disease or toxin. If Natural Immunity is purchased at the full 15 BP level, the character is immune to a single synthetic (artificially created) disease or toxin. Natural Immunity does not affect diseases or toxins which are magically based, such as HMHVV. The player and gamemaster must agree on the disease, drug, or poison to which the character is immune. It must be something the character would have a reasonable chance of coming into contact with. The character can take one dose of the agent every (12 – Body) hours with no ill effects. If the character ingests more than a single dose during that period, he takes damage as normal, but recovery time is halved. Note that characters with Natural Immunity to a disease may still infect other characters with the disease, even though they are not suffering any ill effects from it.
+		</Desc>
+	</Quality>
+	<Quality name='Photographic Memory' cost='10'>
+		<Desc>
+			A character with Photographic Memory rarely forgets anything he has experienced. The character can instantly recall faces, dates, numbers, or anything else he has seen or heard. When making Memory Tests (see Attribute-Only Tests, p. 61), the character gains a –1 threshold modifier to the test.
+		</Desc>
+	</Quality>
+	<Quality name='Quick Healer' cost='10'>
+		<Desc>
+			A Quick Healer recovers from damage more quickly than other characters. The character receives a +2 dice pool modifier to all Healing Tests made on/for/by him, including magical healing.
+		</Desc>
+	</Quality>
+	<Quality name='Resistance to Pathogens/Toxins A' cost='5'>
+		<Desc>
+			A character with Resistance to Pathogens/Toxins can fight off toxins and drugs more easily than other characters and receives a +1 dice pool modifier to Resistance Tests. This quality comes at two levels; at 5 BP the character is resistant to either pathogens or toxins, not both. If the character purchases this quality at 10 BP, he is resistant to both.
+		</Desc>
+	</Quality>
+	<Quality name='Resistance to Pathogens/Toxins B' cost='15'>
+		<Desc>
+			A character with Resistance to Pathogens/Toxins can fight off toxins and drugs more easily than other characters and receives a +1 dice pool modifier to Resistance Tests. This quality comes at two levels; at 5 BP the character is resistant to either pathogens or toxins, not both. If the character purchases this quality at 10 BP, he is resistant to both.
+		</Desc>
+	</Quality>
+	<Quality name='Spirit Affinity' cost='10'>
+		<Desc>
+			Characters with Spirit Affnity are naturally attuned to one type of spirit (see Spirits, p. 302). These spirits find the character interesting, will be drawn to him, and are more inclined to assist the character. In certain situations, they may be reluctant to attack the character, using a nonlethal power if forced to attack regardless. This quality may be taken by any character, not just magicians; magicians may possess this quality for a type of spirit that is not part of their magical tradition.
+		</Desc>
+	</Quality>
+	<Quality name='Technomancer' cost='5'>
+		<Desc>
+			Technomancers can access and manipulate the Matrix through their own sheer force of will (see Technomancers, p. 239). Known as otaku prior to the Crash of 2064, technomancers have emerged among all walks of life since the advent of augmented reality. A character must purchase this quality in order to be a technomancer and will start with a Resonance attribute of 1. This may be increased like any other attribute, up to a maximum of 6 (see Purchase Attributes, p. 83). A character with this quality cannot take the Adept, Magician, or Mystic Adept qualities. Technomancers have a living persona—their Matrix alter ego— with its own separate set of attributes that govern virtual actions in the Matrix. The Resonance attribute, combined with certain other attributes, determines how strong (or weak) the persona is.
+		</Desc>
+	</Quality>
+	<Quality name='Toughness' cost='10'>
+		<Desc>
+			Characters with the Toughness quality shrug off damage more easily than others. Such characters gain a +1 dice pool modifier to their Body when making Damage Resistance Tests.
+		</Desc>
+	</Quality>
+	<Quality name='Will to Live' cost='5'>
+		<Desc>
+			For each rating point in Will to Live, the character gains 1 additional Damage Overflow Box (see p. 163). These additional boxes only allow the character to sustain additional damage before dying; they do not raise the threshold at which the character becomes unconscious or incapacitated. They also don’t affect wound modifiers from damage the character has taken.
+		</Desc>
+	</Quality>
+	<NegativeQuality name='Mild Addiction 1' cost='5'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is omnipresent but not blatant or intrusive; it may not even be recognized or acknowledged. At this stage it is easier to seek help, but very few recognize their addiction as something needing help at this stage. Addicts experience cravings at least once a week (if not every few days), but can ignore them if necessary without too much difficulty. The addict suffers a –2 dice pool modifier to Willpower and/or Body Tests to resist the craving.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Mild Addiction 2' cost='5'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is omnipresent but not blatant or intrusive; it may not even be recognized or acknowledged. At this stage it is easier to seek help, but very few recognize their addiction as something needing help at this stage. Addicts experience cravings at least once a week (if not every few days), but can ignore them if necessary without too much difficulty. The addict suffers a –2 dice pool modifier to Willpower and/or Body Tests to resist the craving.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Mild Addiction 3' cost='5'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is omnipresent but not blatant or intrusive; it may not even be recognized or acknowledged. At this stage it is easier to seek help, but very few recognize their addiction as something needing help at this stage. Addicts experience cravings at least once a week (if not every few days), but can ignore them if necessary without too much difficulty. The addict suffers a –2 dice pool modifier to Willpower and/or Body Tests to resist the craving.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Moderate Addiction 1' cost='10'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction at this stage is marked and difficult to overcome. Addicts experience cravings at least once a day (if not more), and they are more difficult to ignore. The addict suffers a –4 dice pool modifier to Willpower and/or Body Tests to resist the craving.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Moderate Addiction 2' cost='10'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction at this stage is marked and difficult to overcome. Addicts experience cravings at least once a day (if not more), and they are more difficult to ignore. The addict suffers a –4 dice pool modifier to Willpower and/or Body Tests to resist the craving.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Severe Addiction 1' cost='20'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is out of control. The addict experiences constant cravings (at least twice a day), suffering a –6 dice pool modifier to Willpower and/or Body Tests to keep from giving in.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Severe Addiction 2' cost='20'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is out of control. The addict experiences constant cravings (at least twice a day), suffering a –6 dice pool modifier to Willpower and/or Body Tests to keep from giving in.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Burnout Addiction' cost='30'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. This is the same as a Severe addiction, except the addict has been in this state for some time and is experiencing the tell-tale signs of habitual use on his body. Reduce the character’s Essence by 1 to reflect a loss of health from abusing his body. If the character does not kick the habit soon, he will continue to lose Essence at a rate determined by the gamemaster until he dies.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Mild Allergy' cost='5'>
+		<Desc>
+			A character with the Allergy quality is allergic to a substance or condition. The value of this quality depends on two factors. First, determine whether the substance or condition is Uncommon (2 BP) or Common (7 BP). Then determine the severity of the symptoms: Mild (3 BP), Moderate (8 BP), or Severe (13 BP). Add the appropriate point values to find the final value. For example, the value of an Uncommon Moderate Allergy is 10 (2 + 8) points.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Moderate Allergy' cost='10'>
+		<Desc>
+			A character with the Allergy quality is allergic to a substance or condition. The value of this quality depends on two factors. First, determine whether the substance or condition is Uncommon (2 BP) or Common (7 BP). Then determine the severity of the symptoms: Mild (3 BP), Moderate (8 BP), or Severe (13 BP). Add the appropriate point values to find the final value. For example, the value of an Uncommon Moderate Allergy is 10 (2 + 8) points.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Severe Allergy' cost='15'>
+		<Desc>
+			A character with the Allergy quality is allergic to a substance or condition. The value of this quality depends on two factors. First, determine whether the substance or condition is Uncommon (2 BP) or Common (7 BP). Then determine the severity of the symptoms: Mild (3 BP), Moderate (8 BP), or Severe (13 BP). Add the appropriate point values to find the final value. For example, the value of an Uncommon Moderate Allergy is 10 (2 + 8) points.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Deadly Allergy' cost='20'>
+		<Desc>
+			A character with the Allergy quality is allergic to a substance or condition. The value of this quality depends on two factors. First, determine whether the substance or condition is Uncommon (2 BP) or Common (7 BP). Then determine the severity of the symptoms: Mild (3 BP), Moderate (8 BP), or Severe (13 BP). Add the appropriate point values to find the final value. For example, the value of an Uncommon Moderate Allergy is 10 (2 + 8) points.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Astral Beacon' cost='5'>
+		<Desc>
+			A character with the Addiction quality is addicted to alcohol, drugs, BTL chips, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). Thee value of this quality depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. The addiction is out of control. The addict experiences constant cravings (at least twice a day), suffering a –6 dice pool modifier to Willpower and/or Body Tests to keep from giving in.
+		</Desc>
+	</NegativeQuality>
+		<NegativeQuality name='Bad Luck' cost='20'>
+		<Desc>
+			This character is cursed—his own luck often turns against him. Whenever this character uses Edge, roll 1D6. On a result of 1, the Edge is spent, but it has the exact opposite effect intended. For example, if a character hopes to gain additional dice, instead he loses that many dice from his dice pool. If a character spends Edge to go first in an Initiative Pass, he ends up going last. If a character spent Edge to negate a glitch, Bad Luck turns it into a critical glitch.
+		</Desc>
+	</NegativeQuality>
+		<NegativeQuality name='Codeblock' cost='5'>
+		<Desc>
+			A character with the Codeblock quality always has trouble with a particular Matrix action. He receives a –2 dice pool modifier any time he attempts that type of Matrix action. Codeblock only applies to Matrix actions with an associated test; it does not apply to actions that do not require a test (jacking out, for example). Gamemasters should not allow non-hackers to apply Codeblock towards hacking actions that they are never likely to take.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Combat Paralysis' cost='20'>
+		<Desc>
+			A character with Combat Paralysis freezes in combat situations. On the character’s first Initiative Test in combat, the character only rolls half his Initiative attribute. On the second and subsequent Initiative Tests, however, the character rolls his normal Initiative. The character also receives a –3 dice pool modifier on Surprise Tests. Finally, the gamemaster should apply a +1 threshold modifier to any composure tests (see Composure, p. 138) the character must make in combat situations.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Elf Poser' cost='5'>
+		<Desc>
+			Elf Posers are human characters who want to be elves. This desire prompts them to associate with elves as much as possible, talk like elves, and alter their appearances so that they resemble elves. Real elves consider them an embarrassment, many humans think of them as sellouts, and even the other metatypes generally consider posers to be pathetic. Characters with this quality who have undergone cosmetic surgery to get “elf ears” and “elf eyes” may successfully pass as elves and avoid any negative Social skill modifiers associated with being a nonelf. If an elf discovers the character’s secret, however, the elf is likely to treat him with contempt and hostility (see the Social Modifiers Table, p. 131). An outed elf poser may also face stigma from other humans as “race traitors,” if those humans harbor any prejudice against elves. Only human characters may take the Elf Poser quality.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Gremlins 1' cost='5'>
+		<Desc>
+			Characters with the Gremlins quality never seem to get along with technology. Devices malfunction inexplicably in the character’s hands, software constantly crashes whenever he uses it, components become unusually fragile at his touch, and wireless links suffer faltering connections and odd interference. For every 5 BP gained in this quality, reduce the number of rolled 1s necessary to get a glitch (p. 62) by 1 whenever the character is attempting to use a moderately sophisticated device (late 20th century technology or later). For example, a character with a dice pool of 8 and Gremlins Rating 2 (10 BP) would trigger a glitch if two or more 1s result from the test. The gamemaster may also require the character to make a test for operations that would otherwise succeed automatically, simply to see whether or not a glitch occurs. This effect only applies to external equipment and does not affect cyberware, bioware, or other implants.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Gremlins 2' cost='5'>
+		<Desc>
+			Characters with the Gremlins quality never seem to get along with technology. Devices malfunction inexplicably in the character’s hands, software constantly crashes whenever he uses it, components become unusually fragile at his touch, and wireless links suffer faltering connections and odd interference. For every 5 BP gained in this quality, reduce the number of rolled 1s necessary to get a glitch (p. 62) by 1 whenever the character is attempting to use a moderately sophisticated device (late 20th century technology or later). For example, a character with a dice pool of 8 and Gremlins Rating 2 (10 BP) would trigger a glitch if two or more 1s result from the test. The gamemaster may also require the character to make a test for operations that would otherwise succeed automatically, simply to see whether or not a glitch occurs. This effect only applies to external equipment and does not affect cyberware, bioware, or other implants.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Gremlins 3' cost='5'>
+		<Desc>
+			Characters with the Gremlins quality never seem to get along with technology. Devices malfunction inexplicably in the character’s hands, software constantly crashes whenever he uses it, components become unusually fragile at his touch, and wireless links suffer faltering connections and odd interference. For every 5 BP gained in this quality, reduce the number of rolled 1s necessary to get a glitch (p. 62) by 1 whenever the character is attempting to use a moderately sophisticated device (late 20th century technology or later). For example, a character with a dice pool of 8 and Gremlins Rating 2 (10 BP) would trigger a glitch if two or more 1s result from the test. The gamemaster may also require the character to make a test for operations that would otherwise succeed automatically, simply to see whether or not a glitch occurs. This effect only applies to external equipment and does not affect cyberware, bioware, or other implants.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Gremlins 4' cost='5'>
+		<Desc>
+			Characters with the Gremlins quality never seem to get along with technology. Devices malfunction inexplicably in the character’s hands, software constantly crashes whenever he uses it, components become unusually fragile at his touch, and wireless links suffer faltering connections and odd interference. For every 5 BP gained in this quality, reduce the number of rolled 1s necessary to get a glitch (p. 62) by 1 whenever the character is attempting to use a moderately sophisticated device (late 20th century technology or later). For example, a character with a dice pool of 8 and Gremlins Rating 2 (10 BP) would trigger a glitch if two or more 1s result from the test. The gamemaster may also require the character to make a test for operations that would otherwise succeed automatically, simply to see whether or not a glitch occurs. This effect only applies to external equipment and does not affect cyberware, bioware, or other implants.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Incompetent 1' cost='5'>
+		<Desc>
+			A character who is Incompetent possesses a total lack of knowledge or ability with a certain Active skill. If this quality is taken, the player must specify an Active skill in which the character is Incompetent. Incompetent may not be applied to Language or Knowledge skills. The character is treated as having a skill level of “unaware” for that particular skill (see the Skill Ratings Table, beginning on p. 119 for more information). In some cases, a Success Test may be required to perform certain tasks that most people take for granted. Characters may not possess that skill, nor may they default on it. Gamemasters are free to reject any choices that would prove irrelevant or exploitative in actual play (ie. such as Incompetent: Pilot Aerospace in a campaign where characters are street-level gangers). incompetent may be purchased more than once, choosing a separate skill each time.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Incompetent 2' cost='5'>
+		<Desc>
+			A character who is Incompetent possesses a total lack of knowledge or ability with a certain Active skill. If this quality is taken, the player must specify an Active skill in which the character is Incompetent. Incompetent may not be applied to Language or Knowledge skills. The character is treated as having a skill level of “unaware” for that particular skill (see the Skill Ratings Table, beginning on p. 119 for more information). In some cases, a Success Test may be required to perform certain tasks that most people take for granted. Characters may not possess that skill, nor may they default on it. Gamemasters are free to reject any choices that would prove irrelevant or exploitative in actual play (ie. such as Incompetent: Pilot Aerospace in a campaign where characters are street-level gangers). incompetent may be purchased more than once, choosing a separate skill each time.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Incompetent 3' cost='5'>
+		<Desc>
+			A character who is Incompetent possesses a total lack of knowledge or ability with a certain Active skill. If this quality is taken, the player must specify an Active skill in which the character is Incompetent. Incompetent may not be applied to Language or Knowledge skills. The character is treated as having a skill level of “unaware” for that particular skill (see the Skill Ratings Table, beginning on p. 119 for more information). In some cases, a Success Test may be required to perform certain tasks that most people take for granted. Characters may not possess that skill, nor may they default on it. Gamemasters are free to reject any choices that would prove irrelevant or exploitative in actual play (ie. such as Incompetent: Pilot Aerospace in a campaign where characters are street-level gangers). incompetent may be purchased more than once, choosing a separate skill each time.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Infirm' cost='20'>
+		<Desc>
+			The Infirm quality represents a character with substandard physical fitness. Infirm characters could be old or simply quite ill, or they may be individuals in poor health who neglect their physical well-being, such as “couch potato” hackers or magicians. The cost for learning or improving Physical skills is twice normal (including at character creation) for Infirm characters, and they may never learn any Physical skill groups. Additionally, Infirm characters are treated as “unaware” in any Physical skills that they do not possess at Rating 1 or higher (see Skill Ratings, p. 118), and they may not default on skill tests for that skill. The quality does not affect performance in Physical skills the character possesses.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Low Pain Tolerance' cost='10'>
+		<Desc>
+			Characters with Low Pain Tolerance are particularly sensitive to pain; they incur a –1 wound modifier for every 2 boxes of cumulative damage, instead of the normal 3 boxes.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Ork Poser' cost='5'>
+		<Desc>
+			Influenced by Goblin Rock or over-hyped orxploitation trends, an Ork Poser is an elf or human character who alters his appearance to appear as an ork. Various cosmetic biomods—tusk implants, steroids, larynx alterations, etc.—allow the character to successfully pass as an ork. Ork posers are an embarrassment to many orks, and an ork who discovers the secret may treat the character with hostility. Other orks, however, might be willing to let the character join the “family”—provided he passes an appropriate hazing ritual to prove his “orkness,” of course. An outed ork poser may also face stigma from other humans or elves as “race traitors,” if those humans/elves harbor any prejudice against orks. Only humans and elves may take the Ork Poser quality.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Pacifist A' cost='5'>
+		<Desc>
+			The Pacifist quality makes a character unusually principled and humane for the dark streets of 2072. If the quality is taken at 5 BP, the character actively avoids needless violence and will not kill unless in self-defense (and even then, she will do so as humanely as possible). Such characters cannot participate in premeditated murders or wetwork and are compelled to dissuade their fellow shadowrunners from embarking on such operations.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Pacifist B' cost='10'>
+		<Desc>
+			The Pacifist quality makes a character unusually principled and humane for the dark streets of 2072. If the quality is taken at 10 BP, the character has severe moral qualms about any violence and will refuse to harm any living creature that possesses more intelligence than a gnat, regardless of the provocation. If she does, she is overcome by a deep depression, during the onset of which the character refuses to do anything other than eat, sleep and go about her daily routine. Such a state typically lasts several weeks, but may vary at the gamemaster’s discretion.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Scorched' cost='5'>
+		<Desc>
+			A Scorched character had a nasty experience (or experiences) with Black IC or BTLs in the past, suffering near-permanent effects. The character receives a –2 dice pool modifier to any Willpower-related tests made when facing Black IC or BTLs. This does not include Damage Resistance Tests, but does apply to tests to jack out, log off, resist the effects of Psychotropic IC, or resist addiction.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Scorched H/T' cost='10'>
+		<Desc>
+			A Scorched character had a nasty experience (or experiences) with Black IC or BTLs in the past, suffering near-permanent effects. The character receives a –2 dice pool modifier to any Willpower-related tests made when facing Black IC or BTLs. This does not include Damage Resistance Tests, but does apply to tests to jack out, log off, resist the effects of Psychotropic IC, or resist addiction. This quality is for hackers and technomancers.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Sensitive Neural Structure' cost='5'>
+		<Desc>
+			A character with a Sensitive Neural Structure has a particularly delicate nervous system, making him more vulnerable to neural damage from BTLs, Black IC, dumpshock, and other damaging forms of simsense. When resisting damage from Simsense, the character receives a –2 dice pool modifier.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Sensitive Neural Structure H/T' cost='10'>
+		<Desc>
+			A character with a Sensitive Neural Structure has a particularly delicate nervous system, making him more vulnerable to neural damage from BTLs, Black IC, dumpshock, and other damaging forms of simsense. When resisting damage from Simsense, the character receives a –2 dice pool modifier. This quality is for hackers and technomancers.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Sensitive System' cost='15'>
+		<Desc>
+			A character with the Sensitive System quality has immuno-suppressive problems with implants. Double all Essence losses caused by cyberware implants. This quality does not affect Essence losses for bioware.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Simsense Vertigo' cost='10'>
+		<Desc>
+			Characters who suffer from Simsense Vertigo experience feelings of disorientation whenever they work with augmented reality, virtual reality, and simsense (including smartlinks, simrigs, and image links). Such characters receive an extra –2 dice pool modifier to all tests when interacting with AR, VR, or simsense.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Simsense Vertigo H/T' cost='15'>
+		<Desc>
+			Characters who suffer from Simsense Vertigo experience feelings of disorientation whenever they work with augmented reality, virtual reality, and simsense (including smartlinks, simrigs, and image links). Such characters receive an extra –2 dice pool modifier to all tests when interacting with AR, VR, or simsense. This quality is for hackers and technomancers.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='SINner' cost='5'>
+		<Desc>
+			The character was born with or somehow acquired a legal System Identification Number, or SIN (see Identification, Please, p. 266). This means the character’s real identity, personal history, biometric data, credit records, medical history, travel history, etc. are stored and accessible in numerous databanks. This does not mean the character is required to use that SIN, merely that a legal record of him does exist (and may serve as a detriment some day). At 5 BP, the character has a standard SIN and is a bona fide citizen of the nation or extraterritorial megacorp of his choice.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Criminal SINner' cost='10'>
+		<Desc>
+			The character was born with or somehow acquired a legal System Identification Number, or SIN (see Identification, Please, p. 266). This means the character’s real identity, personal history, biometric data, credit records, medical history, travel history, etc. are stored and accessible in numerous databanks. This does not mean the character is required to use that SIN, merely that a legal record of him does exist (and may serve as a detriment some day). At 10 BP, the character has a criminal SIN, meaning that the character also has a verifiable criminal record on file, and likely served prison time in the past. As many law enforcement agencies share their data, this means that character is more likely to be identified if linked to a crime.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Spirit Bane' cost='10'>
+		<Desc>
+			A character with the Spirit Bane quality really torques off a certain type of spirit (see Spirits, p. 302). These affected spirits are likely to harass the character when he is in their presence and they may be reluctant to obey or perform favors for the character or his friends. If ordered to attack a party that includes the character, these spirits will single the character out first in an attempt to destroy him. This quality may be taken by any characters, not just magicians, and magicians may possess this quality for a type of spirit that is not part of their magical tradition.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Uncouth' cost='20'>
+		<Desc>
+			Uncouth characters are antisocial or sociopathic and have a difficult time interacting with others. The cost for learning or improving Social skills is twice normal for Uncouth characters (including at character creation), and they may never learn any Social skill groups. Additionally, Uncouth characters are treated as “unaware” in any Social skills that they do not possess at Rating 1 or higher (see Skill Ratings, p. 118). The gamemaster may require the character to make Success Tests for social situations that normal people would have no problems with.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Uneducated' cost='20'>
+		<Desc>
+			An Uneducated character has grown up far away from the modern sprawl and is thus ignorant of modern society in general, possessing only a rudimentary knowledge of reading, writing, and arithmetic. This quality is fitting for characters who grew up in primitive societies or back-to-the-land anti-technological communes (for example, Amazonian primitives, Luddite collectives, or NAN pinkskins). This quality also applies to certain sentient paracritters that have developed their own primitive society (such as shapeshifters, naga, and merrow). Characters with the Uneducated quality are considered “unaware” in Technical, Academic Knowledge, and Professional Knowledge skills they do not possess (see Skill Ratings, p. 118), and they may not default on skill tests for those skills. The gamemaster may also require the character to make Success Tests for ordinary tasks that the typical sprawldweller takes for granted. Additionally, the Karma cost for learning new skills or improving existing ones in these categories is twice normal (including at character creation), and the character may never learn skill groups belonging to these categories.
+		</Desc>
+	</NegativeQuality>
+	<NegativeQuality name='Weak Immune System' cost='5'>
+		<Desc>
+			A character with the Weak Immune System quality is more susceptible to infection by disease than normal. The character gains a –2 dice pool modifier to any tests for resisting diseases. Weak Immune System often results from immuno-suppression treatments used in cybersurgery and bio-genetic procedures, so it’s reasonable to believe that characters that have undergone extensive body modification are more likely to acquire this quality.
+		</Desc>
+	</NegativeQuality>	
+<!-- End Qualities -->
+<!-- Start Skill Groups -->
+	<SkillGroup name='None'>
+		<Skills>
+			<Skill name='Archery'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Bows'></Specialization>
+					<Specialization name ='Crossbows'></Specialization>
+					<Specialization name ='Slingshots'></Specialization>
+				</Specializations>
+				<Desc>Archery governs the use of muscle-powered projectile weapons.</Desc>
+			</Skill>	
+			<Skill name='Dodge'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Melee Combat'></Specialization>
+					<Specialization name ='Ranged Combat'></Specialization>
+				</Specializations>
+				<Desc>Dodge governs your ability to move out of the way of a perceived attack or other incoming threat.</Desc>
+			</Skill>
+			<Skill name='Exotic Melee Weapon'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Desc>The Exotic Melee Weapon skill must be taken separately for each different weapon you wish to be able to use. Some examples: sais, pole arms, chainsaws, cyber-implant weapons in unusual locations (i.e., elbow spurs, foot blades)..</Desc>
+			</Skill>
+			<Skill name='Exotic Ranged Weapon'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Desc>Like Exotic Melee Weapon, Exotic Ranged Weapon skill must be taken separately for each different weapon you wish to be able to use. Some examples: lasers, gyrojet pistols, flamethrowers, cyber-implant guns.
+				</Desc>
+			</Skill>
+			<Skill name='Heavy Weapons'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Assault Cannon'></Specialization>
+					<Specialization name ='Grenade Launchers'></Specialization>
+					<Specialization name ='Guided Missiles'></Specialization>
+					<Specialization name ='Machine Guns'></Specialization>
+					<Specialization name ='Rocket Launchers'></Specialization>
+				</Specializations>
+				<Desc>The Heavy Weapons skill allows the user to handle ranged projectile and launch weapons larger than an assault rifle, including large weapons when they are mounted on tripods, pintles, gyromounts, or in fixed emplacements (but not in or on vehicles).
+				</Desc>
+			</Skill>
+			<Skill name='Throwing Weapons'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Lobbed (grenade-style)'></Specialization>
+					<Specialization name ='Overhand (baseball-style)'></Specialization>
+					<Specialization name ='Shuriken'></Specialization>
+					<Specialization name ='Throwing Knives'></Specialization>
+				</Specializations>
+				<Desc>The throwing Weapons skill governs the use of any item thrown by the user.
+				</Desc>
+			</Skill>
+			<Skill name='Arcana'>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Spell Design (by spell category)'></Specialization>
+					<Specialization name ='Focus Design (by focus type)'></Specialization>
+					<Specialization name ='Ally Spirit Formula'></Specialization>
+					<Specialization name ='Free Spirit Formula'></Specialization>
+				</Specializations>
+				<Desc>Arcana governs the practical applications of a tradition’s magical theory and the tapping of arcane potency dormant in various materials. Characters use the Arcana skill to develop new spell and magical foci formulae from scratch (rather than learning someone else’s tricks) and to produce all types of spirit formulae. Note that Arcana is available to mundanes as well as Awakened. Though they can’t put their formulations into practice, non-magical characters can design formulae just as well as magicians.
+				</Desc>
+			</Skill>
+			<Skill name='Assensing'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Aura Reading'></Specialization>
+					<Specialization name ='Astral Signatures'></Specialization>
+					<Specialization name ='Psychometry'></Specialization>
+				</Specializations>
+				<Desc>Assensing is the skill of learning information from auras, astral forms, and astral signatures (Astral Perception, p. 191). Only characters capable of astral perception (they have the Magician quality or the Adept or Mystic Adept quality and the Astral Perception adept power) may take or use this skill.
+				</Desc>
+			</Skill>
+			<Skill name='Astral Combat'>
+				<ParentAttribute>Willpower</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Weapon Foci'></Specialization>
+					<Specialization name ='Magicians'></Specialization>
+					<Specialization name ='Spirits'></Specialization>
+					<Specialization name ='Wards'></Specialization>
+				</Specializations>
+				<Desc>The Astral Combat skill is used to fight while in astral space, where normal combat methods are next to useless (Astral Combat, p. 193). Only characters capable of astral perception (they have the Magician quality or the Adept or Mystic Adept quality and the Astral Perception adept power) may take or use this skill.
+				</Desc>
+			</Skill>
+			<Skill name='Enchanting'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Artificing'></Specialization>
+					<Specialization name ='Alchemy'></Specialization>
+					<Specialization name ='Vessel Preparation'></Specialization>
+				</Specializations>
+				<Desc>
+					Enchanting comprises the techniques needed to harness the latent magical potency in natural materials and the artificing of magical foci used to assist magic performance. It also includes the creation and preparation of spirit vessels and the evaluation of magical goods. Only characters with the Adept, Magician, or Mystic Adept qualities and a Magic attribute of 1 or more may use this skill.
+				</Desc>
+			</Skill>
+			<Skill name='Diving'>
+				<ParentAttribute>Body</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Liquid Breathing Apparatus'></Specialization>
+					<Specialization name ='Mixed Gas'></Specialization>
+					<Specialization name ='Oxygen Extraction'></Specialization>
+					<Specialization name ='SCUBA'></Specialization>
+					<Specialization name ='By Condition'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill covers all forms of underwater diving, including underwater swimming techniques and the use of SCUBA and other underwater gear.
+				</Desc>
+			</Skill>
+			<Skill name='Escape Artist'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='By Restraint (Ropes, Cuffs, etc.)'></Specialization>
+				</Specializations>
+				<Desc>
+					Escape Artist comes into play whenever a character tries to slip out of bonds or shackles without using brute force.
+				</Desc>
+			</Skill>
+			<Skill name='Parachuting'>
+				<ParentAttribute>Body</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='BASE Jumping'></Specialization>
+					<Specialization name ='HALO'></Specialization>
+					<Specialization name ='Low Altitude'></Specialization>
+					<Specialization name ='Recreational'></Specialization>
+					<Specialization name ='Static Line'></Specialization>
+				</Specializations>
+				<Desc>The Parachuting skill is used when a character exits an aircraft or other high area with a parachute and wishes to stop her quick descent.
+				</Desc>
+			</Skill>
+			<Skill name='Perception'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Hearing'></Specialization>
+					<Specialization name ='Scent'></Specialization>
+					<Specialization name ='Taste'></Specialization>
+					<Specialization name ='Touch'></Specialization>
+					<Specialization name ='Visual'></Specialization>
+				</Specializations>
+				<Desc>
+				Perception is used to determine what a character notices about her surroundings that is abnormal or strange.
+				</Desc>
+			</Skill>
+			<Skill name='Instruction'>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='By Active or Knowledge skill category.'></Specialization>
+				</Specializations>
+				<Desc>
+					The Instruction Skill allows a character to teach something efficiently to another character.
+				</Desc>
+			</Skill>
+			<Skill name='Intimidation'>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Interrogation'></Specialization>
+					<Specialization name ='Mental'></Specialization>
+					<Specialization name ='Physical'></Specialization>
+					<Specialization name ='Torture'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill allows a character to make people do what they normally might not, simply out of fear inspired by the character’s in-your-face appearance or behavior. Intimidation Tests are opposed by the target’s Intimidation + Willpower.
+				</Desc>
+			</Skill>
+			<Skill name='Armorer'>
+				<ParentAttribute>Logic</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Armor'></Specialization>
+					<Specialization name ='Artillery'></Specialization>
+					<Specialization name ='Explosives'></Specialization>
+					<Specialization name ='Firearms'></Specialization>
+					<Specialization name ='Heavy Weapons'></Specialization>
+					<Specialization name ='Weapon Accessories'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to create or repair any weapon or piece of armor for which the character has designs. Armorer also assumes that the character has access to the tools and/or equipment commonly used in that area of expertise. The character still needs time, tools, and materials to build something from scratch. Even a character with a superb level of skill can do little without the proper equipment. If the character is trying to build something new, she also needs theoretical knowledge to design the item, unless someone else provides a detailed blueprint for its construction.
+				</Desc>
+			</Skill>
+			<Skill name='Artisan'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Carpentry'></Specialization>
+					<Specialization name ='Guitars'></Specialization>
+					<Specialization name ='Painting'></Specialization>
+					<Specialization name ='Sculpture'></Specialization>
+					<Specialization name ='Other Crafts'></Specialization>
+				</Specializations>
+				<Desc>
+					The Artisan skill represents a number of different creative skills, including singing, painting, and the like. Characters who are well-developed artistically use this skill.
+				</Desc>
+			</Skill>
+			<Skill name='Chemistry'>
+				<ParentAttribute>Logic</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Compounds'></Specialization>
+					<Specialization name ='Drugs'></Specialization>
+					<Specialization name ='Toxins'></Specialization>
+				</Specializations>
+				<Desc>
+					The Chemistry Technical Active Skill governs the use of and understanding of the properties of matter. It includes proper laboratory procedure and the ability to read chemical formulae.
+				</Desc>
+			</Skill>
+			<Skill name='Demolitions'>
+				<ParentAttribute>Logic</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Commercial Explosives'></Specialization>
+					<Specialization name ='Defusing'></Specialization>
+					<Specialization name ='Improvised Explosives'></Specialization>
+					<Specialization name ='Plastic Explosives'></Specialization>
+				</Specializations>
+				<Desc>
+					The Demolitions Skill governs the preparation, measuring, and setting of chemical explosives.
+				</Desc>
+			</Skill>
+			<Skill name='Forgery'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Counterfeiting'></Specialization>
+					<Specialization name ='Credstick Forgery'></Specialization>
+					<Specialization name ='False ID'></Specialization>
+					<Specialization name ='Image Doctoring'></Specialization>
+					<Specialization name ='Paper Forgery'></Specialization>
+				</Specializations>
+				<Desc>
+					Those who wish to make a copy of a document or other item use Forgery. Most duplicated items are in the form of art or official paper documents.
+				</Desc>
+			</Skill>
+			<Skill name='Locksmith'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='By Lock Type'></Specialization>
+				</Specializations>
+				<Desc>
+					Locksmith is the art of manipulating, opening, and repairing mechanical locks.
+				</Desc>
+			</Skill>
+			<Skill name='Gunnery'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Artillery'></Specialization>
+					<Specialization name ='Ballistic'></Specialization>
+					<Specialization name ='Energy'></Specialization>
+					<Specialization name ='Guided Missile'></Specialization>
+					<Specialization name ='Rocket'></Specialization>
+				</Specializations>
+				<Desc>
+					The Gunnery skill governs the use of all vehicle-mounted weapons, whether in mounts, pintles or turrets. This skill includes manual and sensor-enhanced gunnery.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Aerospace'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Deep Space'></Specialization>
+					<Specialization name ='Launch Craft'></Specialization>
+					<Specialization name ='Remote Operation'></Specialization>
+					<Specialization name ='Semiballistic'></Specialization>
+					<Specialization name ='Suborbital'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to control rocket-boosted parabolic aircraft, suborbital aircraft, and anything that is piloted outside the atmosphere. This includes remote control.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Aircraft'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Remote Operation'></Specialization>
+					<Specialization name ='Fixed Wing'></Specialization>
+					<Specialization name ='Lighter Than Air'></Specialization>
+					<Specialization name ='Rotary Wing'></Specialization>
+					<Specialization name ='Tilt Wing'></Specialization>
+					<Specialization name ='Vector Thrust'></Specialization>
+				</Specializations>
+				<Desc>
+					Pilot Aircraft governs the use of all aircraft piloted within the atmosphere, including those remotely controlled.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Anthroform'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Remote Operation'></Specialization>
+					<Specialization name ='Biped'></Specialization>
+					<Specialization name ='Quadruped'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to operate any vehicle that walks on legs. It is also used if such operation is remotely controlled.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Exotic Vehicle'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Desc>
+					This skill is used for exotic vehicles such as undersea sleds, personal lifters, jet packs, hot-air balloons, etc. Each time this skill is taken, a specific exotic vehicle must be chosen to which it applies. This skill is then used whenever piloting that vehicle, whether remotely or in person.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Ground Craft'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Bike'></Specialization>
+					<Specialization name ='Hovercraft'></Specialization>
+					<Specialization name ='Remote Operation'></Specialization>
+					<Specialization name ='Tracked'></Specialization>
+					<Specialization name ='Wheeled'></Specialization>
+				</Specializations>
+				<Desc>
+					Characters use Pilot Ground Craft to control ground vehicles without legs, whether remotely or in person.
+				</Desc>
+			</Skill>
+			<Skill name='Pilot Watercraft'>
+				<ParentAttribute>Reaction</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Motorboat'></Specialization>
+					<Specialization name ='Sail'></Specialization>
+					<Specialization name ='Remote Operation'></Specialization>
+					<Specialization name ='Ship'></Specialization>
+					<Specialization name ='Submarine'></Specialization>
+				</Specializations>
+				<Desc>
+					Pilot Watercraft is used to control water vehicles both remotely and personally.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Close Combat'>		
+		<Skills>
+			<Skill name='Blades'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Axes'></Specialization>
+					<Specialization name ='Cyber-Implant Blades'></Specialization>
+					<Specialization name ='Knives'></Specialization>
+					<Specialization name ='Swords'></Specialization>
+					<Specialization name ='Parrying'></Specialization>
+				</Specializations>
+				<Desc>
+					The Blades skill governs the use of hand-held melee weapons that have a sharpened edge or point. This skill allows a character to use various knives, swords, and axes effectively. This skill is used for cyber-blades implanted in the hands or forearms, but not other areas of the body.
+				</Desc>
+			</Skill>	
+			<Skill name='Clubs'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Batons'></Specialization>
+					<Specialization name ='Hammers'></Specialization>
+					<Specialization name ='Saps'></Specialization>
+					<Specialization name ='Staves'></Specialization>
+					<Specialization name ='Parrying'></Specialization>
+				</Specializations>
+				<Desc>
+					Clubs governs the use of hand-held melee weapons that have no edge or blade. This skill allows a character to use any blunt, weighted item as a weapon, from a baseball bat to a tire iron to a chair leg.
+				</Desc>
+			</Skill>
+			<Skill name='Unarmed Combat'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Cyber-Implants'></Specialization>
+					<Specialization name ='Martial Arts'></Specialization>
+					<Specialization name ='Subdual Combat'></Specialization>
+					<Specialization name ='Block'></Specialization>
+				</Specializations>
+				<Desc>
+					Unarmed Combat skill (also known as hand-to-hand combat) governs the use of combat techniques based solely on the use of the individual’s own body parts. In addition to Boxing, this skill covers such combat styles as Oriental martial arts and Brazilian Capoeira. It also covers the use of certain cyber-implants, such as shock hands.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Athletics'>		
+		<Skills>
+			<Skill name='Climbing'>
+				<ParentAttribute>Strength</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Assisted'></Specialization>
+					<Specialization name ='Freehand'></Specialization>
+					<Specialization name ='Rappelling'></Specialization>
+					<Specialization name ='Block'></Specialization>
+					<Specialization name ='By Condition'></Specialization>
+				</Specializations>
+				<Desc>
+					Climbing is used to ascend vertical obstacles or walls, whether using tools or unassisted.
+				</Desc>
+			</Skill>
+			<Skill name='Gymnastics'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Balance'></Specialization>
+					<Specialization name ='Breakfall'></Specialization>
+					<Specialization name ='Dance'></Specialization>
+					<Specialization name ='Jumping'></Specialization>
+					<Specialization name ='Parkour'></Specialization>
+					<Specialization name ='Tumbling'></Specialization>
+				</Specializations>
+				<Desc>
+					Gymnastics involves acrobatics feats and balance as well as jumping, vaulting, and tumbling.
+				</Desc>
+			</Skill>
+			<Skill name='Running'>
+				<ParentAttribute>Strength</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Long Distance'></Specialization>
+					<Specialization name ='Sprinting'></Specialization>
+					<Specialization name ='Urban'></Specialization>
+					<Specialization name ='Wilderness'></Specialization>
+				</Specializations>
+				<Desc>
+					The Running skill is used to increase the distance a character can run, as well as determine how well she can pace herself and conserve energy while running.
+				</Desc>
+			</Skill>
+			<Skill name='Swimming'>
+				<ParentAttribute>Strength</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Long Distance'></Specialization>
+					<Specialization name ='Sprinting'></Specialization>
+				</Specializations>
+				<Desc>
+					The Swimming skill is used to increase the distance a character can swim, and also helps determine how much experience she has had with water.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Stealth'>		
+		<Skills>
+			<Skill name='Disguise'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Camoflauge'></Specialization>
+					<Specialization name ='Cosmetic'></Specialization>
+					<Specialization name ='Theatrical'></Specialization>
+					<Specialization name ='Trideo'></Specialization>
+				</Specializations>
+				<Desc>
+					When a character wants to take on a false appearance of some kind, she uses the Disguise skill. This is true whether she wants to look like someone else or blend into the background.
+				</Desc>
+			</Skill>
+			<Skill name='Infiltration'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Urban'></Specialization>
+					<Specialization name ='Vehicle'></Specialization>
+					<Specialization name ='Wilderdness'></Specialization>
+					<Specialization name ='By Detection Method'></Specialization>
+				</Specializations>
+				<Desc>
+					Infiltration is the skill used when a character wants to sneak around undetected by either other characters or security sensors.
+				</Desc>
+			</Skill>
+			<Skill name='Palming'>
+				<ParentAttribute>Agility</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Legerdemain'></Specialization>
+					<Specialization name ='Pickpocket'></Specialization>
+					<Specialization name ='Shoplifting'></Specialization>
+				</Specializations>
+				<Desc>
+					Those who have hands quicker than the eye can see use the Palming skill, which is as much about misdirection as it is dexterous motion. This skill is used to conceal small objects about the character or remove them from others without being noticed.
+				</Desc>
+			</Skill>
+			<Skill name='Shadowing'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Stakeouts'></Specialization>
+					<Specialization name ='Tail Evasion'></Specialization>
+					<Specialization name ='Tailing'></Specialization>
+				</Specializations>
+				<Desc>
+					Shadowing involves following someone else discreetly without being noticed or ensuring that you are not being followed the same way.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Outdoors'>		
+		<Skills>
+			<Skill name='Navigation'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Desert'></Specialization>
+					<Specialization name ='Forest'></Specialization>
+					<Specialization name ='Jungle'></Specialization>
+					<Specialization name ='Mountain'></Specialization>
+					<Specialization name ='Polar'></Specialization>
+					<Specialization name ='Urban'></Specialization>
+					<Specialization name ='Maritime'></Specialization>
+					<Specialization name ='Other'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill governs a character’s ability to determine directions, read maps, plot a course, and stick to it without getting lost.
+				</Desc>
+			</Skill>
+			<Skill name='Survival'>
+				<ParentAttribute>Willpower</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Desert'></Specialization>
+					<Specialization name ='Forest'></Specialization>
+					<Specialization name ='Jungle'></Specialization>
+					<Specialization name ='Mountain'></Specialization>
+					<Specialization name ='Polar'></Specialization>
+					<Specialization name ='Urban'></Specialization>
+					<Specialization name ='Maritime'></Specialization>
+					<Specialization name ='Other'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill governs a character’s proficiency in surviving outdoors for an extended period of time. It determines her ability with various camping and survival gear, as well as how well she can scrounge for food and water, create makeshift shelters, and adapt to harsh natural conditions.
+				</Desc>
+			</Skill>
+			<Skill name='Tracking'>
+				<ParentAttribute>Intuition</ParentAttribute>
+				<SkillType>Active</SkillType>
+				<Specializations>
+					<Specialization name ='Desert'></Specialization>
+					<Specialization name ='Forest'></Specialization>
+					<Specialization name ='Jungle'></Specialization>
+					<Specialization name ='Mountain'></Specialization>
+					<Specialization name ='Polar'></Specialization>
+					<Specialization name ='Urban'></Specialization>
+					<Specialization name ='Maritime'></Specialization>
+					<Specialization name ='Other'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is a character’s ability to track metahumans or critters in the wild. It includes her ability to detect signs of passage, follow a trail, and locate game paths.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Firearms'>		
+		<Skills>
+			<Skill name='Automatics'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Assault Rifles'></Specialization>
+					<Specialization name ='Carbines'></Specialization>
+					<Specialization name ='Machine Pistols'></Specialization>
+					<Specialization name ='Submachine Guns'></Specialization>
+				</Specializations>
+				<Desc>
+					The Automatics skill governs the use of personal firearms larger than a pistol, capable of autofire,but typically with a shorter barrel than a longarm.
+				</Desc>
+			</Skill>	
+			<Skill name='Longarms'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Shotguns'></Specialization>
+					<Specialization name ='Sniper Rifles'></Specialization>
+					<Specialization name ='Sporting Rifles'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill governs the use of all personal firearms with extended barrels, especially those designed to be used braced against the shoulder.
+				</Desc>
+			</Skill>
+			<Skill name='Pistols'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Agility</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Holdouts'></Specialization>
+					<Specialization name ='Revolvers'></Specialization>
+					<Specialization name ='Semi-Automatics'></Specialization>
+					<Specialization name ='Tasers'></Specialization>
+				</Specializations>
+				<Desc>
+					The Pistols skill governs the use of all types of hand-held firearms, including holdouts, light and heavy pistols, and tasers.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Conjuring'>		
+		<Skills>
+			<Skill name='Banishing'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Spirits of Air'></Specialization>
+					<Specialization name ='Spirits of Fire'></Specialization>
+					<Specialization name ='Spirits of Water'></Specialization>
+					<Specialization name ='Spirits of Earth'></Specialization>
+				</Specializations>
+				<Desc>
+					Magicians use the Banishing skill to disrupt spirits, removing them from the physical and astral planes.
+				</Desc>
+			</Skill>
+			<Skill name='Binding'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Spirits of Air'></Specialization>
+					<Specialization name ='Spirits of Fire'></Specialization>
+					<Specialization name ='Spirits of Water'></Specialization>
+					<Specialization name ='Spirits of Earth'></Specialization>
+				</Specializations>
+				<Desc>
+					The Binding skill is used to ask/demand long-term services from a spirit the magician has already summoned.
+				</Desc>
+			</Skill>
+			<Skill name='Summoning'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Spirits of Air'></Specialization>
+					<Specialization name ='Spirits of Fire'></Specialization>
+					<Specialization name ='Spirits of Water'></Specialization>
+					<Specialization name ='Spirits of Earth'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to summon spirits and determines how many services they owe you.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Sorcery'>		
+		<Skills>
+			<Skill name='Counterspelling'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Combat Spells'></Specialization>
+					<Specialization name ='Detection Spells'></Specialization>
+					<Specialization name ='Manipulation Spells'></Specialization>
+					<Specialization name ='Health Spells'></Specialization>
+					<Specialization name ='Illusion Spells'></Specialization>
+				</Specializations>
+				<Desc>
+					Magicians use the Counterspelling skill to remove existing sustained spells from people or objects, or defend against spells cast at them or others.
+				</Desc>
+			</Skill>
+			<Skill name='Ritual Spellcasting'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Combat Spells'></Specialization>
+					<Specialization name ='Detection Spells'></Specialization>
+					<Specialization name ='Manipulation Spells'></Specialization>
+					<Specialization name ='Health Spells'></Specialization>
+					<Specialization name ='Illusion Spells'></Specialization>
+				</Specializations>
+				<Desc>
+					The Ritual Spellcasting skill is used to cast spells in a ritual fashion (Ritual Spellcasting, p. 184). In those cases, Ritual Spellcasting is used instead of Spellcasting to determine the results.
+				</Desc>
+			</Skill>
+			<Skill name='Spellcasting'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Magic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Combat Spells'></Specialization>
+					<Specialization name ='Detection Spells'></Specialization>
+					<Specialization name ='Manipulation Spells'></Specialization>
+					<Specialization name ='Health Spells'></Specialization>
+					<Specialization name ='Illusion Spells'></Specialization>
+				</Specializations>
+				<Desc>
+					The Spellcasting skill governs the control of magical energy in the form of spells.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Tasking'>		
+		<Skills>
+			<Skill name='Compiling'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Resonance</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Sprite Type'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to create sprites and determines how many tasks they owe you.
+				</Desc>
+			</Skill>
+			<Skill name='Decompiling'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Resonance</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Sprite Type'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to decompile sprites.
+				</Desc>
+			</Skill>
+			<Skill name='Resonance'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Resonance</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Sprite Type'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill is used to register sprites for long-term service.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Influence'>		
+		<Skills>
+			<Skill name='Con'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Fast Talk'></Specialization>
+					<Specialization name ='Impersonation'></Specialization>
+					<Specialization name ='Seduction'></Specialization>
+				</Specializations>
+				<Desc>
+					Characters using the Con skill are misrepresenting the truth in some way and trying to get someone else to believe them. This may be flat out lying, evasion, or double talk, but the intended result is to have the target believe something that is false. Con Tests are opposed by the target’s Con (or Negotiation) + Intuition.
+				</Desc>
+			</Skill>
+			<Skill name='Etiquette'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<Specializations>
+					<Specialization name ='High Society'></Specialization>
+					<Specialization name ='Street Gang'></Specialization>
+					<Specialization name ='Mafia'></Specialization>
+					<Specialization name ='Corporate'></Specialization>
+					<Specialization name ='Media'></Specialization>
+					<Specialization name ='By culture or subculture.'></Specialization>
+				</Specializations>
+				<Desc>
+					The Etiquette Skill allows a character to function within a specific subculture without appearing out of place. It allows the character to fit in, put suspicious or agitated people at ease, and defuse tense social situations. It also allows the player to negate a social gaffe she made that the character wouldn’t have.
+				</Desc>
+			</Skill>
+			<Skill name='Leadership'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Gut Check'></Specialization>
+					<Specialization name ='Morale'></Specialization>
+					<Specialization name ='Persuasion'></Specialization>
+					<Specialization name ='Strategy'></Specialization>
+					<Specialization name ='Tactics'></Specialization>
+				</Specializations>
+				<Desc>
+					The Leadership Skill governs a character’s ability to get others to do her bidding through the exercise of example and authority. It includes an aspect of problem-solving, but is not intended to substitute for clear thinking and good planning on the part of the players. Leadership Tests are opposed by the target’s Leadership + Charisma.
+				</Desc>
+			</Skill>
+			<Skill name='Negotiation'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Charisma</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Bargaining'></Specialization>
+					<Specialization name ='Diplomacy'></Specialization>
+					<Specialization name ='Sense Motive'></Specialization>
+				</Specializations>
+				<Desc>
+					The Negotiation Skill governs the psychology and bargaining tactics used when the character deals with another and seeks to come out ahead, either through careful and deliberate bartering or throughfast talk. It is opposed by the target’s Negotiation + Charisma. Negotiation can also be used to determine if a character has noticed if someone is lying to them.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Mechanic'>		
+		<Skills>
+			<Skill name='Aeronautics Mechanic'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Aerospace'></Specialization>
+					<Specialization name ='Fixed Wing'></Specialization>
+					<Specialization name ='Lighter Than Air'></Specialization>
+					<Specialization name ='Rotary Wing'></Specialization>
+					<Specialization name ='Tilt Wing'></Specialization>
+					<Specialization name ='Vector Thrust'></Specialization>
+				</Specializations>
+				<Desc>
+					Characters with this skill can repair and maintain aircraft. The proper tools and time are still necessary.
+				</Desc>
+			</Skill>
+			<Skill name='Automotive Mechanic'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Anthroform'></Specialization>
+					<Specialization name ='Hover'></Specialization>
+					<Specialization name ='Wheeled'></Specialization>
+					<Specialization name ='Tracked'></Specialization>
+				</Specializations>
+				<Desc>
+					The Automotive Mechanic skill is used to repair and maintain ground craft of all kinds. The proper tools and time are still necessary.
+				</Desc>
+			</Skill>
+			<Skill name='Industrial Mechanic'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Electrical Power Systems'></Specialization>
+					<Specialization name ='Hydraulics'></Specialization>
+					<Specialization name ='Robotics'></Specialization>
+					<Specialization name ='Structural'></Specialization>
+					<Specialization name ='Welding'></Specialization>
+				</Specializations>
+				<Desc>
+					The Industrial Mechanic skill is used to repair and maintain mechanical devices used in various industries and teaches a baseline of mechanics ability. The proper tools and time are still necessary.
+				</Desc>
+			</Skill>
+			<Skill name='Nautical Mechanic'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Motorboat'></Specialization>
+					<Specialization name ='Sailboat'></Specialization>
+					<Specialization name ='Submarine'></Specialization>
+					<Specialization name ='Ship'></Specialization>
+				</Specializations>
+				<Desc>
+					The Nautical Mechanic skill is used to repair and maintain watercraft of all kinds. The proper tools and time are still necessary.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Cracking'>		
+		<Skills>
+			<Skill name='Cybercombat'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Specific Opponents'></Specialization>
+				</Specializations>
+				<Desc>
+					Cybercombat skill is used to attack other icons in the Matrix, utilizing attack programs and system tricks.
+				</Desc>
+			</Skill>
+			<Skill name='Electronic Warfare'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Communications'></Specialization>
+					<Specialization name ='Encryption'></Specialization>
+					<Specialization name ='Jamming'></Specialization>
+					<Specialization name ='Sensor Operations'></Specialization>
+				</Specializations>
+				<Desc>
+					Electronic Warfare is used to disrupt communications in a variety of ways, such as jamming, signal degradation, or complete overtaking of control of a target’s communication systems. It is also used for encoding and decoding communications. Appropriate equipment is necessary to make use of this skill.
+				</Desc>
+			</Skill>
+			<Skill name='Hacking'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Program'></Specialization>
+					<Specialization name ='By Device Type'></Specialization>
+				</Specializations>
+				<Desc>
+					Hacking skill is used to exploit and subvert the programming of computers and electronics, specifically Matrix systems and interactions.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Electronics'>		
+		<Skills>
+			<Skill name='Computer'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Program'></Specialization>
+					<Specialization name ='By Device Type'></Specialization>
+				</Specializations>
+				<Desc>
+					The Computer skill governs the use and understanding of computers and electronic devices, which in the 2070s is just about everything powered by electricity. It does not include knowledge of exploiting or subverting such systems, which is covered by the Hacking (software) or Hardware skills.
+				</Desc>
+			</Skill>
+			<Skill name='Data Search'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Source'></Specialization>
+					<Specialization name ='By Data Type'></Specialization>
+				</Specializations>
+				<Desc>
+					This is the character’s research ability, her ability to use search engines, databases and other tools to track down information online or in computer storage. Data Search includes the character’s ability to refine search parameters as well as her knowledge of lesser known archives and resources.
+				</Desc>
+			</Skill>
+			<Skill name='Hardware'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Specific Type'></Specialization>
+				</Specializations>
+				<Desc>
+					This skill governs the creation, repair, and technical manipulation of computers and electronic devices. To create something, a plan, the proper materials, and time are still needed.
+				</Desc>
+			</Skill>
+			<Skill name='Software'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Defensive Utilities'></Specialization>
+					<Specialization name ='Offensive Utilities'></Specialization>
+					<Specialization name ='Masking Utilities'></Specialization>
+					<Specialization name ='Operational Utilities'></Specialization>
+					<Specialization name ='Special Utilities (specify)'></Specialization>
+				</Specializations>
+				<Desc>
+					The Software skill comes into play when a character is writing utilities for use in the Matrix.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+	<SkillGroup name='Biotech'>		
+		<Skills>
+			<Skill name='Cybertechnology'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Bioware'></Specialization>
+					<Specialization name ='Bodyware'></Specialization>
+					<Specialization name ='Cyberlimbs'></Specialization>
+					<Specialization name ='Headware'></Specialization>
+					<Specialization name ='Nanoware'></Specialization>
+				</Specializations>
+				<Desc>
+					Cybertechnology is the ability to create and care for cybernetics and bioware, possessed primarily by inventors, medical professionals, and cyberdocs. This skill also includes knowledge about the current state of the field of cybertechnology and the ability to repair damaged cyberware. A proper facility and the right materials are needed to manufacture cyberware.
+				</Desc>
+			</Skill>
+			<Skill name='First Aid'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='By Type of Treatment'></Specialization>
+				</Specializations>
+				<Desc>
+					The First Aid skill governs basic medicine in a hands-on sense, as a paramedic rather than a physician. This skill provides little knowledge of cybernetics and how they function, and cannot be used to repair them.
+				</Desc>
+			</Skill>
+			<Skill name='Medicine'>
+				<SkillType>Active</SkillType>
+				<ParentAttribute>Logic</ParentAttribute>
+				<Specializations>
+					<Specialization name ='Cosmetic Surgery'></Specialization>
+					<Specialization name ='Extended Care'></Specialization>
+					<Specialization name ='Implant Surgery'></Specialization>
+					<Specialization name ='Magical Health'></Specialization>
+					<Specialization name ='Organ Culture'></Specialization>
+					<Specialization name ='Trauma Surgery'></Specialization>
+				</Specializations>
+				<Desc>
+					Medicine is the skill used for more detailed attempts at helping a character medically, beyond what mere First Aid can do. It includes the proper treatment of disease and illness as well as wounds. Medicine interacts with cybernetics only when they are being implanted into a body or removed from one.
+				</Desc>
+			</Skill>
+		</Skills>
+	</SkillGroup>
+<!-- End Skill Groups -->
 <!-- Start Metatypes -->
 	<Metatype name ='Human'>
 		<BPCost>0</BPCost>
@@ -317,7 +1684,7 @@
 		<SpecialAbilities>
 			<Skill name='Thermographic Vision'></Skill>	
 			<Skill name='Custom'>+1 natural armor (cumulative with worn armor)</Skill>	
-			<Attribute name = 'Reach' value = 1></Attribute>			
+			<Attribute name = 'Reach' value = '1'></Attribute>			
 		</SpecialAbilities>
 	</Metatype>
 <!-- End Metatypes -->
@@ -1098,4 +2465,437 @@
 		</Desc>
 	</Sprite>
 <!-- End Sprites -->
+<!-- Start Weapons -->
+	<WeaponCategory name='Melee Weapons'>
+		<Weapon name='Combat Axe' type='Blade'>
+			<Stats>Reach: 2 Damage: (STR/2 + 4)P AP: -1 Availability: 8R </Stats>
+			<Cost>600</Cost>
+			<Desc>This two-handed tungsten alloy axe typically comes with a spring-loaded thrusting point concealed in the handle.</Desc>
+		</Weapon>
+		<Weapon name='Forearm Snap-Blades' type='Blade'>
+			<Stats>Reach: - Damage: (STR/2 + 2)P AP: - Availability: 6R </Stats>
+			<Cost>150</Cost>
+			<Desc>These external spurs feature a forearm sheath with three blades that extend and retract via muscle-movement commands or wireless link.</Desc>
+		</Weapon>	
+		<Weapon name='Katana' type='Blade'>
+			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: -1 Availability: 4R </Stats>
+			<Cost>1000</Cost>
+			<Desc>The legendary, two-handed sword of the samurai—chop up your enemies with style.</Desc>
+		</Weapon>	
+		<Weapon name='Knife' type='Blade'>
+			<Stats>Reach: - Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
+			<Cost>20</Cost>
+			<Desc>A basic, all-purpose cutting tool.</Desc>
+		</Weapon>	
+		<Weapon name='Monofilament Sword' type='Blade'>
+			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: -1 Availability: 8R </Stats>
+			<Cost>750</Cost>
+			<Desc>This well-balanced broadsword features superfine monofilament wire attached to its edges.</Desc>
+		</Weapon>	
+		<Weapon name='Survival Knife' type='Blade'>
+			<Stats>Reach: - Damage: (STR/2 + 1)P AP: -1 Availability: - </Stats>
+			<Cost>50</Cost>
+			<Desc>This fine quality blade features several accessories: retractable GPS monitor, micro-lighter, and a compartment in the handle that will hold one small item. The flat sides of the blade are covered with a non-toxic chemical that can be activated to provide 2 hours of phosphorescent light.</Desc>
+		</Weapon>	
+		<Weapon name='Sword' type='Blade'>
+			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: - Availability: 4R </Stats>
+			<Cost>350</Cost>
+			<Desc>Get medieval with this sharp and heavy toy of destruction. Swords encompass a variety of one-handed blades, from scimitars to machetes to longswords.</Desc>
+		</Weapon>	
+		<Weapon name='Club' type='Club'>
+			<Stats>Reach: 1 Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
+			<Cost>30</Cost>
+			<Desc>Anything from a hickory “tire-knocker” to a baseball bat to a two-by-four with a rusty nail.</Desc>
+		</Weapon>	
+		<Weapon name='Extendable Baton' type='Club'>
+			<Stats>Reach: 1 Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
+			<Cost>50</Cost>
+			<Desc>The shaft of this club telescopes out when flicked sharply. When retracted, it is more easily concealed (–2).</Desc>
+		</Weapon>	
+		<Weapon name='Sap' type='Club'>
+			<Stats>Reach: - Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
+			<Cost>30</Cost>
+			<Desc>A small, springy club, specially designed for concealability (–2).</Desc>
+		</Weapon>	
+		<Weapon name='Staff' type='Club'>
+			<Stats>Reach: 2 Damage: (STR/2 + 2)P AP: - Availability: - </Stats>
+			<Cost>50</Cost>
+			<Desc>A large, heavy stick, popular with some magicians for that traditional look.</Desc>
+		</Weapon>	
+		<Weapon name='Stun Baton' type='Club'>
+			<Stats>Reach: 1 Damage: 6S(e) AP: -half Availability: 4T </Stats>
+			<Cost>400</Cost>
+			<Desc>The standard riot-control weapon, this weighted stick delivers an electrical charge that deals Electricity damage (p. 163). It has 10 charges; when plugged in, it recharges at a rate of one charge per 10 seconds.</Desc>
+		</Weapon>	
+		<Weapon name='Monofilament Whip' type='Exotic Weapon'>
+			<Stats>Reach: 2 Damage: 8P AP: -4 Availability: 12F </Stats>
+			<Cost>3000</Cost>
+			<Desc>One of the deadliest weapons on the streets, this nanowire whip cuts through bone and armor with horrifying ease. The line extends out to two meters, and retracts into the weapon’s haft when not in use. The whip action, the presence of a weighted tip, and the danger of the monofilament line make wielding this weapon difficult at best. If an attacker using a monofilament whip rolls a glitch, she has either tangled the line around itself, gotten the weighted tip stuck on something, or inadvertently cut something nearby apart. If the attacker rolls a critical glitch, she has struck herself and must resist the whip’s standard Damage Code.</Desc>
+		</Weapon>	
+		<Weapon name='Pole Arm' type='Exotic Weapon'>
+			<Stats>Reach: 2 Damage: (STR/2 + 2)P AP: -2 Availability: 4R </Stats>
+			<Cost>1000</Cost>
+			<Desc>This spear-like weapon usually features an axe-head or similar blade and has become quite popular with trolls and other large individuals, even though it’s not easy to handle.</Desc>
+		</Weapon>
+		<Weapon name='Shock Glove' type='Unarmed Combat'>
+			<Stats>Reach: - Damage: 5S(e) AP: -half Availability: 3R </Stats>
+			<Cost>200</Cost>
+			<Desc>This pair of insulated plas-fabric gloves has a wire mesh that discharges electric current when triggered by impact. The gloves deal Electricity damage (p. 163) and have 10 charges (each); when plugged in, they recharge at a rate of one charge per 10 seconds.</Desc>
+		</Weapon>	
+	</WeaponCategory>
+	<WeaponCategory name='Projectile and Throwing Weapons'>
+		<Weapon name='Bow' type='Bow'>
+			<Stats>Damage: (STR Min + 2)P AP: - Availability: Rating x 2 Cost: Rating x 100</Stats>
+			<Cost>100</Cost>
+			<Desc>A traditional longbow of fiberglass or wood, or a modern compound-and-pulley bow. Reloading the bow takes one “Ready Weapon” Action (p. 147).</Desc>
+		</Weapon>	
+		<Weapon name='Arrow' type='Bow'>
+			<Stats>Damage: - AP: - Availability: Rating x 2 Cost: Rating x 5</Stats>
+			<Cost>5</Cost>
+			<Desc>A basic arrow for use in a bow.</Desc>
+		</Weapon>	
+		<Weapon name='Injection Arrow' type='Bow'>
+			<Stats>Damage: - AP: - Availability: 8R </Stats>
+			<Cost>50</Cost>
+			<Desc>An injection arrow causes the same damage as a regular arrow/bolt, but an attack that inflicts at least 1 point of damage will also deliver one dose of whatever chemical substance the arrow/bolt was loaded with. This counts as an injection attack vector (p. 254).</Desc>
+		</Weapon>	
+		<Weapon name='Light Crossbow' type='Crossbow'>
+			<Stats>Damage: 3P AP: - Availability: 2 </Stats>
+			<Cost>300</Cost>
+			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn’t require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
+		</Weapon>
+		<Weapon name='Medium Crossbow' type='Crossbow'>
+			<Stats>Damage: 5P AP: - Availability: 4R </Stats>
+			<Cost>500</Cost>
+			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn’t require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
+		</Weapon>
+		<Weapon name='Heavy Crossbow' type='Crossbow'>
+			<Stats>Damage: 7P AP: -1 Availability: 8R </Stats>
+			<Cost>750</Cost>
+			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn’t require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
+		</Weapon>
+		<Weapon name='Bolt' type='Crossbow'>
+			<Stats>Damage: - AP: - Availability: 2 </Stats>
+			<Cost>5</Cost>
+			<Desc>A basic bolt for use in a crossbow.</Desc>
+		</Weapon>	
+		<Weapon name='Injection Bolt' type='Crossbow'>
+			<Stats>Damage: - AP: - Availability: 8R </Stats>
+			<Cost>50</Cost>
+			<Desc>An injection bolt causes the same damage as a regular arrow/bolt, but an attack that inflicts at least 1 point of damage will also deliver one dose of whatever chemical substance the arrow/bolt was loaded with. This counts as an injection attack vector (p. 254).</Desc>
+		</Weapon>
+		<Weapon name='Shuriken' type='Throwing Weapons'>
+			<Stats>Damage: (STR/2)P AP: - Availability: 2 </Stats>
+			<Cost>30</Cost>
+			<Desc>This multi-edged airfoil throwing blade is available in many different styles. A character can ready Agility ÷ 2 shuriken per Ready Weapon action.</Desc>
+		</Weapon>
+		<Weapon name='Throwing Knife' type='Throwing Weapons'>
+			<Stats>Damage: (STR/2 + 1)P AP: - Availability: 2 </Stats>
+			<Cost>20</Cost>
+			<Desc>Any of a variety of slim knives or spikes. A character can ready Agility ÷ 2 throwing knives per Ready Weapon action.</Desc>
+		</Weapon>
+	</WeaponCategory>
+	<WeaponCategory name='Firearms'>
+		<Weapon name='Defiance EX Shocker' type='Tasers'>
+			<Stats>Damage: 8S(e) AP: -half Mode: SS RC: - Ammo: 4(m) Availability: - </Stats>
+			<Cost>150</Cost>
+			<Desc>The EX Shocker fires up to 4 darts that trail wires of up to 20 meters long. It also features contacts that allow it to be used as stun weapon in melee.
+			</Desc>
+		</Weapon>
+		<Weapon name='Yamaha Pulsar' type='Tasers'>
+			<Stats>Damage: 6S(e) AP: -half Mode: SA RC: - Ammo: 4(m) Availability: - </Stats>
+			<Cost>150</Cost>
+			<Desc>The Pulsar fires capacitor darts at a target, eliminating the wires that trail from dart to weapon with other taser models.
+			</Desc>
+		</Weapon>
+		<Weapon name='Raecor Sting' type='Holdouts'>
+			<Stats>Damage: 6P(f) AP: +5 Mode: SS RC: - Ammo: 5(c) Availability: 6R</Stats>
+			<Cost>350</Cost>
+			<Desc>This weapon’s “lemon-squeezer” design (the gun’s barrel protrudes from between the firer’s fingers and it’s fired by making a fist) and its polyresin composition (undetectable by MAD scanners) makes for a very stealthy weapon. It fires flechette ammunition only (already included in the weapon stats).
+			</Desc>
+		</Weapon>
+		<Weapon name='Raecor Sting' type='Holdouts'>
+			<Stats>Damage: 4P AP: - Mode: SS RC: - Ammo: 6(c) Availability: 4R</Stats>
+			<Cost>100</Cost>
+			<Desc>This small, lightweight weapon is made of composite materials (MADs suffer a –2 dice pool modifier to detect it, see p. 262). It is a common weapon among those on society’s bottom rung.
+			</Desc>
+		</Weapon>
+		<Weapon name='Colt America L36' type='Light Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA RC: - Ammo: 11(c) Availability: 4R</Stats>
+			<Cost>150</Cost>
+			<Desc>An old-timer with a very good reputation, this sleek automatic pistol is easy to conceal and commonly available.
+			</Desc>
+		</Weapon>
+		<Weapon name='Fichetti Security 600' type='Light Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA RC: (1) Ammo: 30(c) Availability: 6R</Stats>
+			<Cost>450</Cost>
+			<Desc>Designed as a light sidearm for security personnel, this pistol has a highly efficient feeding mechanism that allows it to hold an incredible 30 bullets. It comes fully equipped with a detachable folding stock and laser sight.
+			</Desc>
+		</Weapon>
+		<Weapon name='Hammerli 620S' type='Light Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA RC: 1 Ammo: 6(c) Availability: 8R</Stats>
+			<Cost>650</Cost>
+			<Desc>Sleek and stylish, the Hammerli offers the range of a heavy pistol within a light pistol casing (use Heavy Pistol ranges, p. 151). It also includes integral gas-vent and smartgun systems.
+			</Desc>
+		</Weapon>
+		<Weapon name='Yamaha Saukra Fubuki' type='Light Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA/BF RC: (1) Ammo: 10(ml) x 4 Availability: 10R</Stats>
+			<Cost>2000</Cost>
+			<Desc>The “Cherry-Blossom Storm” is the flagship for Yamaha’s new line of electronic weapons that feature no moving parts. Rather than a standard magazine, the bullets are stacked in-line in each of the four barrels, allowing the firing of ultra-fast short bursts. The Fubuki may only fire narrow bursts (not wide), but burst recoil is handled like SA recoil (–1 Recoil on the second burst each Action Phase only). Includes an integral folding stock.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares Predator IV' type='Heavy Pistol'>
+			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 15(c) Availability: 4R</Stats>
+			<Cost>350</Cost>
+			<Desc>The all-time favorite sidearm among mercenaries and security services. Includes a smartgun system.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares Viper Silvergun' type='Heavy Pistol'>
+			<Stats>Damage: 8P(f) AP: +5 Mode: SA/BF RC: - Ammo: 30(c) Availability: 5R</Stats>
+			<Cost>50</Cost>
+			<Desc>The Slivergun is a sleek weapon with burst fire capabilities and built-in sound suppression. It fires metal slivers that count as flechette ammunition (already factored in to the Damage Code).
+			</Desc>
+		</Weapon>
+		<Weapon name='Colt Manhunter' type='Heavy Pistol'>
+			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 16(c) Availability: 4R</Stats>
+			<Cost>300</Cost>
+			<Desc>Popular among law enforcement, the Manhunter features a built-in laser sight.
+			</Desc>
+		</Weapon>
+		<Weapon name='Remington Roomsweeper' type='Heavy Pistol'>
+			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 8(m) Availability: 6R</Stats>
+			<Cost>250</Cost>
+			<Desc>This short-barreled “shotgun pistol” can be loaded with shot rounds rather than slugs, in which cases it uses heavy-pistol ranges but shotgun rules (Shotguns, pp. 154–155).
+			</Desc>
+		</Weapon>
+		<Weapon name='Remington Roomsweeper w/ Flechettes' type='Heavy Pistol'>
+			<Stats>Damage: 7P(f) AP: +5 Mode: SA RC: - Ammo: 8(m) Availability: 6R</Stats>
+			<Cost>250</Cost>
+			<Desc>This short-barreled “shotgun pistol” can be loaded with shot rounds rather than slugs, in which cases it uses heavy-pistol ranges but shotgun rules (Shotguns, pp. 154–155).
+			</Desc>
+		</Weapon>
+		<Weapon name='Ruger Super Warhawk' type='Heavy Pistol'>
+			<Stats>Damage: 6P AP: -2 Mode: SS RC: - Ammo: 6(cy) Availability: 3R</Stats>
+			<Cost>250</Cost>
+			<Desc>Feeling lucky, punk? This heavy revolver looks as scary as the holes it tears through things. It cannot be equipped with a silencer.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ceska Black Scorpion' type='Machine Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA/BF RC: (1) Ammo: 35(c) Availability: 8R</Stats>
+			<Cost>550</Cost>
+			<Desc>This classic machine pistol combines concealability with burst fire capabilities. It comes equipped with an integral folding stock.
+			</Desc>
+		</Weapon>
+		<Weapon name='Steyr TMP' type='Machine Pistol'>
+			<Stats>Damage: 4P AP: - Mode: SA/BF/FA RC: - Ammo: 30(c) Availability: 8R</Stats>
+			<Cost>600</Cost>
+			<Desc>This lightweight polymer-frame pistol is capable of full autofire, but its lack of recoil compensation makes it difficult to control.
+			</Desc>
+		</Weapon>
+		<Weapon name='AK-97 Carbine' type='Submachine Gun'>
+			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 4R</Stats>
+			<Cost>400</Cost>
+			<Desc>The AK-97 has earned its fame in many campaignsaround the globe. Its reliability is legendary—you can bury it for 10 years, dig it up, and fire it immediately without a single problem. Includes a detachable folding stock.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK-227-X' type='Submachine Gun'>
+			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 28(c) Availability: 8R</Stats>
+			<Cost>800</Cost>
+			<Desc>The SMG of choice for many corporate and military security forces. The HK 227-X boasts a retractable stock, smartgun system, and integral sound suppressor.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK MP-5 TX' type='Submachine Gun'>
+			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: 2(3) Ammo: 20(c) Availability: 4R</Stats>
+			<Cost>550</Cost>
+			<Desc>Carrying on the classic MP-5 design, an aggressive marketing campaign and featured usage on the blockbuster Combat Mage: TNG sim have made it popular on the streets. The TX includes a gas-vent 2 system, a l laser sight, and a detachable folding stock.
+			</Desc>
+		</Weapon>
+		<Weapon name='Imgram Smartgun X' type='Submachine Gun'>
+			<Stats>Damage: 5P AP: - Mode: BF/FA RC: 2(3) Ammo: 32(c) Availability: 6R</Stats>
+			<Cost>650</Cost>
+			<Desc>This smartgun upgrade features gas-vent 2, a smartgun system, a sound suppressor, and a detachable folding stock.
+			</Desc>
+		</Weapon>
+		<Weapon name='Uzi IV' type='Submachine Gun'>
+			<Stats>Damage: 5P AP: - Mode: BF RC: (1) Ammo: 24(c) Availability: 4R</Stats>
+			<Cost>500</Cost>
+			<Desc>A worthy descendent of the famous Israeli weapon, this SMG features an integral folding stock and laser sight.
+			</Desc>
+		</Weapon>
+		<Weapon name='AK-97' type='Assault Rifle'>
+			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: - Ammo: 38(c) Availability: 4R</Stats>
+			<Cost>500</Cost>
+			<Desc>The common version of this premier assault rifle, ideal for anyone with a small budget.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares Alpha' type='Assault Rifle'>
+			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: 2 Ammo: 42(c) Availability: 12F</Stats>
+			<Cost>1700</Cost>
+			<Desc>Designed for Ares Firewatch special forces, the Alpha includes an underbarrel grenade launcher, a smartgun system, and a special chamber design that provides 2 points of recoil compensation. Comes with the 'Ares Alpha Grenade Launcher'.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares Alpha Grenade Launcher' type='Assault Rifle'>
+			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 6(c) Availability: 12F</Stats>
+			<Cost>0</Cost>
+			<Desc>Designed for Ares Firewatch special forces, the Alpha includes an underbarrel grenade launcher, a smartgun system, and a special chamber design that provides 2 points of recoil compensation. Comes with the 'Ares Alpha'.
+			</Desc>
+		</Weapon>
+		<Weapon name='FN HAR' type='Assault Rifle'>
+			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: 2 Ammo: 35(c) Availability: 8R</Stats>
+			<Cost>1000</Cost>
+			<Desc>This assault rifle is increasingly popular with corporate response teams and private security forces specializing in high-threat areas. It comes with a laser sight and a Rating 2 gas-vent recoil compensation system.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30' type='Assault Rifle'>
+			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 15F</Stats>
+			<Cost>2500</Cost>
+			<Desc>This award-winning modular “weapons platform” can turn a single soldier into a one-man army. The baseline assault rifle features lightweight composite construction, a smartgun system, rigid stock with shock pad, and an underbarrel grenade launcher with grenade link. The weapon may be reassembled with optional modules— taking an Automatics + Agility (5, 1 minute) Extended Test to swap them in—into either an underbarrel shotgun, compact carbine, sniper rifle (with an imaging scope), or LMG (with bipod) configuration. Comes with the HK XM30 Grenade Launcher.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30 Grenade Launcher' type='Assault Rifle'>
+			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 8(c) Availability: 15F</Stats>
+			<Cost>0</Cost>
+			<Desc>The underbarrel grenade launcher with grenade link on the HK XM30. Comes with the HK XM30.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30 Shotgun' type='Assault Rifle'>
+			<Stats>Damage: 7P AP: +1 Mode: SA RC: (1) Ammo: 10(c) Availability: 15F</Stats>
+			<Cost>1000</Cost>
+			<Desc>An additional module that replaces the XM30 underbarrel grenade launcher with a shotgun.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30 Carbine' type='Assault Rifle'>
+			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 15F</Stats>
+			<Cost>500</Cost>
+			<Desc>An additional module that replaces the XM30 main barrel with a compact carbine.
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30 Sniper' type='Assault Rifle'>
+			<Stats>Damage: 7P AP: -2 Mode: SA RC: (1) Ammo: 10(c) Availability: 15F</Stats>
+			<Cost>1000</Cost>
+			<Desc>An additional module that replaces the XM30 main barrel with a semi-automatic sniper rifle (with an imaging scope).
+			</Desc>
+		</Weapon>
+		<Weapon name='HK XM30 LMG' type='Assault Rifle'>
+			<Stats>Damage: 6P AP: -1 Mode: BF/FA RC: 2(3) Ammo: 100(belt) Availability: 15F</Stats>
+			<Cost>1000</Cost>
+			<Desc>An additional module that replaces the XM30 main barrel with a light machine gun (with bipod).
+			</Desc>
+		</Weapon>
+		<Weapon name='Ruger 100' type='Sport Rifle'>
+			<Stats>Damage: 7P AP: -1 Mode: SA RC: (1) Ammo: 5(m) Availability: 4R</Stats>
+			<Cost>900</Cost>
+			<Desc>This sport rifle is the favorite weapon for many professional hunters. It features a built-in imaging scope and a rigid stock with shock pad.
+			</Desc>
+		</Weapon>
+		<Weapon name='PJSS Elephant Rifle' type='Sport Rifle'>
+			<Stats>Damage: 9P AP: -1 Mode: SS RC: (1) Ammo: 2(b) Availability: 12R</Stats>
+			<Cost>6000</Cost>
+			<Desc>If you want to shoot something big from a safe distance, this huge double-barreled rifle is your weapon of choice. Its two barrels can be shot at once with +1 DV and a –1 Recoil modifier. Includes a rigid stock with shock pad.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ranger Arms SM-4' type='Sniper Rifle'>
+			<Stats>Damage: 8P AP: -3 Mode: SA RC: (1) Ammo: 15(c) Availability: 16F</Stats>
+			<Cost>6200</Cost>
+			<Desc>This rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM-4 disassembles completely in order to fit into a standard briefcase; assembling or disassembling it takes 3 Complex Actions.
+			</Desc>
+		</Weapon>
+		<Weapon name='Walter MA-2100' type='Sniper Rifle'>
+			<Stats>Damage: 7P AP: -3 Mode: SA RC: (1) Ammo: 10(m) Availability: 10F</Stats>
+			<Cost>5000</Cost>
+			<Desc>The chosen sniper rifle of the Confederationof American States Army, the MA-2100 is designed to military specifications. It is far more stable and hardy than other sniper rifles (dispensing with the Edge Test when used in Ranged Combat outside its sniping role, though not Melee Combat). However, the downside to this model is that it cannot be disassembled to fit into a briefcase. It comes with an internal smartgun system and a rigid stock with shock pad.
+			</Desc>
+		</Weapon>
+		<Weapon name='Mossberg AM-CMDT' type='Shotgun'>
+			<Stats>Damage: 9P(f) AP: +5 Mode: SA/BF/FA RC: - Ammo: 10(c) Availability: 12R</Stats>
+			<Cost>1000</Cost>
+			<Desc>This heavy automatic shotgun can fill a whole room with whirling pellets of shot in an instant, which makes it a terrifying weapon in house-to-house combat. It fires flechette ammuniton only (already included in the weapon stats).
+			</Desc>
+		</Weapon>
+		<Weapon name='Remington 990' type='Shotgun'>
+			<Stats>Damage: 7P AP: -1 Mode: SA RC: (1) Ammo: 8(m) Availability: 4R</Stats>
+			<Cost>550</Cost>
+			<Desc>The Remington includes an imaging scope and a rigid stock with shock pad. It can fire regular slug or flechette ammunition.
+			</Desc>
+		</Weapon>
+		<Weapon name='Remington 990 w/ Flechettes' type='Shotgun'>
+			<Stats>Damage: 9P(f) AP: +5 Mode: SA RC: (1) Ammo: 8(m) Availability: 4R</Stats>
+			<Cost>550</Cost>
+			<Desc>The Remington includes an imaging scope and a rigid stock with shock pad. It can fire regular slug or flechette ammunition.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares S-III Super Squirt' type='Special Weapons'>
+			<Stats>Damage: Chemical AP: - Mode: SA RC: - Ammo: 20(c) Availability: 4</Stats>
+			<Cost>500</Cost>
+			<Desc>This popular non-lethal weapon fires dimethyl sulfoxide (DMSO, a carrier that forces the skin to absorb chemicals) gel packs that can deliver a chemical substance over light pistol ranges. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream (Using Toxic Substances, p. 254).
+			</Desc>
+		</Weapon>
+		<Weapon name='Fichetti Pain Inducer' type='Special Weapons'>
+			<Stats>Damage: Special AP: -half Mode: SS RC: - Ammo: Special Availability: 8R</Stats>
+			<Cost>2000</Cost>
+			<Desc>This non-lethal weapon uses a microwave beam that excites the molecules of the target’s skin, inflicting intense pain (the target feels as if she were on fire). Treat this like a toxin attack (p. 254) with a Power of 8. The target resists with Body + half impact armor (round up). If the modified Power exceeds the target’s Willpower, the target must spend her next Action Phase doing whatever it takes to get away from the pain (usually this means running away). The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot flee, she is incapacitated with pain and suffers a dice pool modifier equal to the modified Power on all tests for as long as the beam is trained on her. The Pain Inducer has 10 charges; when attached to a power point, it reloads one charge per 10 seconds.
+			</Desc>
+		</Weapon>
+		<Weapon name='Parashield Dart Pistol' type='Special Weapons'>
+			<Stats>Damage: As Drug/Toxin AP: -2 Mode: SA RC: - Ammo: 5(c) Availability: 6R</Stats>
+			<Cost>600</Cost>
+			<Desc>The industry standard dart pistol, the Parashield dart pistol fires injection darts ( Injection Darts, p. 324) with narcoject or another payload. The Parashield dart pistol uses heavy pistol ranges.
+			</Desc>
+		</Weapon>
+		<Weapon name='Parashield Dart Rifle' type='Special Weapons'>
+			<Stats>Damage: As Drug/Toxin AP: -2 Mode: SA RC: 0 Ammo: 10(c) Availability: 6R</Stats>
+			<Cost>1700</Cost>
+			<Desc>The rifle version of the Parashield Dart Pistol, this rifle uses compressed air to fire injection darts. The Parashield rifle uses sporting rifle ranges.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ingram White Knight' type='Light Machine Gun'>
+			<Stats>Damage: 6P AP: -1 Mode: BF/FA RC: 5(6) Ammo: 50(c) or 100(belt) Availability: 12F</Stats>
+			<Cost>2000</Cost>
+			<Desc>When you’re looking for a good bang for your buck, the White Knight is your kind of gun. It’s equipped with a detachable folding stock and an integral gas-vent system that provides 5 points of recoil compensation and cannot be further upgraded.
+			</Desc>
+		</Weapon>
+		<Weapon name='Stoner-Ares M202' type='Medium Machine Gun'>
+			<Stats>Damage: 7P AP: -2 Mode: FA RC: - Ammo: 50(c) or 100(belt) Availability: 12F</Stats>
+			<Cost>4500</Cost>
+			<Desc>This MMG packs a tremendous punch into a relatively light framework made of extra-durable compounds. Due to its comparatively smaller size, it’s a very popular secondary weapon for military vehicles, but can also be equipped with various accessories to make it into a personal weapon.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ultimax HMG-2' type='Heavy Machine Gun'>
+			<Stats>Damage: 20P AP: -5 Mode: FA RC: 3(10) Ammo: 50(c) or 100(belt) Availability: 15F</Stats>
+			<Cost>7500</Cost>
+			<Desc>Equipped with a detachable tripod, a rigid stock with shock pad, and a gas-vent 3 system, the Ultimax is usually fired from a prone, sitting, or kneeling position, though some trolls might be strong enough to fire it while standing.
+			</Desc>
+		</Weapon>
+		<Weapon name='Panther XXL' type='Assault Cannon'>
+			<Stats>Damage: 10P AP: -5 Mode: SS RC: (1) Ammo: 15(c) Availability: 20F</Stats>
+			<Cost>5500</Cost>
+			<Desc>This enormous assault cannon fires special ammunition common to the primary weapon in many small tanks. It comes with a smartgun system.
+			</Desc>
+		</Weapon>
+		<Weapon name='Ares Antioch-2' type='Grenade Launcher'>
+			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 8(m) Availability: 8F</Stats>
+			<Cost>600</Cost>
+			<Desc>The Antioch-2 features a classic grenade launcher design, combined with a smartgun system.
+			</Desc>
+		</Weapon>
+		<Weapon name='ArmTech MGL-12' type='Grenade Launcher'>
+			<Stats>Damage: Grenade AP: - Mode: SA RC: - Ammo: 12(c) Availability: 10F</Stats>
+			<Cost>2000</Cost>
+			<Desc>This bullpup-configuration model is popular, since it fires in semi-auto mode and carries more minigrenades than its competitors.
+			</Desc>
+		</Weapon>
+		<Weapon name='Aztechnology Striker' type='Missile Launcher'>
+			<Stats>Damage: Missile AP: - Mode: SS RC: - Ammo: 1(ml) Availability: 10F</Stats>
+			<Cost>1000</Cost>
+			<Desc>The Striker is an extremely light disposable launcher—perfect for shadowrunners who want to deliver a punch and make a quick, unencumbered getaway.
+			</Desc>
+		</Weapon>
+		<Weapon name='Mitsubishi Yakusoku MRL' type='Missile Launcher'>
+			<Stats>Damage: Missile AP: - Mode: SA RC: - Ammo: 8(m) Availability: 20F</Stats>
+			<Cost>12000</Cost>
+			<Desc>The internal loading mechanism of the Yakusoku Multi Rocket Launcher allows it to insert up to 4 different types of missiles (2 each) and choose freely (via the integrated smartgun connection) which of them to fire with each shooting action. Its two firing tubes also allow for a quicker rate of fire.
+			</Desc>
+		</Weapon>
+	</WeaponCategory>
+<!-- End Weapons -->
 </Rulebook>

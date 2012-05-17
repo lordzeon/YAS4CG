@@ -13,17 +13,23 @@ namespace YAS4CG.Model
 
         public SkillType Type { get; set; }
 
-        //Key -> Skill.Name
-        public Dictionary<string, Skill> Skills { get; set; }
-
         public Attribute ParentAttribute { get; set; }
 
         public string Desc { get; set; }
     }
 
+    internal class SkillGroup
+    {
+        public string Name { get; set; }
+         
+        public int Value { get; set; }
+
+        //Key -> Skill.Name
+        public Dictionary<string, Skill> Skills { get; set; }
+    }
+
     public enum SkillType
     {
-        SkillGroup,
         Active,
         Knowledge,
         Specialization
