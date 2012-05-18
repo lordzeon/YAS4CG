@@ -46,8 +46,6 @@ namespace YAS4CG.Model
 
     internal class Grenade : Resource
     {
-        public string Name { get; set; }
-
         public string Stats { get; set; }
 
         public string Cost { get; set; }
@@ -96,9 +94,9 @@ namespace YAS4CG.Model
 
     internal class ElectronicAccessory : Resource
     {
-        public int Response { get; set; }
-
         public DeviceRating DeviceRating { get; set; }
+
+        public string Stats { get; set; }
 
         public int Cost { get; set; }
     }
@@ -114,13 +112,20 @@ namespace YAS4CG.Model
 
     internal class OperatingSystem
     {
-        public string Name { get; set; }
-
         public int Firewall { get; set; }
 
         public int System { get; set; }
 
         public int Cost { get; set; }
+    }
+
+    internal class MatrixProgram : Resource
+    {
+        public string Stats { get; set; }
+
+        public int Rating3CostMultiplier { get; set; }
+
+        public int Rating6CostMultiplier { get; set; }
     }
 
     public sealed class DeviceRating
