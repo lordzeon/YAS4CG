@@ -14,18 +14,111 @@ namespace YAS4CG.Model
         public string Desc { get; set; }
     }
 
+    internal class WeaponCategory
+    {
+        public string Name { get; set; }
+
+        public List<Weapon> Weapons { get; set; }
+    }
+
     internal class Weapon : Resource
     {
-        public Skill RequiredSkill { get; set; }
+        public string Type { get; set; }
 
-        public Dictionary<string, string> Stats { get; set; }
+        public string Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class Gear : Resource
+    internal class WeaponAccessory : Resource
     {
-        public Dictionary<string, string> Stats { get; set; }
+        public string Stats { get; set; }
+
+        public string Cost { get; set; }
+    }
+
+    internal class Ammo : Resource
+    {
+        public string Stats { get; set; }
+
+        public string Cost { get; set; }
+    }
+
+    internal class Grenade : Resource
+    {
+        public string Name { get; set; }
+
+        public string Stats { get; set; }
+
+        public string Cost { get; set; }
+    }
+
+    internal class Explosive : Resource
+    {
+        public string Stats { get; set; }
+
+        public string Cost { get; set; }
+    }
+
+    internal class RocketMissile : Resource
+    {
+        public string Type { get; set; }
+
+        public string Stats { get; set; }
+
+        public string Cost { get; set; }
+    }
+
+    internal class Clothing : Resource
+    {
+        public string Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class ArmorModification : Resource
+    {
+        public string Stats { get; set; }
+
+        public int CostMultiplier { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class Commlink : Resource
+    {
+        public int Response { get; set; }
+
+        public SignalRating Signal { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class ElectronicAccessory : Resource
+    {
+        public int Response { get; set; }
+
+        public DeviceRating DeviceRating { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    internal class CommAccessory : Resource
+    {
+        public DeviceRating DeviceRating { get; set; }
+
+        public string Stats { get; set; }
+
+        public int CostMultiplier { get; set; }
+    }
+
+    internal class OperatingSystem
+    {
+        public string Name { get; set; }
+
+        public int Firewall { get; set; }
+
+        public int System { get; set; }
 
         public int Cost { get; set; }
     }

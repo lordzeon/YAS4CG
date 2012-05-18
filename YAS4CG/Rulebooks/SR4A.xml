@@ -2898,4 +2898,660 @@
 		</Weapon>
 	</WeaponCategory>
 <!-- End Weapons -->
+<!-- Start WeaponAccessories -->
+	<WeaponAccessory name='Airburst Link'>
+		<Stats>Mount: - Availability: 6R </Stats>
+		<Cost>500</Cost>
+		<Desc>This grenade/rocket launcher smartgun accessory uses the distance to the target as determined by the rangefinder and programs the minigrenade/rocket to explode in the air after it has traveled the target distance. This airburst setting reduces the scatter from 3D6 or 4D6 to 2D6. All minigrenades/rockets can be timed in this manner. Air-timed airburst attacks explode in the Action Phase in which they were launched.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Bipod'>
+		<Stats>Mount: Under Availability: 2 </Stats>
+		<Cost>100</Cost>
+		<Desc>Bipods are two-legged braces that extend downward from the weapon, allowing it to be fired low to the ground with the user in a sitting or prone position. A bipod can be attached to the underbarrel mount and provides 2 points of recoil compensation when properly deployed. Attaching or removing it takes a Complex Action.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Concealable Holster'>
+		<Stats>Mount: - Availability: 2 </Stats>
+		<Cost>75</Cost>
+		<Desc>Various types of holsters can be worn over the hip, in the small of the back, under the arm, on the forearm, or on the ankle. The concealable holster adds –1 to the item’s Concealability (p. 311).</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Gas-Vent 2 System'>
+		<Stats>Mount: Barrel Availability: 4R </Stats>
+		<Cost>200</Cost>
+		<Desc>Gas-vent recoil compensation systems vent a weapon’s barrel gases at a specific vector to counter barrel climb. Gasvent systems can be built into machine pistols, SMGs, assault rifles, and machine guns. Installing them takes up the barrel mount and requires an Armorer + Logic (8, 1 hour) Extended Test; once installed, they cannot be removed. Weapons already equipped with a built-in gas-vent system cannot be equipped with an additional gas-vent system. The gas-vent 2 system provides 2 points of recoil compensation. the gas-vent 3 system provides 3 points of recoil compensation.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Gas-Vent 3 System'>
+		<Stats>Mount: Barrel Availability: 6R </Stats>
+		<Cost>400</Cost>
+		<Desc>Gas-vent recoil compensation systems vent a weapon’s barrel gases at a specific vector to counter barrel climb. Gasvent systems can be built into machine pistols, SMGs, assault rifles, and machine guns. Installing them takes up the barrel mount and requires an Armorer + Logic (8, 1 hour) Extended Test; once installed, they cannot be removed. Weapons already equipped with a built-in gas-vent system cannot be equipped with an additional gas-vent system. The gas-vent 3 system provides 3 points of recoil compensation.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Gyro Stabilization'>
+		<Stats>Mount: Under Availability: 7 </Stats>
+		<Cost>3000</Cost>
+		<Desc>This is a heavy upper-body harness with an attached, articulated, gyro-stabilized arm that mounts a rifle or heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon takes a Simple Action. Getting into the gyro-mount takes 5 minutes, while using the built-in quick release to get out of it takes a Complex Action.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Hidden Gun Arm Slide'>
+		<Stats>Mount: - Availability: 4 </Stats>
+		<Cost>350</Cost>
+		<Desc>Attached to the forearm and worn under clothing, this slide can accommodate a pistol-sized weapon. With a wireless signal or correct sequence of arm movements, the slide releases the weapon/object right into the wearer’s hand. This takes only a Free Action.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Imaging Scope'>
+		<Stats>Mount: Top Availability: 3 </Stats>
+		<Cost>300</Cost>
+		<Desc>These classic scopes are attached to the top mount; attaching or removing them takes only a Simple Action. Imaging scopes can be upgraded with any of the vision enhancements noted on p. 333.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Laser Sight'>
+		<Stats>Mount: Top/Under Availability: 2 </Stats>
+		<Cost>100</Cost>
+		<Desc>This device uses a laser beam to project a glowing red spot on the target. This provides a +1 dice pool modifier for ranged attacks (this modifier is not cumulative with smartlink bonuses). The laser sight can be attached to either the underbarrel mount or top mount. Attaching or removing it takes a Complex Action.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Periscope'>
+		<Stats>Mount: Top Availability: 3 </Stats>
+		<Cost>50</Cost>
+		<Desc>This adjustable “off-axis viewer” attaches to a topmount and allows you to target a weapon around corners.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Quick-Draw Holster'>
+		<Stats>Mount: - Availability: 4 </Stats>
+		<Cost>100</Cost>
+		<Desc>This easy-access holster reduces the threshold for quick drawing the holstered weapon to 2 (Quick Draw, p. 147).</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Shock Pad'>
+		<Stats>Mount: - Availability: 2 </Stats>
+		<Cost>50</Cost>
+		<Desc>This shock-absorbing pad can be mounted on the rigid shoulder stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Silencer'>
+		<Stats>Mount: Barrel Availability: 8F </Stats>
+		<Cost>350</Cost>
+		<Desc>The silencer is a barrel-mounted accessory that reduces the sound and flash of a weapon’s discharge. A silencer can only be used with single-shot or semi-automatic weapons (and not with revolvers). It applies a –4 dice pool modifier on all Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Complex Action.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Smart Firing Platform'>
+		<Stats>Mount: Under Availability: 12F </Stats>
+		<Cost>2000</Cost>
+		<Desc>This is a non-mobile robotic tripod (p. 323) equipped with a remote-control pivot that allows for a 180-degree firing arc (and a 60-degree inclination). A smartgun-equipped weapon mounted to the platform can be fired remotely or by the platform’s Pilot. The platform is equipped with Pilot 3, Sensor 3, and one Targeting autosoft (p. 246) at Rating 3.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Smartgun System (external)'>
+		<Stats>Mount: Top/Under Availability: 4R </Stats>
+		<Cost>400</Cost>
+		<Desc>The smartgun system connects a firearm or projectile weapon directly to a user’s smartlink (p. 333). It incorporates a laser rangefinder and a small camera, and keeps track of ammunition, heat buildup, and material stress. It allows a smartlinked character to mentally switch between gun modes, eject clips, and fire the gun without pulling the trigger. The camera allows for targeted shooting around corners, without exposing oneself to return fire. The system makes use of advanced calculation software, allowing the user to aim even weapons with a highly ballistic firing arc (like grenades) with tremendous precision over any distance. The smartgun system can also be accessed via wireless link, allowing for the gun to be remotely fired or to block the trigger (in case an opponent gets ahold of it). When used with a smartlink, it provides a +2 dice pool bonus on the ranged attack test. Retrofitting a firearm with an internal Smartgun system doubles the weapon’s price. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera can be equipped with vision enhancements (p. 333).</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Sound Suppressor'>
+		<Stats>Mount: Barrel Availability: 12F </Stats>
+		<Cost>300</Cost>
+		<Desc>The sound suppressor is a barrel-mounted accessory similar to the silencer but specifically designed for burst-fire and full-auto weapons. It applies a –4 dice pool modifier to Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing it takes a Complex Action. It must be replaced after every 300 rounds of burst or autofire.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Spare Clips'>
+		<Stats>Mount: - Availability: 4 </Stats>
+		<Cost>5</Cost>
+		<Desc>Extra ammunition clips come unloaded; they can hold the maximum rounds for the weapon and are not interchangeable from weapon to weapon even within the same class.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Speed Loader'>
+		<Stats>Mount: - Availability: 2 </Stats>
+		<Cost>25</Cost>
+		<Desc>The speed loader is a simple device that can hold a ring of bullets for fast insertion into a revolver (pistol with a cylinder). See the Reloading Firearms table, p. 324.</Desc>
+	</WeaponAccessory>
+	<WeaponAccessory name='Tripod'>
+		<Stats>Mount: Under Availability: 4 </Stats>
+		<Cost>300</Cost>
+		<Desc>Tripods provide a stable basis to fire a weapon low to the ground with the user in a sitting or kneeling position. A tripod can be attached to the underbarrel mount and provides 6 points of recoil compensation when properly deployed. Attaching or removing it takes one Complex Action.</Desc>
+	</WeaponAccessory>
+<!-- End WeaponAccessories -->
+<!-- Start Ammo -->
+	<Ammo name='APDS'>
+		<Stats>Damage Modifier: - AP Modifier: -4 Armor Used: Ballistic Availability: 16F</Stats>
+		<Cost>70</Cost>
+		<Desc>Amor-Piercing Discarding Sabot (APDS) rounds are specially designed to travel at high velocities and pierce armor. APDS reduces the effectiveness of Ballistic armor (AP –4).</Desc>
+	</Ammo>
+	<Ammo name='Assault Cannon'>
+		<Stats>Damage Modifier: As Cannon AP Modifier: As Cannon Armor Used: Ballistic Availability: 8F</Stats>
+		<Cost>450</Cost>
+		<Desc>These highly stable explosive rounds are made of HDX superplast compound.</Desc>
+	</Ammo>
+	<Ammo name='Explosive Rounds'>
+		<Stats>Damage Modifier: +1 AP Modifier: 0 Armor Used: Ballistic Availability: 8F</Stats>
+		<Cost>50</Cost>
+		<Desc>Explosive rounds are solid slugs designed to fragment and explode on impact. They increase the DV by 1. Explosive rounds will misfire whenever a critical glitch is rolled. When this occurs, the character firing the weapon is automatically struck by one “attack,” with a Damage Code equal to the normal damage done by the weapon. The character may make a damage resistance test as normal. Any attack the affected character is making at the time misses.</Desc>
+	</Ammo>
+	<Ammo name='EX-Explosive Rounds'>
+		<Stats>Damage Modifier: +1 AP Modifier: -1 Armor Used: Ballistic Availability: 12F</Stats>
+		<Cost>100</Cost>
+		<Desc>This improved model of explosive rounds adds 1 to the weapon’s DV and has an AP of –1. It follows all other standard explosive rounds rules.</Desc>
+	</Ammo>
+	<Ammo name='Flechette Rounds'>
+		<Stats>Damage Modifier: +1 AP Modifier: +5 Armor Used: Impact Availability: 2R</Stats>
+		<Cost>100</Cost>
+		<Desc>Tiny, tightly packed metal slivers function as the business end of a flechette round. They are devastating against unprotected targets, but not very effective against rigid armor. Flechette rounds raise the DV of weapons by +2. They also raise the effective value of Impact armor (AP +5). Flechettes are resisted with Impact armor. Guns with flechette ammo already figured into their Damage Code have an (f ) notation following the Damage Code.</Desc>
+	</Ammo>
+	<Ammo name='Gel Rounds'>
+		<Stats>Damage Modifier: -1(Stun) AP Modifier: +2 Armor Used: Impact Availability: 4R</Stats>
+		<Cost>30</Cost>
+		<Desc>These non-lethal rounds use a hard jelly-like substance and are often employed for riot control. They are usually semi-rigid slugs that flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage and are resisted with Impact armor (AP +2). Gel rounds reduce the target’s Body by 2 when checking for knockdown.</Desc>
+	</Ammo>
+	<Ammo name='Injection Darts'>
+		<Stats>Damage Modifier: As Drug/Toxin AP Modifier: - Armor Used: Impact Availability: 4R</Stats>
+		<Cost>75</Cost>
+		<Desc>For use with dart guns of various types—such as the Parashield pistol and rifle—injection darts carry a single dose of adrug or toxin. Effects depend on the drug payload, but to successfully deliver the payload and penetrate armor, the attacker needs two net hits on the Ranged Combat Opposed Test.</Desc>
+	</Ammo>
+	<Ammo name='Regular Ammo'>
+		<Stats>Damage Modifier: - AP Modifier: - Armor Used: Ballistic Availability: 2R</Stats>
+		<Cost>20</Cost>
+		<Desc>Standard full metal jacket rounds for all kinds of uses (mostly killing).</Desc>
+	</Ammo>
+	<Ammo name='Stick-n-Shock'>
+		<Stats>Damage Modifier: 6S(e) AP Modifier: -half Armor Used: Impact Availability: 5R</Stats>
+		<Cost>80</Cost>
+		<Desc>This is a special adhesive projectile that sticks to the target and incorporates a battery pack that delivers short bursts of high-voltage pulses. The Stick-n-Shock replaces the weapon’s Damage Value with its own.</Desc>
+	</Ammo>
+	<Ammo name='Tracer'>
+		<Stats>Damage Modifier: - AP Modifier: - Armor Used: Ballistic Availability: 5R</Stats>
+		<Cost>75</Cost>
+		<Desc>Tracer ammo burns “tracers” along the line of flight, making it easier for the shooter to home in on the target. This type of ammunition can only be used in full-auto weapons and is loaded as every third round in a clip. This is an exception to the restriction of one type of ammunition to a clip. Non-smartgun users firing tracer rounds receive a +1 dice pool modifier at all ranges beyond Short when firing a short burst, +2 when firing a long burst, and +3 when firing a full burst.</Desc>
+	</Ammo>
+	<Ammo name='Taser Dart'>
+		<Stats>Damage Modifier: As Taser AP Modifier: -half Armor Used: Impact Availability: 2</Stats>
+		<Cost>50</Cost>
+		<Desc>These darts are designed to be loaded into taser weapons.</Desc>
+	</Ammo>
+<!-- End Ammo -->
+<!-- Start Grenades -->
+	<Grenade name='Flash-Bang'>
+		<Stats>Damage: 6S AP: -3 Blast: 10m Radius Availability: 6R</Stats>
+		<Cost>30</Cost>
+		<Desc>Upon detonation, flash-bang grenades spread a metallic powder out over the area that ignites in contact with the oxygen in the atmosphere, creating a loud, bright, shocking blast distributed equally over a radius of 10 meters.</Desc>
+	</Grenade>
+	<Grenade name='Flash-Pak'>
+		<Stats>Damage: Special AP: - Blast: Special Availability: 4</Stats>
+		<Cost>200</Cost>
+		<Desc>The size of a pack of cigarettes, this unit contains four quartz-halogen micro-flashes designed to fire in random strobe sequences to disorient, distract, and blind opponents. Anyone facing a flash-pak receives a –4 dice pool modifier on attack tests due to the intense glare (flare compensation reduces this modifer to –2). The flashpak has 10 charges; when activated, it uses up one charge per Combat Turn. When plugged in, it recharges one charge per 10 seconds.</Desc>
+	</Grenade>
+	<Grenade name='Gragmentation'>
+		<Stats>Damage: 12P(f) AP: +5 Blast: -1/m Radius Availability: 10F</Stats>
+		<Cost>35</Cost>
+		<Desc>These are designed to spread a cloud of deadly shrapnel over a large area, seriously injuring soft targets. Their damage value reduces by –1 per meter from the point of the explosion’s origin.</Desc>
+	</Grenade>
+	<Grenade name='High Explosive'>
+		<Stats>Damage: 10P AP: -2 Blast: -2/m Radius Availability: 7F</Stats>
+		<Cost>45</Cost>
+		<Desc>These grenades are designed to deliver a tremendous blast, penetrating even heavily armored targets. Their damage value reduces by –2 per meter from the point of the explosion’s origin.</Desc>
+	</Grenade>
+	<Grenade name='Gas'>
+		<Stats>Damage: Chemical AP: - Blast: 10m Radius Availability: 4+Chemical</Stats>
+		<Cost>20</Cost>
+		<Desc>Instead of exploding, the gas grenade releases a cloud of gas over an area with a diameter of 20 meters. This is usually riot control/CS gas, but many other chemicals can be chosen (p. 255). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas at the gamemaster’s discretion).</Desc>
+	</Grenade>
+	<Grenade name='Smoke'>
+		<Stats>Damage: - AP: - Blast: 10m Radius Availability: 4R</Stats>
+		<Cost>30</Cost>
+		<Desc>Similar to the gas grenade, the smoke grenade releases a cloud of smoke over an area with a diameter of 20 meters. The cloud obscures vision, applying visibility modifiers for smoke to relevant tests. It lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas at the gamemaster’s discretion).</Desc>
+	</Grenade>
+	<Grenade name='Thermal Smoke'>
+		<Stats>Damage: - AP: - Blast: 10m Radius Availability: 6R</Stats>
+		<Cost>35</Cost>
+		<Desc>These are the same as smoke grenades, except that the smoke contains hot particles that obscure thermographic vision; apply the visibility modifiers for thermal smoke.</Desc>
+	</Grenade>
+<!-- End Grenades -->
+<!-- Start Rockets/Missiles -->
+	<RocketMissile name='Anti-Vehicle' type='Rocket'>
+		<Stats>Damage: 16P AP: -2/-6 Blast: -4m Radius Availability: 20F</Stats>
+		<Cost>1000</Cost>
+		<Desc>AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. AV attacks have an AP of –6 against vehicles, –2 against other targets.</Desc>
+	</RocketMissile>
+	<RocketMissile name='Fragmentation' type='Rocket'>
+		<Stats>Damage: 16P(f) AP: +5 Blast: -1m Radius Availability: 16F</Stats>
+		<Cost>500</Cost>
+		<Desc>Used principally against people, the warhead discharges high-speed metal or plastic-metal fragments designed to tear into unprotected flesh. These rockets/missiles are very effective against unprotected individuals, but fairly ineffective against barriers, structures, and vehicles.</Desc>
+	</RocketMissile>
+	<RocketMissile name='High Explosive' type='Rocket'>
+		<Stats>Damage: 14P AP: -2 Blast: -2m Radius Availability: 20F</Stats>
+		<Cost>750</Cost>
+		<Desc>HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects.</Desc>
+	</RocketMissile>
+	<RocketMissile name='Anti-Vehicle' type='Missile'>
+		<Stats>Damage: 16P AP: -2/-6 Blast: -4m Radius Availability: 20F</Stats>
+		<Cost>1500</Cost>
+		<Desc>AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. AV attacks have an AP of –6 against vehicles, –2 against other targets.</Desc>
+	</RocketMissile>
+	<RocketMissile name='Fragmentation' type='Missile'>
+		<Stats>Damage: 16P(f) AP: +5 Blast: -1m Radius Availability: 16F</Stats>
+		<Cost>1000</Cost>
+		<Desc>Used principally against people, the warhead discharges high-speed metal or plastic-metal fragments designed to tear into unprotected flesh. These rockets/missiles are very effective against unprotected individuals, but fairly ineffective against barriers, structures, and vehicles.</Desc>
+	</RocketMissile>
+	<RocketMissile name='High Explosive' type='Missile'>
+		<Stats>Damage: 14P AP: -2 Blast: -2m Radius Availability: 20F</Stats>
+		<Cost>1250</Cost>
+		<Desc>HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects.</Desc>
+	</RocketMissile>
+<!-- End Rockets/Missiles -->
+<!-- Start Explosives -->
+	<Explosive name='Commercial'>
+		<Stats>Rating: 3 Availability: 8R</Stats>
+		<Cost>100</Cost>
+		<Desc>This covers a range of explosive compounds, both solid and liquid, composed of a high explosive chemical and a stabilizer to reduce the sensitivity and increase the stability of the material.</Desc>
+	</Explosive>
+	<Explosive name='Foam'>
+		<Stats>Rating: 4-15 Availability: 12F</Stats>
+		<Cost>500</Cost>
+		<Desc>This special plastic explosive compound has the consistency of shaving cream, is stored in an aerosol can, and can be sprayed onto a surface or into a crevice. Like regular plastic explosives, explosive foam is detonated by electric current.</Desc>
+	</Explosive>
+	<Explosive name='Plastic'>
+		<Stats>Rating: 4-15 Availability: 16F</Stats>
+		<Cost>500</Cost>
+		<Desc>Highly stable, moldable, and adhesive, plastic explosives are ideal for certain jobs—like blowing a hole in a wall. They are usually color-tinted to indicate the level of current needed to detonate them, from the black of magnetic-field induction to the chalky white of 440-volt industrial explosives.</Desc>
+	</Explosive>
+	<Explosive name='Detonator Cap'>
+		<Stats>Rating: - Availability: 8R</Stats>
+		<Cost>75</Cost>
+		<Desc>Contains a detonator explosive or electrical fuse with which an explosion can be initiated. Incorporates a timer and wireless receiver for remote detonation.</Desc>
+	</Explosive>
+<!-- End Explosives -->
+<!-- Start Clothing -->
+	<Clothing name='Feedback Clothing'>
+		<Stats>B/I: 0/0 Availability: 8 </Stats>
+		<Cost>600</Cost>
+		<Desc>This clothing modification creates feedback and resistance in order to allow for a tactile augmented reality experience. This technology is still rare, as full immersion solutions are cheaper and also more effective.</Desc>
+	</Clothing>
+	<Clothing name='Leather Jacket'>
+		<Stats>B/I: 2/2 Availability: - </Stats>
+		<Cost>200</Cost>
+		<Desc>Whether a basic jacket or a knee-length duster, the leather jacket never goes out of style and offers a modicum of protection.</Desc>
+	</Clothing>
+	<Clothing name='Actioneer Business Clothes'>
+		<Stats>B/I: 5/3 Availability: 8 </Stats>
+		<Cost>1500</Cost>
+		<Desc>These discreetly armored “power suits” are still très chic among Mr. Johnsons, fixers, and executives who are looking for a little high-class protection with their neo-Japanese style. Features a concealed holster (an additional –2 Concealability modifier) inside the jacket.</Desc>
+	</Clothing>
+	<Clothing name='Armor Clothing'>
+		<Stats>B/I: 4/0 Availability: 2 </Stats>
+		<Cost>500</Cost>
+		<Desc>The extra-resilient ballistic fiber in armor clothing offers basic protection while being indistinguishable from regular clothing.</Desc>
+	</Clothing>
+	<Clothing name='Armor Jacket'>
+		<Stats>B/I: 8/6 Availability: 2 </Stats>
+		<Cost>900</Cost>
+		<Desc>The most popular armor solution on the streets comes in all styles imaginable. It offers good protection without catching too much attention, but don’t think of wearing it to a dinner party.</Desc>
+	</Clothing>
+	<Clothing name='Armor Vest'>
+		<Stats>B/I: 6/4 Availability: 4 </Stats>
+		<Cost>600</Cost>
+		<Desc>Modern flexible-wrap vests are designed to be worn under regular clothing without displaying any bulk.</Desc>
+	</Clothing>
+	<Clothing name='Camoflauge Suit'>
+		<Stats>B/I: 8/6 Availability: 4 </Stats>
+		<Cost>1200</Cost>
+		<Desc>A full body suit with computer-designed environmental-pattern facsimiles. All have reversible day/night patterns. When worn in an appropriate environment, the suit inflicts a –2 Perception Test dice pool modifier to spot the wearer (if worn in an inappropriate environment, it incurs a +2 bonus instead). Also armored for additional protection.</Desc>
+	</Clothing>
+		<Clothing name='Chameleon Suit'>
+		<Stats>B/I: 6/4 Availability: 10R </Stats>
+		<Cost>8000</Cost>
+		<Desc>A full body suit made from ruthenium polymers supported by a sensor suite that scans the surroundings and replicates the images at the proper perspectives, providing the wearer with chameleon abilities. Apply a –4 dice pool modifier to Perception Tests to see the wearer. Also armored for additional protection.</Desc>
+	</Clothing>
+	<Clothing name='Full Body Armor'>
+		<Stats>B/I: 10/8 Availability: 14R </Stats>
+		<Cost>6000</Cost>
+		<Desc>Worn by military and security personnel around the world, full body armor is often styled for intimidation as much as ease of movement. It features a padded undersuit, over which patches of liquid armor gel and extensive armor plates are attached. Though surprisingly lightweight, full body armor is certain to draw attention. In addition to an array of useful tactical gear and webbing, full body armor can be outfitted with environmental adaptation (for hot or cold environments) and/or a chemical seal to completely protect the wearer from toxic environments or attacks. Full body armor is electronically integrated with a wireless link, and can be enhanced with additional features such as vision enhancements, tracking/RFID signals, smartlink, and more.</Desc>
+	</Clothing>
+	<Clothing name='Full Body Armor Helmet'>
+		<Stats>B/I: +2/+2 Availability: - </Stats>
+		<Cost>1000</Cost>
+		<Desc>The armor suit’s helmet incorporates a wireless link and can be equipped with any of the vision enhancements noted on p. 333.</Desc>
+	</Clothing>
+	<Clothing name='Full Body Armor Chemical Seal'>
+		<Stats>B/I: - Availability: +6 </Stats>
+		<Cost>5000</Cost>
+		<Desc>A chemical seal for Full Body Armor to completely protect the wearer from toxic environments or attacks.</Desc>
+	</Clothing>
+	<Clothing name='Full Body Armor Environment Adaptation'>
+		<Stats>B/I: - Availability: +3 </Stats>
+		<Cost>2000</Cost>
+		<Desc>An environmental adaptation for Full Body Armor.</Desc>
+	</Clothing>
+	<Clothing name='Lined Coat'>
+		<Stats>B/I: 6/4 Availability: 2 </Stats>
+		<Cost>700</Cost>
+		<Desc>Reminiscent of the long dusters worn in the days of the Wild West, lined coats offer good protection and also provide an additional –2 Concealability modifier to items hidden underneath.</Desc>
+	</Clothing>
+	<Clothing name='Urban Explorer Jumpsuit'>
+		<Stats>B/I: 6/6 Availability: 8 </Stats>
+		<Cost>500</Cost>
+		<Desc>Ideal for messengers, athletes, and anyone on-the-go, these colorful jumpsuits are well-ventilated for lots of action but surprisingly protective with light-weight densiplast and liquid reactive armor. Features a built-in music-player and biomonitor (p. 337).</Desc>
+	</Clothing>
+	<Clothing name='Urban Explorer Jumpsuit Helmet'>
+		<Stats>B/I: -/+2 Availability: - </Stats>
+		<Cost>50</Cost>
+		<Desc>A matching helmet for the Urban Explorer Jumpsuit.</Desc>
+	</Clothing>
+	<Clothing name='Helmet'>
+		<Stats>B/I: +1/+2 Availability: 2 </Stats>
+		<Cost>100</Cost>
+		<Desc>Helmets come in a wide variety of shapes and sizes, but their common purpose is to protect the head from trauma. Helmets are often tricked out with accessories such as trode nets and visual aids.</Desc>
+	</Clothing>
+	<Clothing name='Ballistic Shield'>
+		<Stats>B/I: +6/+4 Availability: 12R </Stats>
+		<Cost>1500</Cost>
+		<Desc>This large opaque shield is used for house raids and other SWAT activities. It features a clear plastic window and a built-in ladder frame along the inside so that it can be used to climb over small obstacles.</Desc>
+	</Clothing>
+	<Clothing name='Riot Shield'>
+		<Stats>B/I: +2/+6 Availability: 6R </Stats>
+		<Cost>200</Cost>
+		<Desc>The riot shield is made from clear plasteel and is mainly used for riot control.</Desc>
+	</Clothing>
+	<Clothing name='Taser Shield'>
+		<Stats>B/I: +2/+6 Availability: 10R </Stats>
+		<Cost>750</Cost>
+		<Desc>As an added crowd control measure, a taser shield can be used to shock anyone who comes into contact with it, inflicting Electricity damage (p. 163). The taser shield holds 20 charges; when attached to a power point, it reloads one charge per 10 seconds.</Desc>
+	</Clothing>
+	<ArmorModification name='Chemical Protection'>
+		<Stats>Availability: 8</Stats>
+		<CostMultiplier>250</CostMultiplier>
+		<Desc>
+		The application of water-resistant, nonporous, and impermeable materials helps protect the wearer against contact-vector chemical attacks (Toxin Protection, p. 254). For full body armor, this will also protect against inhalation-vector attacks.
+		</Desc>
+	</ArmorModification>
+	<ArmorModification name='Fire Resistance'>
+		<Stats>Availability: 4</Stats>
+		<CostMultiplier>100</CostMultiplier>
+		<Desc>Fire-retardant, heat-resistant, and nonflammable materials protect the wearer against Fire damage (p. 164), adding its full rating to the armor value.
+		</Desc>
+	</ArmorModification>
+	<ArmorModification name='Insulation'>
+		<Stats>Availability: 4</Stats>
+		<CostMultiplier>150</CostMultiplier>
+		<Desc>Thermal fibers, insulating layers, and heat-retentive materials protect the wearer against Cold damage (p. 163), adding its full rating to the armor value.
+		</Desc>
+	</ArmorModification>
+	<ArmorModification name='Nonconductivity'>
+		<Stats>Availability: 6</Stats>
+		<CostMultiplier>200</CostMultiplier>
+		<Desc>Electrical insulation and grounding materials protect the wearer against Electricity damage (p. 163), adding its full rating to the armor value.
+		</Desc>
+	</ArmorModification>
+	<ArmorModification name='Shock Frills'>
+		<Stats>Reach: - Damage: 6S(e) Availability: 6R </Stats>
+		<CostMultiplier>1</CostMultiplier>
+		<Cost>200</Cost>
+		<Desc>These strips of “fur” are electrically charged when activated, standing on end and inflicting Electricity damage (p. 163) to anyone that comes into contact. this modification must be used with the nonconductivity modification (so that the wearer does not get shocked). Use unarmed Combat to attack with the frills. The frills hold 10 charges; when attached to a power point, they reload one charge per 10 seconds.
+		</Desc>
+	</ArmorModification>
+	<ArmorModification name='Thermal Damping'>
+		<Stats>Availability: 10F</Stats>
+		<CostMultiplier>500</CostMultiplier>
+		<Desc>Designed to reduce the wearer’s thermal signature, inner layers capture and retain heat while outer layers maintain a surface temperature equal to the surrounding air. Thermal damping adds its rating as bonus to Infiltration Tests to avoid thermal sensors, thermographic vision, etc.
+		</Desc>
+	</ArmorModification>
+<!-- End Clothing -->
+<!-- Start Electronics -->
+	<Commlink name='Meta Link'>
+		<Response>1</Response>
+		<Signal>2</Signal>
+		<Cost>100</Cost>
+	</Commlink>
+	<Commlink name='CMT Clip'>
+		<Response>1</Response>
+		<Signal>3</Signal>
+		<Cost>300</Cost>
+	</Commlink>
+	<Commlink name='Sony Emperor'>
+		<Response>2</Response>
+		<Signal>3</Signal>
+		<Cost>700</Cost>
+	</Commlink>
+	<Commlink name='Renraku Sensei'>
+		<Response>2</Response>
+		<Signal>4</Signal>
+		<Cost>10000</Cost>
+	</Commlink>
+	<Commlink name='Novatech Airwave'>
+		<Response>3</Response>
+		<Signal>3</Signal>
+		<Cost>1250</Cost>
+	</Commlink>
+	<Commlink name='Erika Elite'>
+		<Response>3</Response>
+		<Signal>4</Signal>
+		<Cost>2500</Cost>
+	</Commlink>
+	<Commlink name='Hermes Ikon'>
+		<Response>4</Response>
+		<Signal>3</Signal>
+		<Cost>3000</Cost>
+	</Commlink>
+	<Commlink name='Transys Avalon'>
+		<Response>4</Response>
+		<Signal>4</Signal>
+		<Cost>5000</Cost>
+	</Commlink>
+	<Commlink name='Fairlight Caliban'>
+		<Response>4</Response>
+		<Signal>5</Signal>
+		<Cost>8000</Cost>
+	</Commlink>
+	<OperatingSystem name='Vector Xim'>
+		<Firewall>1</Firewall>
+		<System>1</System>
+		<Cost>200</Cost>
+	</OperatingSystem>
+	<OperatingSystem name='Redcap Nix'>
+		<Firewall>1</Firewall>
+		<System>2</System>
+		<Cost>400</Cost>
+	</OperatingSystem>
+	<OperatingSystem name='Renraku Ichi'>
+		<Firewall>2</Firewall>
+		<System>2</System>
+		<Cost>600</Cost>
+	</OperatingSystem>
+	<OperatingSystem name='Mangadyne Deva'>
+		<Firewall>2</Firewall>
+		<System>3</System>
+		<Cost>800</Cost>
+	</OperatingSystem>
+	<OperatingSystem name='Iris Orb'>
+		<Firewall>3</Firewall>
+		<System>3</System>
+		<Cost>1000</Cost>
+	</OperatingSystem>
+	<OperatingSystem name='Novatech Navi'>
+		<Firewall>3</Firewall>
+		<System>4</System>
+		<Cost>1500</Cost>
+	</OperatingSystem>
+	<ElectronicAccessory name='AR Gloves'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>250</Cost>
+		<Desc>Available in all sizes and shapes, these gloves allow the user to manually interact with the Matrix, by manipulating virtual arrows, accessing a virtual keyboard or display, or remotely controlling a device. They are also equipped with force feedback, allowing for a limited tactile augmented reality experience. These gloves are also able to provide basic information regarding touched or held items, such as weight, temperature, and hardness.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Biometric Reader'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 4 </Stats>
+		<Cost>200</Cost>
+		<Desc>For controlled access to online accounts or certain devices, the proper biometric scan must be provided (Biometrics, p. 265). A different reader is required for each type of biometric data.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Nanopaste Trodes'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 2 </Stats>
+		<Cost>100</Cost>
+		<Desc>This highly sensitive, high-tech nanite paste can be used to “paint” an electrode net around the head. Popular with the club-going set, nanopaste is often artistically applied in a variety of colors and designs.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Printer'>
+		<DeviceRating>1</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>5</Cost>
+		<Desc>Disposable full-color printers come attached to the paper container.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Satellite Link'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 4 </Stats>
+		<Cost>500</Cost>
+		<Desc>This allows the user to uplink to communication satellites in low-Earth orbit, connecting to the Matrix from places where no local wireless networks exist. This link has a Signal rating of 8. Includes a portable satellite dish.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Sim Module'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>100</Cost>
+		<Desc>The sim module is an interface device that controls the simsense experience. It translates computer signals (simsense data) into neural signals, allowing the user to directly experience simsense programs, augmented and virtual reality (Virtual Reality, p. 220). A sim module must be accessed via trodes or a direct neural interface (datajack, implanted commlink, etc.). Standard (legal) sim modules only interpret cold sim (p. 226). It is possible to modify a sim module to allow the user to experience hot sim (p. 226) and BTLs (p. 259) with a Hardware + Logic (10, 1 hour) Extended Test, but this also makes the user more vulnerable to Black IC programs. As a precaution against hijacking, modified modules have a physical switch to change between cold and hot sim. As a safety precaution, sim mods override your motor functions while you are fully immersed in VR/simsense, so that you don’t blindly thrash around in the real world and potentially injure yourself or break things. This means that your physical body is limp while you’re online, as if you were sleeping. This reticular activation system (RAS) override can also be disabled with a Hardware + Logic (5, 1 hour) Extended Test, at the user’s own risk.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Modified Sim Module for BTL/Hot Sim'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 4F </Stats>
+		<Cost>250</Cost>
+		<Desc>The sim module is an interface device that controls the simsense experience. It translates computer signals (simsense data) into neural signals, allowing the user to directly experience simsense programs, augmented and virtual reality (Virtual Reality, p. 220). A sim module must be accessed via trodes or a direct neural interface (datajack, implanted commlink, etc.). Standard (legal) sim modules only interpret cold sim (p. 226). It is possible to modify a sim module to allow the user to experience hot sim (p. 226) and BTLs (p. 259) with a Hardware + Logic (10, 1 hour) Extended Test, but this also makes the user more vulnerable to Black IC programs. As a precaution against hijacking, modified modules have a physical switch to change between cold and hot sim. As a safety precaution, sim mods override your motor functions while you are fully immersed in VR/simsense, so that you don’t blindly thrash around in the real world and potentially injure yourself or break things. This means that your physical body is limp while you’re online, as if you were sleeping. This reticular activation system (RAS) override can also be disabled with a Hardware + Logic (5, 1 hour) Extended Test, at the user’s own risk.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Simrig'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 12 </Stats>
+		<Cost>1000</Cost>
+		<Desc>An advanced version of the trode net, the simrig records simsense experience data (both physical and emotive) from the wearer. Simrigs incorporate a sim module.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Skinlink'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 6 </Stats>
+		<Cost>50</Cost>
+		<Desc>
+		With skinlink, a device is adapted to send and receive data transmitted through the electrical field on the surface of metahuman skin. Though limited to touch, skinlink communication has the advantage of being protected from signal interception or jamming.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Subvocal Microphone'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 6 </Stats>
+		<Cost>50</Cost>
+		<Desc>Attached with adhesive to the center of the throat, this hard-to-spot microphone allows the user to communicate via subvocalized speech. A –4 dice pool modifier is applied to audio Perception Tests to overhear what she is saying.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Trodes'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>50</Cost>
+		<Desc>This net/headband of electrodes and ultrasound emitters enables the wearer to experience simsense and is used with a sim module. Trodes are often concealed under headbands, hats, or wigs.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Electronic Paper'>
+		<DeviceRating>1</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>20</Cost>
+		<Desc>This electronic sheet is roughly the size of a piece of paper and can be folded to fit into a pocket. It digitally displays any input data and can act as a customizable touchscreen controller.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Holo Projector'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>200</Cost>
+		<Desc>This device projects a trideo hologram into any open space within 5 meters. Though holos can be quite realistic, a Perception + Intuition (2) Test is usually sufficient to distinguish a hologram from a real object or person.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Standard RFID Tags'>
+		<DeviceRating>1</DeviceRating>
+		<Stats>Availability: - </Stats>
+		<Cost>1</Cost>
+		<Desc>RFID (Radio Frequency Identification) tags form an integral part of every product that leaves the production line. Ranging in size from microscopic to the size of a price tag, tags have a stick-to-anything adhesive backing and can sometimes be difficult to spot. Tags are programmed to transmit small amounts of data: serial numbers, product specs, and pricing (for distribution and retail); arrows and advertisements (for geo-tagging locations and objects, leaving a virtual AR message for anyone who comes by); ID (for employee tracking and access control); owner contact information (in case an item is stolen); vehicle registration; etc. Tags can be used as tracking devices, periodically transmitting to local scanners or to the wireless Matrix (along with the local access point’s GPS data), though their limited range makes them useless in dead zones. RFID Tag data is often fixed, but in some cases is reprogrammable. Tags are readable by anyone with a commlink. They have a Signal rating of 1. The physical location of a tag can be found with a radio signal scanner (p. 334). Tag data can be erased with a tag eraser (p. 330) or programmed with an Edit program (which is what runners do to create fake tags). Fixed tag data can only be altered if the tag is physically accessed, requiring a Hardware + Logic (5, 1 minute) Extended Test. Data on a tag may be encrypted.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Security Tags'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 4 </Stats>
+		<Cost>100</Cost>
+		<Desc>Security-conscious megacorps often implant security tags in their salarymen and valued citizens (usually in the hand or arm). These tags are used to monitor employees’ workplace activities, grant clearance to authorized devices and areas (and alert security when detected in unauthorized areas), and provide a means of tracking in case of abduction. These same tags are also used on criminals, both in the joint and when released on parole/monitoring conditions. Parents and schools also use them to track students. Security tags are hardened so that they cannot be erased with a tag eraser. Tags can be easily implanted under the skin at no Essence Cost. Removing them requires a First Aid + Logic (8, 1 minute) Extended Test. Many security systems will trigger an alert if a security tag in their bounds is deactivated.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Sensor Tags'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 4 </Stats>
+		<Cost>500</Cost>
+		<Desc>These tags are equipped with single rating 1 sensor (Visual Sensors & Imaging Devices, p. 332; Audio Sensors, p. 333; and Sensors, p. 333) and are programmed to monitor a certain object/ person/environment and respond to certain conditions. Sensor tags are used for diagnostic purposes in various devices, vehicle components, and cyberware, as well as to monitor temperature in food shipments, and many similar purposes. Sensor purchased separately.
+		</Desc>
+	</ElectronicAccessory>
+	<ElectronicAccessory name='Stealth Tags'>
+		<DeviceRating>3</DeviceRating>
+		<Stats>Availability: 6 </Stats>
+		<Cost>5</Cost>
+		<Desc>Stealth tags are encoded to remain silent and only respond to transmissions with the proper passcodes. They cannot be located with a commlink or bug scanner (unless the codes are known). They typically use special frequencies and other tricks to avoid detection. These tags are also disguised so as not to look like RFID tags (an additional –2 Concealability). Stealth tags are often used as a backup for security tags, and may be implanted in the same way.
+		</Desc>
+	</ElectronicAccessory>
+	<CommAccessory name='Headjammer'>
+		<Stats>Availability: 6R </Stats>
+		<CostMultiplier>250</CostMultiplier>
+		<Desc>The headjammer is used by security personnel to prevent the use of headware commlinks and communication systems. When the headjammer is attached to a person’s head and activated, it works in the same way as a jammer, but its effects are limited to that person’s head.
+		</Desc>
+	</CommAccessory>
+	<CommAccessory name='Jammer, Area'>
+		<Stats>Availability: (Rating x 3)F </Stats>
+		<CostMultiplier>500</CostMultiplier>
+		<Desc>This device floods the airwaves with electromagnetic jamming signals to block out wireless and radio communication. The jammer automatically jams any device with a Signal rating lower than its Device rating. The area jammer affects a spherical area—its rating is reduced by 1 for every 5 meters from the center (similar to the blast rules for grenades). 
+		</Desc>
+	</CommAccessory>
+	<CommAccessory name='Jammer, Directional'>
+		<Stats>Availability: (Rating x 2)F </Stats>
+		<CostMultiplier>500</CostMultiplier>
+		<Desc>This device floods the airwaves with electromagnetic jamming signals to block out wireless and radio communication. The jammer automatically jams any device with a Signal rating lower than its Device rating. The directional jammer affects a conical area with a 30-degree spread—its rating is reduced by 1 for every 20 meters from the center. Walls and other obstacles may prevent the jamming signal from spreading or reduce its effect (gamemaster’s discretion).
+		</Desc>
+	</CommAccessory>
+	<CommAccessory name='Micro-Transceiver'>
+		<Stats>Availability: Rating x 2 </Stats>
+		<CostMultiplier>200</CostMultiplier>
+		<Desc>This classic short-range communication device is perfect for discreet operations. The micro-transceiver consists of an earbud and adhesive subvocal microphone (p. 328). The transceiver’s Signal rating is equal to its Device rating.
+		</Desc>
+	</CommAccessory>
+	<ElectronicAccessory name='Tag Eraser'>
+		<Stats>Availability: 6F </Stats>
+		<Cost>150</Cost>
+		<Desc>This handheld device creates a strong electromagnetic field that burns out RFID tags. The eraser must be brought within 1 centimeter of the target, but will automatically burn any non-hardened tag out, no test required. The eraser’s electromagnetic field is also capable of erasing/scrambling other non-optical electronic circuit systems at the gamemaster’s discretion. The eraser cannot burn out security RFID tags (p. 329).
+		</Desc>
+	</ElectronicAccessory>
+	<CommAccessory name='White Noise Generator'>
+		<Stats>Availability: Rating + 1 </Stats>
+		<CostMultiplier>50</CostMultiplier>
+		<Desc>This device creates a field of random noise, masking the sounds within its area. All Perception Tests to overhear a conversation within 10 meters of a white noise generator receive a negative dice pool modifier equal to the generator’s rating. If more than one generator is in use, only count the highest rating.
+		</Desc>
+	</CommAccessory>
+	
+<!-- End Electronics -->
+	<MatrixProgram name='Common Use'>
+		<Stats>Availability>: - </Stats>
+		<Rating3CostMultiplier>50</Rating3CostMultiplier>
+		<Rating6CostMultiplier>100</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
+	<MatrixProgram name='Hacking'>
+		<Stats>Availability>: (Rating x 2)R </Stats>
+		<Rating3CostMultiplier>500</Rating3CostMultiplier>
+		<Rating6CostMultiplier>1000</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
+	<MatrixProgram name='Agents/IC/Pilot'>
+		<Stats>Availability>: Rating x 3 </Stats>
+		<Rating3CostMultiplier>1000</Rating3CostMultiplier>
+		<Rating6CostMultiplier>2500</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
+	<MatrixProgram name='System'>
+		<Stats>Availability>: - </Stats>
+		<Rating3CostMultiplier>200</Rating3CostMultiplier>
+		<Rating6CostMultiplier>500</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
+	<MatrixProgram name='Firewall'>
+		<Stats>Availability>: - </Stats>
+		<Rating3CostMultiplier>200</Rating3CostMultiplier>
+		<Rating6CostMultiplier>500</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
+		<MatrixProgram name='Autsofts (Rating 1-4)'>
+		<Stats>Availability>: Rating x 2 </Stats>
+		<Rating3CostMultiplier>500</Rating3CostMultiplier>
+		<Rating6CostMultiplier>1000</Rating6CostMultiplier>
+		<Desc>
+		</Desc>
+	</MatrixProgram>
 </Rulebook>
