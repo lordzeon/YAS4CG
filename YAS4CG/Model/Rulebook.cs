@@ -19,7 +19,7 @@ namespace YAS4CG.Model
         public Dictionary<string, Quality> NegativeQualities { get; set; }
 
         //Key -> Skill.Name
-        public Dictionary<string, SkillGroup> Skills { get; set; }
+        public Dictionary<string, SkillGroup> SkillGroups { get; set; }
 
         //Key -> Weapon.Name
         public Dictionary<string, Weapon> Weapons { get; set; }
@@ -57,7 +57,8 @@ namespace YAS4CG.Model
             MetaTypes = new Dictionary<string, MetaType>();
             Qualities = new Dictionary<string, Quality>();
             NegativeQualities = new Dictionary<string, Quality>();
-            Skills = new Dictionary<string, SkillGroup>();
+            SkillGroups = new Dictionary<string, SkillGroup>();
+            Spells = new Dictionary<string, Spell>();
 
         }
     }

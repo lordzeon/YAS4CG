@@ -22,16 +22,41 @@ namespace YAS4CG.Model
             XmlNodeList NegativeQualityList = doc.GetElementsByTagName("NegativeQuality");
             XmlNodeList SkillGroupList = doc.GetElementsByTagName("SkillGroup");
             XmlNodeList MetaTypeList = doc.GetElementsByTagName("Metatype");
+            XmlNodeList SpellList = doc.GetElementsByTagName("Spell");
 
             rulebook.Qualities = GetQualities(QualityList);
             rulebook.NegativeQualities = GetQualities(NegativeQualityList);
 
-            rulebook.Skills = GetSkills(SkillGroupList);
+            rulebook.SkillGroups = GetSkills(SkillGroupList);
 
             rulebook.MetaTypes = GetMetatypes(MetaTypeList);
 
+            rulebook.Spells = GetSpells(SpellList);
+
             return rulebook;
         }
+
+        private static Dictionary<string, Spell> GetSpells(XmlNodeList SpellList)
+        {
+            Dictionary<string, Spell> spells = new Dictionary<string, Spell>();
+            foreach (XmlNode node in SpellList)
+            {
+                string name = node.Attributes["name"].InnerText;
+                string type = node.Attributes["type"].InnerText;
+                string stats = string.Empty;
+                string desc = string.Empty;
+                XmlNode statsNode = node.FindChildByName("Stats");
+                XmlNode descNode = node.FindChildByName("Desc");
+                if (statsNode != null)
+                    stats = statsNode.InnerText.Trim();
+                if (descNode != null)
+                    desc = descNode.InnerText.Trim();
+                spells.Add(name, new Spell(name, type, stats, desc));
+            }
+
+            return spells;
+        }
+
 
         private static Dictionary<string, Quality> GetQualities(XmlNodeList QualityList)
         {

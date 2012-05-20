@@ -1619,7 +1619,7 @@
 <!-- Start Spells -->
 	<Spell name="Acid Stream (Indirect, Elemental)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells create a powerful corrosive that sprays the target, causing terrible burns and eating away organic and metallic material-treat it as Acid damage (p. 163), with appropriate effects on the affected area and any objects therein. The acid quickly evaporates in the turn following the spell's casting, but the damage done remains. Acid Stream is a single-target spell, while Toxic Wave is an area spell.
@@ -1627,7 +1627,7 @@
 	</Spell>
 	<Spell name="Toxic Wave (Indirect, Elemental, Area)" type="Combat">
 			<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 5
+			Type: P &#8226; Range: LOS (A) &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 5
 		</Stats>
 		<Desc>
 			These spells create a powerful corrosive that sprays the target, causing terrible burns and eating away organic and metallic material-treat it as Acid damage (p. 163), with appropriate effects on the affected area and any objects therein. The acid quickly evaporates in the turn following the spell's casting, but the damage done remains. Acid Stream is a single-target spell, while Toxic Wave is an area spell.
@@ -1636,7 +1636,7 @@
 	<Spell name="Punch (Indirect, Touch)" type="Combat">
 
 			<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) - 2
+			Type: P &#8226; Range: T &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2) - 2
 		</Stats>
 		<Desc>
 			These spells smack the target(s) with invisible psychokinetic force, similar to a bruising punch, that inflicts Stun damage. Clout affects a single target, Blast is an area spell. Punch requires the caster to touch the target.
@@ -1644,7 +1644,7 @@
 	</Spell>
 	<Spell name="Clout (Indirect)" type="Combat">
 			<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2)
+			Type: P &#8226; Range: LOS &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			These spells smack the target(s) with invisible psychokinetic force, similar to a bruising punch, that inflicts Stun damage. Clout affects a single target, Blast is an area spell. Punch requires the caster to touch the target.
@@ -1652,7 +1652,7 @@
 	</Spell>
 			<Spell name="Blast (Indirect, Area)" type="Combat">
 			<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: LOS (A) &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			These spells smack the target(s) with invisible psychokinetic force, similar to a bruising punch, that inflicts Stun damage. Clout affects a single target, Blast is an area spell. Punch requires the caster to touch the target.
@@ -1660,7 +1660,7 @@
 	</Spell>	
 	<Spell name="Death Touch (Direct, Touch)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) - 2
+			Type: M &#8226; Range: T &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) - 2
 		</Stats>
 		<Desc>
 			Death Touch, Manabolt, and Manaball all channel destructive magical power into the target, doing Physical damage. As mana spells, they only affect living and magical targets and are resisted by Willpower. Manabolt affects a single target, Manaball is an area spell. Death Touch requires the caster to touch the target.
@@ -1668,7 +1668,7 @@
 	</Spell>
 	<Spell name="Manabolt (Direct)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: LOS &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			Death Touch, Manabolt, and Manaball all channel destructive magical power into the target, doing Physical damage. As mana spells, they only affect living and magical targets and are resisted by Willpower. Manabolt affects a single target, Manaball is an area spell. Death Touch requires the caster to touch the target.
@@ -1676,7 +1676,7 @@
 	</Spell>
 	<Spell name="Manaball (Direct, Area)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS (A) &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			Death Touch, Manabolt, and Manaball all channel destructive magical power into the target, doing Physical damage. As mana spells, they only affect living and magical targets and are resisted by Willpower. Manabolt affects a single target, Manaball is an area spell. Death Touch requires the caster to touch the target.
@@ -1684,7 +1684,7 @@
 	</Spell>
 	<Spell name="Flamethrower (Indirect, Elemental)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells create an explosion of flames that flash into existence and scorch the target(s). These spells deal Fire damage (p. 164). These flames burn out after striking the target, but their secondary effects may ignite flammable materials that will continue to burn after the spell is exhausted. Flamethrower is a single target spell, while Fireball is an area spell.
@@ -1692,7 +1692,7 @@
 	</Spell>
 	<Spell name="Fireball (Indirect, Elemental, Area)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 5
+			Type: P &#8226; Range: LOS (A) &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 5
 		</Stats>
 		<Desc>
 			These spells create an explosion of flames that flash into existence and scorch the target(s). These spells deal Fire damage (p. 164). These flames burn out after striking the target, but their secondary effects may ignite flammable materials that will continue to burn after the spell is exhausted. Flamethrower is a single target spell, while Fireball is an area spell.
@@ -1700,7 +1700,7 @@
 	</Spell>
 	<Spell name="Lightning Bolt (Indirect, Elemental)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells create and direct vicious strikes of electricity that cause Electricity damage (p. 163). Lightning Bolt is a single target spell. Ball Lightning is an area spell.
@@ -1708,7 +1708,7 @@
 	</Spell>
 	<Spell name="Ball Lightning (Indirect, Elemental, Area)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 5
+			Type: P &#8226; Range: LOS (A) &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 5
 		</Stats>
 		<Desc>
 			These spells create and direct vicious strikes of electricity that cause Electricity damage (p. 163). Lightning Bolt is a single target spell. Ball Lightning is an area spell.
@@ -1716,7 +1716,7 @@
 	</Spell>	
 	<Spell name="Shatter (Direct, Touch)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) - 1
+			Type: P &#8226; Range: T &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) - 1
 		</Stats>
 		<Desc>
 			These spells channel destructive magical power into the target, doing Physical damage. They affect both living and non-living targets and are resisted by the target's Body. Powerbolt affects a single target. Powerball is an area spell. Shatter requires the caster to touch the target.
@@ -1724,7 +1724,7 @@
 	</Spell>	
 	<Spell name="Powerbolt (Direct)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			These spells channel destructive magical power into the target, doing Physical damage. They affect both living and non-living targets and are resisted by the target's Body. Powerbolt affects a single target. Powerball is an area spell. Shatter requires the caster to touch the target.
@@ -1732,7 +1732,7 @@
 	</Spell>	
 	<Spell name="Powerball (Direct, Area)" type="Combat">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Damage: P &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Damage: P &#8226; Duration: I &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells channel destructive magical power into the target, doing Physical damage. They affect both living and non-living targets and are resisted by the target's Body. Powerbolt affects a single target. Powerball is an area spell. Shatter requires the caster to touch the target.
@@ -1740,7 +1740,7 @@
 	</Spell>
 	<Spell name="Knockout (Direct, Touch)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) - 3
+			Type: M &#8226; Range: T &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2) - 3
 		</Stats>
 		<Desc>
 			These spells channel magical energy directly into the target, causing Stun damage. They are often referred to as "sleep" spells because they can render targets unconscious. Stunbolt affects a single target. Stunball is an area spell. Knockout requires the caster to touch the target.
@@ -1748,7 +1748,7 @@
 	</Spell>	
 	<Spell name="Stunbolt (Direct)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) - 1
+			Type: M &#8226; Range: LOS &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2) - 1
 		</Stats>
 		<Desc>
 			These spells channel magical energy directly into the target, causing Stun damage. They are often referred to as "sleep" spells because they can render targets unconscious. Stunbolt affects a single target. Stunball is an area spell. Knockout requires the caster to touch the target.
@@ -1756,7 +1756,7 @@
 	</Spell>	
 	<Spell name="Stunball (Direct, Area)" type="Combat">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Damage: S &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: LOS (A) &#8226; Damage: S &#8226; Duration: I &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			These spells channel magical energy directly into the target, causing Stun damage. They are often referred to as "sleep" spells because they can render targets unconscious. Stunbolt affects a single target. Stunball is an area spell. Knockout requires the caster to touch the target.
@@ -1764,7 +1764,7 @@
 	</Spell>	
 	<Spell name="Analyze Device (Active, Directional)" type="Detection">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			This spell allows the subject to analyze the purpose and operation of a device or piece of equipment within range of the sense. The caster must	gain enough hits on the Spellcasting Test to beat the item's Object Resistance (p. 183). Each net hit gives the subject a bonus die while operating the device, and allows the subject to ignore any skill defaulting modifiers for using the device while the spell is sustained.
@@ -1772,7 +1772,7 @@
 	</Spell>	
 	<Spell name="Analyze Truth (Active, Directional)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The subject can tell whether a target's statements are the truth. Halftruths or falsehoods the target believes to be true are not detected by this spell. The spell needs at least 1 net hit to determine validity. The spell does not work on written materials or through any sort of technological medium. The subject must hear a statement in person (with the target within range) to know whether it is true.
@@ -1780,7 +1780,7 @@
 	</Spell>		
 	<Spell name="Clairaudience (Passive, Directional)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) -1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) -1
 		</Stats>
 		<Desc>
 			The subject can hear distant sounds as if physically present at a chosen point within the sensory range of the spell. The "listening point" may be moved to any other point within range of the spell. While using clairaudience, the subject cannot use her normal hearing. This spell does not translate visual images, only sounds (and only sounds within the subject's natural range of hearing; augmented hearing does not apply).
@@ -1788,7 +1788,7 @@
 	</Spell>		
 	<Spell name="Clairvoyance (Passive, Directional)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) -1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) -1
 		</Stats>
 		<Desc>
 			The subject can see distant scenes as if physically present at a chosen point within the sensory range of the spell. The "visual point" may be moved to any other point within range of the spell. The subject cannot use normal vision or astral perception while using it. This spell does not translate sound, only vision. Any augmented vision possessed by the subject does not function through this spell, nor does astral perception. Magicians cannot use clairvoyance to target others with spells.
@@ -1796,7 +1796,7 @@
 	</Spell>		
 	<Spell name="Combat Sense (Active, Psychic)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			The subject can subconsciously analyze combat and other dangerous situations within range, sensing events a split-second before they happen. Every hit on the Spellcasting Test adds 1 die for Reaction on Surprise Tests and when defending against ranged and melee attacks for the duration of the spell.
@@ -1804,7 +1804,7 @@
 	</Spell>
 	<Spell name="Detect Enemies (Active, Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			The subject can detect living targets within range who have hostile intentions toward him. The spell does not detect traps (since they are not alive), nor can it detect someone about to shoot into a crowd at random (the hostility is not directed at the subject of the spell). The spell can detect targets preparing an ambush or other surprise attack.
@@ -1812,7 +1812,7 @@
 	</Spell>
 	<Spell name="Detect Enemies, Extended (Active, Extended Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			The subject can detect living targets within range who have hostile intentions toward him. The spell does not detect traps (since they are not alive), nor can it detect someone about to shoot into a crowd at random (the hostility is not directed at the subject of the spell). The spell can detect targets preparing an ambush or other surprise attack.
@@ -1820,7 +1820,7 @@
 	</Spell>		
 	<Spell name="Detect Individual (Active, Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) - 1
 		</Stats>
 		<Desc>
 			The subject can detect the presence of a particular individual anywhere within range of the sense. The magician names the individual during casting; she must know the target or have met him in the past.
@@ -1828,7 +1828,7 @@
 	</Spell>
 	<Spell name="Detect Life (Active, Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The subject detects all living beings (but not spirits) within range of the sense and knows their number and relative location. In a crowded area, the spell is virtually useless, picking up a blurred mass of traces.
@@ -1836,7 +1836,7 @@
 	</Spell>
 	<Spell name="Detect Life, Extended (Active, Extended Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) +2
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) +2
 		</Stats>
 		<Desc>
 			The subject detects all living beings (but not spirits) within range of the sense and knows their number and relative location. In a crowded area, the spell is virtually useless, picking up a blurred mass of traces.
@@ -1844,7 +1844,7 @@
 	</Spell>
 	<Spell name="Detect [Life Form] (Active, Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) -1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) -1
 		</Stats>
 		<Desc>
 			The subject detects all of a specified type of life form within the range of the sense and knows their number and relative location. Each different life form requires a separate spell (Detect Orks, Detect Elves, Detect Dragons, and so forth).
@@ -1852,7 +1852,7 @@
 	</Spell>
 	<Spell name="Detect [Life Form], Extended (Active, Extended Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) +1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) +1
 		</Stats>
 		<Desc>
 			The subject detects all of a specified type of life form within the range of the sense and knows their number and relative location. Each different life form requires a separate spell (Detect Orks, Detect Elves, Detect Dragons, and so forth).
@@ -1860,7 +1860,7 @@
 	</Spell>
 	<Spell name="Detect Magic (Active, Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The subject can detect the presence of all foci, spells, wards, magical lodges, and spirits within range of the sense. It does not detect Awakened characters or critters, astral signatures, or the effects of permanent spells once they have become permanent.
@@ -1868,7 +1868,7 @@
 	</Spell>
 	<Spell name="Detect Magic, Extended (Active, Extended Area)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			The subject can detect the presence of all foci, spells, wards, magical lodges, and spirits within range of the sense. It does not detect Awakened characters or critters, astral signatures, or the effects of permanent spells once they have become permanent.
@@ -1876,7 +1876,7 @@
 	</Spell>
 	<Spell name="Detect [Object] (Active, Area)" type="Detection">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) -1
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) -1
 		</Stats>
 		<Desc>
 			The subject detects all of a specified type of object within range of the sense and knows their number and relative location. Each type of object requires a separate spell (Detect Guns, Detect Computers, Detect Explosives, and so forth).
@@ -1884,7 +1884,7 @@
 	</Spell>
 	<Spell name="Mindlink (Active, Psychic)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Mindlink allows the caster and one voluntary subject to communicate mentally, exchanging conversation, emotions, and mental images. One hit on the Spellcasting Test is enough to establish the link. The subject must remain within range of the spellcaster for the Mindlink to work.
@@ -1892,7 +1892,7 @@
 	</Spell>
 	<Spell name="Mind Probe (Active, Directional)" type="Detection">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more net hits, consult the Mind Probe Results table for the information gained. The subject may probe for one piece of information per Complex Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target's Willpower are at a -2 dice pool modifier per previous Spellcasting attempt.
@@ -1900,7 +1900,7 @@
 	</Spell>
 	<Spell name="Antidote" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Toxin DV) - 2
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Toxin DV) - 2
 		</Stats>
 		<Desc>
 			This spell helps a poisoned subject to overcome a toxin. It must be applied before the toxin does damage (though an Antidote spell applied afterward may alleviate some side effects, if the gamemaster chooses). The poisoned character receives a number of additional dice on her Toxin Resistance Test (p. 254) equal to the net hits.
@@ -1908,7 +1908,7 @@
 	</Spell>
 	<Spell name="Cure Disease" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Disease DV) - 2
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Disease DV) - 2
 		</Stats>
 		<Desc>
 			This spell is used at any point after infection to help a patient overcome illness. The infected character receives a number of additional dice on her Disease Resistance Test equal to the spell's net hits. It does not heal any damage already inflicted by the disease (that takes a separate Healing spell).
@@ -1916,7 +1916,7 @@
 	</Spell>
 	<Spell name="Decrease [Attribute] (Negative)" type="Health">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			This spell weakens the target by decreasing a chosen attribute. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Essence, Magic, or Resonance). It affects both natural and augmented attributes. The target resists the spell using the attribute affected. If the caster wins, the attribute is reduced by the spell's net hits. If a Physical attribute is reduced to 0, the victim is incapacitated or paralyzed. If a Mental attribute is reduced to 0, the victim stands about mindlessly confused. Note that decreasing an attribute may affect other derived statistics (Decrease Intuition also affects Initiative, for example, while Decrease Willpower will remove boxes from the character's Stun Condition Monitor for as long as the spell lasts).
@@ -1924,7 +1924,7 @@
 	</Spell>
 	<Spell name="Detox" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Toxin DV) - 4
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Toxin DV) - 4
 		</Stats>
 		<Desc>
 			Detox relieves the side effects of a drug or poison. The Force of the spell must equal or exceed the toxin's base DV. A single net hit is sufficient to eliminate all symptoms. Detox does not heal or prevent damage done by toxins, but it eliminates any side effects they may have on the victim (dizziness, hallucinations, nausea, pain, and so forth). Detox is the hangover cure of choice among those who can afford it.
@@ -1932,7 +1932,7 @@
 	</Spell>
 	<Spell name="Heal" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Damage Value) - 2
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Damage Value) - 2
 		</Stats>
 		<Desc>
 			Heal repairs physical injuries. It heals a number of boxes of Physical damage equal to the spell's hits from the Spellcasting Test. Hits can also be used to reduce the base time for the spell to become permanent; each hit spent this way shaves off 1 Combat Turn (hits can be split between healing and reducing time as the caster desires). A character can only be magically healed once for any single set of injuries.
@@ -1940,7 +1940,7 @@
 	</Spell>
 	<Spell name="Hibernate" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 3
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) - 3
 		</Stats>
 		<Desc>
 			The caster must touch a voluntary or unconscious subject. The spell puts the subject in a form of suspended animation. The subject's bodily processes are slowed by a factor equal to the hits. For example, If 4 hits were scored, the subject's metabolism is slowed by a factor of 4. Such a subject sealed into a chamber with enough air to keep it alive for a day would be able to last four days.
@@ -1948,7 +1948,7 @@
 	</Spell>
 	<Spell name="Increase [Attribute]" type="Health">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 2
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) - 2
 		</Stats>
 		<Desc>
 			This spell increases an attribute (natural or augmented) on a voluntary subject. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Essence, Magic, or Resonance). The Force of the spell must equal or exceed the (augmented) value of the attribute being affected. The attribute is increased by an amount equal to the hits scored. Each attribute can only be affected by a single Increase Attribute spell at a time. Note that increasing an attribute may affect other derived statistics (Increase Reaction also affects Initiative, for example, while Increase Body will add extra boxes to the character's Physical Condition Monitor for as long as the spell lasts).
@@ -1956,7 +1956,7 @@
 	</Spell>
 	<Spell name="Increase Reflexes" type="Health">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			This spell increases the reflexes (Initiative and Initiative Passes) of a voluntary subject. Each level of increase adds +1 Initiative and +1 Initiative Pass. The caster must achieve a certain threshold for each level: Threshold 2: +1 Initiative, + 1 Initiative Pass. Threshold 3: +2 Initiative, + 2 Initiative Passes. Threshold 4 (max.): +3 Initiative, + 3 Initiative Passes. A character can only be affected by a single Increase Reflexes spell at a time; the maximum IPs any character can have is 4.
@@ -1964,7 +1964,7 @@
 	</Spell>
 	<Spell name="Oxygenate" type="Health">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 1
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) - 1
 		</Stats>
 		<Desc>
 			This spell oxygenates the blood of a voluntary subject, providing extra Body dice (1 die for every hit) to resist suffocation, strangulation, the effects of inhaled gas, or any other effect of oxygen deprivation. The spell also allows the subject to breathe underwater.
@@ -1972,7 +1972,7 @@
 	</Spell>
 	<Spell name="Prophylaxis" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 2
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) - 2
 		</Stats>
 		<Desc>
 			This spell provides additional dice (+1 die per hit) for a voluntary subject to resist infection, drugs, or toxins. The spell does not discriminate between harmful and beneficial drugs, so the subject also resists medicines and other helpful drugs while under the effects of the spell. Reduce the effect of a beneficial drug by 1 for every hit of the spell. Two or more hits prevent the subject from being affected by alcohol while under the effect of this spell.
@@ -1980,7 +1980,7 @@
 	</Spell>
 		<Spell name="Resist Pain" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Damage Value) - 4
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Damage Value) - 4
 		</Stats>
 		<Desc>
 			Resist Pain allows the subject to ignore the pain of injuries, reducing the penalties from Physical or Stun damage. Each hit on the Spellcasting Test removes the effect of one box of damage from each of the subject's Condition Monitor tracks. It does not remove the damage itself, only eliminates the modifiers. Resist Pain can only be used once on any given set of injuries. If all of the boxes on the track are filled, the character still falls unconscious. The spell is "permanent" in that the boost to the patient's endorphin levels does not wear off. If the subject's damage rises above the level at which the patient is resisting pain or if the existing injuries heal, the spell dissipates.
@@ -1988,7 +1988,7 @@
 	</Spell>
 		<Spell name="Stabilize" type="Health">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: P &amp;#8226; DV: (Overfl ow damage) - 2
+			Type: M &#8226; Range: T &#8226; Duration: P &#8226; DV: (Overfl ow damage) - 2
 		</Stats>
 		<Desc>
 			When applied to a character with a filled Physical damage track, this spell stabilizes all vital functions and prevents the character from dying. The spell's Force must equal or exceed the overflow damage already taken when the spell starts. The full time must be taken for the spell to become Permanent (p. 203) before the character is stabilized; hits reduce the time it takes by 1 Combat Turn each. If successful, the spell prevents the character from taking further damage from Physical Damage Overflow (p. 253).
@@ -1996,7 +1996,7 @@
 	</Spell>
 	<Spell name="Confusion (Realistic, Multi-Sense)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			These spells produce a storm of conflicting sensations and images to confuse the senses. For each net hit on the Spellcasting Test, the target suffers a -1 dice pool modifier to all tests from the distraction. Confusion affects a single target. Mass Confusion is an area spell. The Chaos spell is a physical version of Confusion (above), so it also affects technological systems and sensing devices. Chaotic World is an area version of Chaos.
@@ -2004,7 +2004,7 @@
 	</Spell>
 	<Spell name="Mass Confusion (Realistic, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			These spells produce a storm of conflicting sensations and images to confuse the senses. For each net hit on the Spellcasting Test, the target suffers a -1 dice pool modifier to all tests from the distraction. Confusion affects a single target. Mass Confusion is an area spell. The Chaos spell is a physical version of Confusion (above), so it also affects technological systems and sensing devices. Chaotic World is an area version of Chaos.
@@ -2012,7 +2012,7 @@
 	</Spell>
 	<Spell name="Chaos (Realistic, Multi-Sense)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			These spells produce a storm of conflicting sensations and images to confuse the senses. For each net hit on the Spellcasting Test, the target suffers a -1 dice pool modifier to all tests from the distraction. Confusion affects a single target. Mass Confusion is an area spell. The Chaos spell is a physical version of Confusion (above), so it also affects technological systems and sensing devices. Chaotic World is an area version of Chaos.
@@ -2020,7 +2020,7 @@
 	</Spell>
 	<Spell name="Chaotic World (Realistic, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells produce a storm of conflicting sensations and images to confuse the senses. For each net hit on the Spellcasting Test, the target suffers a -1 dice pool modifier to all tests from the distraction. Confusion affects a single target. Mass Confusion is an area spell. The Chaos spell is a physical version of Confusion (above), so it also affects technological systems and sensing devices. Chaotic World is an area version of Chaos.
@@ -2028,7 +2028,7 @@
 	</Spell>
 	<Spell name="Entertainment (Obvious, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			These area spells create obvious, but entertaining, illusions. Hits on the Spellcasting Test measure how creative, interesting, and captivating the audience finds the illusion. The caster can reproduce just about anything from her imagination, or re-create something she has experienced. The gamemaster might require additional hits for exacting detail. Entertainment affects the minds of the subjects and cannot be detected by non-living sensors. Trid Entertainment is a physical spell, and can be perceived by both living subjects and non-living sensors. These spells are used for amusement as well as art. The entertainment industry uses illusionists as literal "special effects wizards." Magical designers and artists work to create new and interesting sensations, including sensations that can't otherwise be experienced in the real world. Only the wealthy can afford the unique experiences offered by such spellcasters firsthand.
@@ -2036,7 +2036,7 @@
 	</Spell>
 	<Spell name="Trid Entertainment (Obvious, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			These area spells create obvious, but entertaining, illusions. Hits on the Spellcasting Test measure how creative, interesting, and captivating the audience finds the illusion. The caster can reproduce just about anything from her imagination, or re-create something she has experienced. The gamemaster might require additional hits for exacting detail. Entertainment affects the minds of the subjects and cannot be detected by non-living sensors. Trid Entertainment is a physical spell, and can be perceived by both living subjects and non-living sensors. These spells are used for amusement as well as art. The entertainment industry uses illusionists as literal "special effects wizards." Magical designers and artists work to create new and interesting sensations, including sensations that can't otherwise be experienced in the real world. Only the wealthy can afford the unique experiences offered by such spellcasters firsthand. Invisibility (Realistic, Single-Sense)
@@ -2044,7 +2044,7 @@
 	</Spell>
 	<Spell name="Invisibility (Realistic, Single-Sense)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			This spell makes the subject more diffcult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, etc.). Her aura is still visible to astral perception. Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (p. 150) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
@@ -2052,7 +2052,7 @@
 	</Spell>
 	<Spell name="Improved Invisibility (Realistic, Single-Sense)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			This spell makes the subject more diffcult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, etc.). Her aura is still visible to astral perception. Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (p. 150) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
@@ -2060,7 +2060,7 @@
 	</Spell>
 	<Spell name="Mask (Realistic, Multi-Sense)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject's voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Mask affects the minds of viewers. Physical Mask creates an illusion that affects technological sensors as well.
@@ -2068,7 +2068,7 @@
 	</Spell>
 	<Spell name="Physical Mask (Realistic, Multi-Sense)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: T &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: T &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject's voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Mask affects the minds of viewers. Physical Mask creates an illusion that affects technological sensors as well.
@@ -2076,7 +2076,7 @@
 	</Spell>
 	<Spell name="Phantasm (Realistic, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) +2
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) +2
 		</Stats>
 		<Desc>
 			These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell's area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well.
@@ -2084,7 +2084,7 @@
 	</Spell>
 	<Spell name="Trid Phantasm (Realistic, Multi-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) +3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) +3
 		</Stats>
 		<Desc>
 			These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell's area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well.
@@ -2092,7 +2092,7 @@
 	</Spell>
 	<Spell name="Hush (Realistic, Single-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			These spells create an area that damps sound. Sonic attacks into or out of the field, as well as critter powers using a sonic medium (such as Paralyzing Howl), are reduced by -1 per hit on the Spellcasting Test. Anyone attempting to hear a sound from within or across the silenced area must successfully resist the spell.Hush is a mana spell and so only affects living beings and magic sonic attacks. Silence affects technological devices and is useful for jamming alarms, detection devices, sonar, and tactical communications, as well as technological sonic weapons.
@@ -2100,7 +2100,7 @@
 	</Spell>
 	<Spell name="Silence (Realistic, Single-Sense, Area)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			These spells create an area that damps sound. Sonic attacks into or out of the field, as well as critter powers using a sonic medium (such as Paralyzing Howl), are reduced by -1 per hit on the Spellcasting Test. Anyone attempting to hear a sound from within or across the silenced area must successfully resist the spell.Hush is a mana spell and so only affects living beings and magic sonic attacks. Silence affects technological devices and is useful for jamming alarms, detection devices, sonar, and tactical communications, as well as technological sonic weapons.
@@ -2108,7 +2108,7 @@
 	</Spell>
 	<Spell name="Stealth (Realistic, Single-Sense)" type="Illusion">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) +1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) +1
 		</Stats>
 		<Desc>
 			Stealth makes the subject less audible to normal hearing (including augmented hearing). The subject moves in silence, making less or no noise. Things not directly touched by the subject can still make noise, so a character under a Stealth spell would make no noise knocking on a door, but the door would make noise hitting the floor or wall if it was kicked in. Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the hits scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
@@ -2116,7 +2116,7 @@
 	</Spell>
 	<Spell name="Armor (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			This spell creates a glowing field of magical energy around the subject that protects against Physical damage. It provides both Ballistic and Impact armor (cumulative with worn armor) to the subject equal to the hits scored.
@@ -2124,7 +2124,7 @@
 	</Spell>
 	<Spell name="Control Actions (Mental)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The caster of this spell controls the physical actions of a target like a puppeteer pulling strings. The victim's consciousness is unaffected, but the caster controls the victim's body. The target uses any skills or abilities at the caster's orders, but these tests suffer a dice pool modifier equal to the target's Willpower because of the victim's resistance to the caster's commands. Controlling a target character requires the caster to spend a Simple Action; when not directly controlled, the victim may act as normal. Control Actions only affects a single target, Mob Control affects any living targets within the area of effect. Victims of a Mob Control may be manipulated individually (with separate Simple Actions) or issued the same command as a group (with a single Simple Action).
@@ -2132,7 +2132,7 @@
 	</Spell>
 	<Spell name="Mob Control (Mental, Area)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			The caster of this spell controls the physical actions of a target like a puppeteer pulling strings. The victim's consciousness is unaffected, but the caster controls the victim's body. The target uses any skills or abilities at the caster's orders, but these tests suffer a dice pool modifier equal to the target's Willpower because of the victim's resistance to the caster's commands. Controlling a target character requires the caster to spend a Simple Action; when not directly controlled, the victim may act as normal. Control Actions only affects a single target, Mob Control affects any living targets within the area of effect. Victims of a Mob Control may be manipulated individually (with separate Simple Actions) or issued the same command as a group (with a single Simple Action).
@@ -2140,7 +2140,7 @@
 	</Spell>
 	<Spell name="Control Emotions (Mental)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2)
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The target feels an overwhelming emotion chosen by the spellcaster (such as love, hate, fear, joy, sorrow, and so forth). The target believes the emotion wholeheartedly, but not mindlessly. A target who acts in accordance with the emotion (for example, fighting while filled with anger or hate) suffers no penalty. If the target takes action not relevant to the emotion (trying to drive while laughing hysterically), she suffers a -2 dice pool modifier for the distraction. The caster may switch emotions with a Simple Action. Control Emotions only affects a single target, Mob Mood affects any living targets within the area of effect.
@@ -2148,7 +2148,7 @@
 	</Spell>
 	<Spell name="Mob Mood (Mental, Area)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			The target feels an overwhelming emotion chosen by the spellcaster (such as love, hate, fear, joy, sorrow, and so forth). The target believes the emotion wholeheartedly, but not mindlessly. A target who acts in accordance with the emotion (for example, fighting while filled with anger or hate) suffers no penalty. If the target takes action not relevant to the emotion (trying to drive while laughing hysterically), she suffers a -2 dice pool modifier for the distraction. The caster may switch emotions with a Simple Action. Control Emotions only affects a single target, Mob Mood affects any living targets within the area of effect.
@@ -2156,7 +2156,7 @@
 	</Spell>
 	<Spell name="Control Thoughts (Mental)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			The caster seizes control of the target's mind, directing everything the target does. The caster mentally gives commands with a Simple Action and the target is compelled to obey. Control thoughts affects a single target, while Mob Mind affects any living targets within the area of effect. Victims of a Mob Mind may be manipulated individually (with separate Simple Actions) or issued the same command as a group (with a single Simple Action).
@@ -2164,7 +2164,7 @@
 	</Spell>
 	<Spell name="Mob Mind (Mental, Area)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 4
+			Type: M &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 4
 		</Stats>
 		<Desc>
 			The caster seizes control of the target's mind, directing everything the target does. The caster mentally gives commands with a Simple Action and the target is compelled to obey. Control thoughts affects a single target, while Mob Mind affects any living targets within the area of effect. Victims of a Mob Mind may be manipulated individually (with separate Simple Actions) or issued the same command as a group (with a single Simple Action).
@@ -2172,7 +2172,7 @@
 	</Spell>
 		<Spell name="Fling (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: I &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			This spell psychokinetically hurls a single object of no more than (Force) kilograms at a designated target with a Strength equal to onehalf the spellcaster's Magic. Treat the Spellcasting Test as a normal Ranged Combat Test for the purposes of the item hitting the target. Throwing weapons propelled by this spell use their normal range based on the spell's effective Strength.
@@ -2180,7 +2180,7 @@
 	</Spell>
 		<Spell name="Ice Sheet (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: I &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: I &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			This spell creates a slippery sheet of ice over the area of effect. Characters crossing the ice must make an Agility + Reaction Test with a threshold equal to the hits scored to avoid falling prone. Vehicles must make a Crash Test (p. 178). The sheet melts at a rate of 1 square meter per minute in normal temperatures.
@@ -2188,7 +2188,7 @@
 	</Spell>
 	<Spell name="Ignite (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: P &amp;#8226; DV: (F &amp;#247; 2)
+			Type: P &#8226; Range: LOS &#8226; Duration: P &#8226; DV: (F &#247; 2)
 		</Stats>
 		<Desc>
 			The Ignite spell accelerates molecular motion in the target, causing it to catch fire once the spell becomes permanent. The spellcaster must achieve enough net hits to beat a threshold equal to the target's Object Resistance (p. 183). Once the target ignites, it burns normally until it is consumed or extinguished. Against living targets, treat Ignite as an Opposed Test pitting Spellcasting + Magic vs. Body (+ Counterspelling). If successful, Ignite wraps a living target in heat and flames once it has been made permanent, causing (Force) boxes of Fire damage (p. 164) on the first Combat Turn, and increasing by one box of damage each additional turn. Resolve the damage at the end of each Combat Turn by making a Damage Resistance Test using the victim's Body + half Impact armor. Ammo or explosives carried by a victim may go off. The gamemaster should reduce the Force of the fire accordingly for extinguishing efforts.
@@ -2196,7 +2196,7 @@
 	</Spell>
 	<Spell name="Influence (Mental)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS &amp;#8226; Duration: P &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: LOS &#8226; Duration: P &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			This spell implants a single suggestion in the victim's mind, like a powerful post-hypnotic command. The subject will carry out this suggestion as if it were her own idea and it will then fade. If confronted with the wrongness of the suggestion, the subject can make a Willpower Test to overcome it as described under Mental Manipulations, p. 210. The caster can also withdraw the suggestion at any time.
@@ -2204,7 +2204,7 @@
 	</Spell>
 	<Spell name="Levitate (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Levitate allows the caster to telekinetically lift a person or object and move it around. The caster must achieve a threshold on the Spellcasting Test equal to 1 per 200 kg of the subject's mass. The subject of the spell can be moved anywhere in the caster's line of sight at a Movement rate equal to the spell's Force x net Spellcasting hits in meters per turn. Objects flung into other things should be handled as a Ranged Attack Test (see Fling), inflicting a number of boxes of Stun damage as decided by the gamemaster (especially sharp or dangerous objects may do Physical damage at the gamemaster's discretion). If the caster is attempting to levitate an item held by a living being, make an Opposed Test between the spell's Force x 2 and the holder's Strength + Body. The caster must have at least 1 net hit to levitate the item away. If the caster is attempting to levitate an unwilling living being, the Opposed Test uses the target's Strength + Body. You can use this spell to levitate yourself, if desired.
@@ -2212,7 +2212,7 @@
 	</Spell>
 	<Spell name="Light (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) - 1
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) - 1
 		</Stats>
 		<Desc>
 			This spell creates a mobile point of light, illuminating a radius around it equal to the spell's Force in meters. The spell cannot be used to blind, but does offset darkness visibility modifiers. Each hit on the Spellcasting Test counters a -1 die penalty for visibility.
@@ -2220,7 +2220,7 @@
 	</Spell>
 	<Spell name="Magic Fingers (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Magic Fingers creates a psychokinetic effect like "invisible hands" that can hold or manipulate items. The hits on the Spellcasting + Magic Test become the spell's effective Strength and Agility. The caster can use skills remotely with Magic Fingers, but all tests receive a -2 dice pool modifier due to problems of fine control. Even simple actions like picking up a coin may require an Agility Test, at the gamemaster's discretion. The caster can fight, pick a lock, or perform any other action, using the magic fingers as if they were real hands. The spell can reach any point the caster can see, and Clairvoyance or remote-viewing technology can be used to get a close-up of the scene as long as it is within the caster's normal line of sight. This spell comes in very handy for disarming bombs and handling other hazardous work from a safe distance.
@@ -2228,7 +2228,7 @@
 	</Spell>
 	<Spell name="Mana Barrier (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: M &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: M &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Mana Barrier creates an invisible barrier of magical energy with a Force equal to the net hits scored. This barrier does not restrict living beings or physical objects, but it does impede spirits, foci, dual beings, and spells. If cast on the astral plane, it also impedes astral forms and restricts visibility. Any target of a spell that is on the other side of the Mana Barrier receives a bonus to its spell resistance dice pool equal to the barrier's Force. If the target had no resistance dice pool, but instead has an Object Resistance threshold, increase the threshold by 1 for every increment of 3 Force in the Mana Barrier (round up). See p. 194 for more information on mana barriers.
@@ -2236,7 +2236,7 @@
 	</Spell>
 	<Spell name="Petrify (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			Petrify transforms living tissue into stone-like calcium carbonate. The caster must win an Opposed Test pitting her Spellcasting + Magic against the target's Body (+ Counterspelling). Additionally, the spell's Force must equal or exceed the target's Body. Non-living material- including clothing, gear, and cyberware-is not affected. The target is not conscious while under the effects of this spell, and any damage suffered by the stone-like form affects the target normally. While petrified, the subject has a barrier Armor rating equal to Body + net hits (see Barriers, p. 194).
@@ -2244,7 +2244,7 @@
 	</Spell>
 	<Spell name="Physical Barrier (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			Barrier spells create glowing, translucent force-fields with both 1 point of Armor and Structure rating per hit (see Barriers, p. 194). The caster can form the barrier as a dome with a radius and height equal to the spell's normal radius. The caster can also form a wall with a height and length equal to the spell's Force. The caster can adjust size of the barrier the same as the radius of an area spell (p. 183). Physical Barrier creates a physical wall. Anything the size of a molecule (or less) can pass through the barrier, including air or other gases. Anything bigger treats the barrier as a normal physical wall. Attacks directed through a barrier have a -1 dice pool visibility penalty. The barrier does not impede spells. The barrier can be brought down by physical attacks, but as long as it is sustained it regenerates damage quickly-any reductions in Structure Rating are restored at the beginning of the next Combat Turn. If the barrier is penetrated, however, it collapses and the spell ends. Physical Barrier cannot be used on the astral plane.
@@ -2252,7 +2252,7 @@
 	</Spell>
 	<Spell name="Poltergeist (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 3
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 3
 		</Stats>
 		<Desc>
 			Poltergeist picks up all small objects (up to a kilogram in mass) within the spell's area and whirls them around in random patterns. This imposes a -2 dice pool visibility penalty in the area. The spell inflicts 2 boxes of Stun damage (resisted with Reaction + Impact armor) to anyone in the area each Combat Turn, whacking them with flying debris. Poltergeist may do more damage in cluttered environments, or inflict Physical damage if the gamemaster feels the debris is sufficiently dangerous (broken glass and nails, for example).
@@ -2260,7 +2260,7 @@
 	</Spell>
 	<Spell name="Shadow (Environmental, Area)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS (A) &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS (A) &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Shadow creates a globe of darkness with a radius equal to the spell's Force in meters. Every hit imposes a -1 die pool visibility modifier against targets within the area (maximum -6).
@@ -2268,7 +2268,7 @@
 	</Spell>
 	<Spell name="Shapechange (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			Shapechange transforms a voluntary subject into a normal (non-paranormal) critter, though the subject retains human consciousness. The subject can only assume the form of a critter whose base Body rating is 2 points greater or less than her own. Consult the Critters section, p. 292, for the subject's Physical attributes while in critter form. Add 1 to the critter's Base attribute Ratings for every hit the caster generates. Her Mental attributes remain unchanged. This spell does not transform clothing and equipment. Magicians in critter form can still cast spells, but cannot perform other tasks requiring speech. Critter form works like the Shapechange spell, but only allows the subject to change into a specific non-paranormal animal. Each critter form is a different spell (Eagle Form, Wolf Form, and so on).
@@ -2276,7 +2276,7 @@
 	</Spell>
 	<Spell name="(Critter) Form (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 1
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 1
 		</Stats>
 		<Desc>
 			Shapechange transforms a voluntary subject into a normal (non-paranormal) critter, though the subject retains human consciousness. The subject can only assume the form of a critter whose base Body rating is 2 points greater or less than her own. Consult the Critters section, p. 292, for the subject's Physical attributes while in critter form. Add 1 to the critter's Base attribute Ratings for every hit the caster generates. Her Mental attributes remain unchanged. This spell does not transform clothing and equipment. Magicians in critter form can still cast spells, but cannot perform other tasks requiring speech. Critter form works like the Shapechange spell, but only allows the subject to change into a specific non-paranormal animal. Each critter form is a different spell (Eagle Form, Wolf Form, and so on).
@@ -2284,7 +2284,7 @@
 	</Spell>
 	<Spell name="Turn to Goo (Physical)" type="Manipulation">
 		<Stats>
-			Type: P &amp;#8226; Range: LOS &amp;#8226; Duration: S &amp;#8226; DV: (F &amp;#247; 2) + 2
+			Type: P &#8226; Range: LOS &#8226; Duration: S &#8226; DV: (F &#247; 2) + 2
 		</Stats>
 		<Desc>
 			Turn to Goo transforms living tissue into a sticky, glue-like substance. The caster must win an Opposed Test pitting her Spellcasting + Magic against the target's Body (+ Counterspelling). Additionally, the spell's Force must equal or exceed the target's Body. Non-living material- including clothing, gear, and cyberware-is not affected. The target is not conscious while under the effects of this spell, and any damage suffered by the gooey form affects the target normally. The goo has a barrier Armor rating equal to Body + net hits (see Barriers, p. 194).
@@ -2515,12 +2515,12 @@
 		<Weapon name="Shuriken" type="Throwing Weapons">
 			<Stats>Damage: (STR/2)P AP: - Availability: 2 </Stats>
 			<Cost>30</Cost>
-			<Desc>This multi-edged airfoil throwing blade is available in many different styles. A character can ready Agility &amp;#247; 2 shuriken per Ready Weapon action.</Desc>
+			<Desc>This multi-edged airfoil throwing blade is available in many different styles. A character can ready Agility &#247; 2 shuriken per Ready Weapon action.</Desc>
 		</Weapon>
 		<Weapon name="Throwing Knife" type="Throwing Weapons">
 			<Stats>Damage: (STR/2 + 1)P AP: - Availability: 2 </Stats>
 			<Cost>20</Cost>
-			<Desc>Any of a variety of slim knives or spikes. A character can ready Agility &amp;#247; 2 throwing knives per Ready Weapon action.</Desc>
+			<Desc>Any of a variety of slim knives or spikes. A character can ready Agility &#247; 2 throwing knives per Ready Weapon action.</Desc>
 		</Weapon>
 	</WeaponCategory>
 	<WeaponCategory name="Firearms">
@@ -3085,7 +3085,7 @@
 	<Clothing name="Actioneer Business Clothes">
 		<Stats>B/I: 5/3 Availability: 8 </Stats>
 		<Cost>1500</Cost>
-		<Desc>These discreetly armored "power suits" are still tr&amp;#232;s chic among Mr. Johnsons, fixers, and executives who are looking for a little high-class protection with their neo-Japanese style. Features a concealed holster (an additional -2 Concealability modifier) inside the jacket.</Desc>
+		<Desc>These discreetly armored "power suits" are still tr&#232;s chic among Mr. Johnsons, fixers, and executives who are looking for a little high-class protection with their neo-Japanese style. Features a concealed holster (an additional -2 Concealability modifier) inside the jacket.</Desc>
 	</Clothing>
 	<Clothing name="Armor Clothing">
 		<Stats>B/I: 4/0 Availability: 2 </Stats>
