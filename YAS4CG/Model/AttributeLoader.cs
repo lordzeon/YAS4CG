@@ -8,8 +8,8 @@ namespace YAS4CG.Model
 {
     public static class AttributeLoader
     {
-        static Dictionary<string, Attribute> Attributes;
-        static Dictionary<string, SpecialAttribute> SpecialAttributes;
+        public static Dictionary<string, Attribute> Attributes;
+        public static Dictionary<string, SpecialAttribute> SpecialAttributes;
 
         public static void LoadAttributes(string filename)
         {

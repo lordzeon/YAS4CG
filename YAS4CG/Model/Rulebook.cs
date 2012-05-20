@@ -9,11 +9,8 @@ namespace YAS4CG.Model
     {
         public string Name { get; set; }
 
-        //Key -> Attribute.Name
-        public Dictionary<string, Attribute> Attributes { get; set; }
-
-        //Key -> Attribute.Name
-        public Dictionary<string, Attribute> SpecialAttributes { get; set; }
+        //Key -> Metatype.name
+        public Dictionary<string, MetaType> MetaTypes { get; set; }
 
         //Key -> Quality.Name
         public Dictionary<string, Quality> Qualities { get; set; }
@@ -57,8 +54,7 @@ namespace YAS4CG.Model
         public Rulebook(string name)
         {
             Name = name;
-            Attributes = new Dictionary<string, Attribute>();
-            SpecialAttributes = new Dictionary<string, Attribute>();
+            MetaTypes = new Dictionary<string, MetaType>();
             Qualities = new Dictionary<string, Quality>();
             NegativeQualities = new Dictionary<string, Quality>();
             Skills = new Dictionary<string, SkillGroup>();

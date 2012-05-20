@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    internal class MetaType
+    public class MetaType
     {
         public string Name { get; set; }
 
@@ -13,6 +13,9 @@ namespace YAS4CG.Model
 
         //Key -> Attribute.Name
         public Dictionary<string, Attribute> Attributes { get; set; }
+
+        //Key -> Attribute.Name
+        public Dictionary<string, SpecialAttribute> SpecialAttributes { get; set; }
 
         public List<string> SpecialAbilities { get; set; }
 
@@ -24,6 +27,7 @@ namespace YAS4CG.Model
             BPCost = bpCost;
             Desc = desc;
             Attributes = new Dictionary<string, Attribute>();
+            SpecialAttributes = new Dictionary<string, SpecialAttribute>();
             SpecialAbilities = new List<string>();
         }
     }

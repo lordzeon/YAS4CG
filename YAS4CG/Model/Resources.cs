@@ -251,6 +251,14 @@ namespace YAS4CG.Model
         public string Stats { get; set; }
 
         public int Cost { get { return 3; } }
+
+        public Spell(string name, string type, string stats, string desc)
+        {
+            Name = name;
+            Type = type;
+            Stats = stats;
+            Desc = desc;
+        }
     }
 
     public class Spirit : Resource

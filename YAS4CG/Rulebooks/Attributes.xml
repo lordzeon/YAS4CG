@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Start Attributes -->
+<Attributes>
 	<Attribute name ="Agility">
 		<Desc>
 			Agility represents fine motor control-manual dexterity, flexibility, balance, and coordination. A character with a low Agility may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Agility ratings may belong to characters that are "natural" athletes.
@@ -40,14 +41,14 @@
 			Willpower keeps a character going when she wants to give up, or enables her to control her habits and emotions. Willpower determines whether or not a character is going to take charge of her life. A character with low Willpower might defer to other people when big decisions are being made, for example. A high-Willpower character is more assured and possesses a never-say-die streak. Such characters go down to the monowire because that's exactly the fragging point. Willpower also represents a character's cool under fire, her ability to resist intimidation and manipulation, and her resolve to stick to her guns when the pressure is on.
 		</Desc>
 	</Attribute>
+		<Attribute name ="Initiative">
+		<Desc>
+			A derived attribute, Initiative is the sum of Reaction and Intuition, plus any additional dice from implanted or magical reflex enhancers. As it sounds, Initiative is used to make Initiative Tests (p. 144), which determine the character's Initiative Score for a Combat Turn. Any enhancements to Reaction and Intuition also affect Initiative.
+		</Desc>
+	</Attribute>
 	<SpecialAttribute name ="Edge">
 		<Desc>
 			A character's Edge represents that special something that can turn the tide and save the day-a successful gut check, a moment of brilliant inspiration or creativity, or a once-in-a-lifetime physical feat. Edge is a combination of luck, timing, and the favor of the gods. Characters with low Edge are unlikely to get unexpected breaks in life, much less win the lottery. A high-Edge character, however, is graced with good fortune and has an uncanny ability to succeed despite the odds. Edge can be spent at certain points in the game to help tip the odds in your character's favor. Unlike other attributes, Edge provides Edge points that may be spent in certain ways-once used, these points are not regained until certain ingame events occur, at the discretion of the gamemaster (see Edge, p. 74).
-		</Desc>
-	</SpecialAttribute>
-	<SpecialAttribute name ="Initiative">
-		<Desc>
-			A derived attribute, Initiative is the sum of Reaction and Intuition, plus any additional dice from implanted or magical reflex enhancers. As it sounds, Initiative is used to make Initiative Tests (p. 144), which determine the character's Initiative Score for a Combat Turn. Any enhancements to Reaction and Intuition also affect Initiative.
 		</Desc>
 	</SpecialAttribute>
 	<SpecialAttribute name ="Magic">
@@ -60,4 +61,5 @@
 			Resonance is a special attribute for technomancers, characters able to manipulate the Matrix with their minds alone (see Technomancers, p. 221). Resonance is an attunement to the echoes and transmissions that permeate the electronic world, an alignment with the wireless gestalt. The exact nature of Resonance is even more controversial than magic-some claim that Resonance is a form of magic that has adapted to the virtual and augmented realities of the modern world, others claim that Resonance is some new stage in the evolution of metahuman consciousness-but no one knows for sure. Resonance and Magic are mutually exclusive attributes. A character who possesses a quality that grants a Resonance of 1 or higher cannot have a Magic attribute.
 		</Desc>
 	</SpecialAttribute>	
+</Attributes>
 <!-- End Attributes -->

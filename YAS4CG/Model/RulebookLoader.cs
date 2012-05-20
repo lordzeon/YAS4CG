@@ -21,11 +21,14 @@ namespace YAS4CG.Model
             XmlNodeList QualityList = doc.GetElementsByTagName("Quality");
             XmlNodeList NegativeQualityList = doc.GetElementsByTagName("NegativeQuality");
             XmlNodeList SkillGroupList = doc.GetElementsByTagName("SkillGroup");
+            XmlNodeList MetaTypeList = doc.GetElementsByTagName("Metatype");
 
             rulebook.Qualities = GetQualities(QualityList);
             rulebook.NegativeQualities = GetQualities(NegativeQualityList);
 
             rulebook.Skills = GetSkills(SkillGroupList);
+
+            rulebook.MetaTypes = GetMetatypes(MetaTypeList);
 
             return rulebook;
         }
@@ -90,34 +93,64 @@ namespace YAS4CG.Model
 
                 //Add all the attributes. If one is missing data we do not want to add it
                 XmlNode attributes = metaNode.FindChildByName("Attributes");                
-                if (attributes == null)
-                    continue;
-                bool hasIncompleteAtt = false;
+                if (attributes == null) continue;
+                bool wasCompleteAtt = true;
                 foreach (XmlNode attribute in attributes.ChildNodes)
                 {
-                    string attName = attribute.Attributes["name"].InnerText;
-                    XmlNode attStart = attribute.FindChildByName("Start");
-                    XmlNode attNatMax = attribute.FindChildByName("NaturalMax");
-                    XmlNode attAugMax = attribute.FindChildByName("AugmentedMax");
+                    if (attribute.Name == "MetaAttribute")
+                        wasCompleteAtt = AddAttribute(attribute, metatype);
+                    else if (attribute.Name == "MetaSpecialAttribute")
+                        wasCompleteAtt = AddSpecialAttribute(attribute, metatype);
 
-                    if (attStart == null || attNatMax == null || attAugMax == null)
-                    { hasIncompleteAtt = true; break; }
-
-                    metatype.Attributes.Add(attName, new Attribute(attName, Convert.ToInt16(attStart.InnerText.Trim()), Convert.ToInt16(attNatMax.InnerText.Trim()), Convert.ToInt16(attAugMax.InnerText.Trim())));
+                    if (!wasCompleteAtt)
+                        break;
                 }
-                if (!hasIncompleteAtt && !metatypes.ContainsKey(metatype.Name))
-                    metatypes.Add(metatype.Name, metatype);
-
-                //Add special abilities
-                XmlNode abilites = metaNode.FindChildByName("SpecialAbilities");
-                foreach (XmlNode ability in abilites.ChildNodes)
+                if (wasCompleteAtt && !metatypes.ContainsKey(metatype.Name))
                 {
-                    metatype.SpecialAbilities.Add(ability.Attributes["name"].InnerText);
-                }                
+                    //Add special abilities
+                    XmlNode abilities = metaNode.FindChildByName("SpecialAbilities");
+                    if (abilities != null)
+                    {
+                        foreach (XmlNode ability in abilities.ChildNodes)
+                        {
+                            metatype.SpecialAbilities.Add(ability.Attributes["name"].InnerText);
+                        }                        
+                    }
+                    metatypes.Add(metatype.Name, metatype);
+                }           
             }
             return metatypes;
         }
+
+        private static bool AddAttribute(XmlNode attribute, MetaType metatype)
+        {
+            string attName = attribute.Attributes["name"].InnerText;
+            XmlNode attStart = attribute.FindChildByName("Start");
+            XmlNode attNatMax = attribute.FindChildByName("NaturalMax");
+            XmlNode attAugMax = attribute.FindChildByName("AugmentedMax");
+
+            if ((attStart == null || attNatMax == null || attAugMax == null || !AttributeLoader.Attributes.ContainsKey(attName)) && !metatype.Attributes.ContainsKey(attName))
+                return false;
+
+            metatype.Attributes.Add(attName, new Attribute(attName, Convert.ToInt16(attStart.InnerText.Trim()), Convert.ToInt16(attNatMax.InnerText.Trim()), Convert.ToInt16(attAugMax.InnerText.Trim())));
+
+            return true;
+        }
+
+        private static bool AddSpecialAttribute(XmlNode attribute, MetaType metatype)
+        {
+            string attName = attribute.Attributes["name"].InnerText;
+            XmlNode attStart = attribute.FindChildByName("Start");
+
+            if ((attStart == null || !AttributeLoader.SpecialAttributes.ContainsKey(attName)) && !metatype.SpecialAttributes.ContainsKey(attName))
+                return false;
+
+            metatype.SpecialAttributes.Add(attName, new SpecialAttribute(attName, Convert.ToInt16(attStart.InnerText.Trim())));
+
+            return true;
+        }
     }
+
 
     public static class ExtensionMethods
     {
