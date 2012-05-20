@@ -28,7 +28,7 @@ namespace YAS4CG.Model
         public Dictionary<string, Weapon> Weapons { get; set; }
 
         //Key -> Gear.Name
-        public Dictionary<string, Gear> Gear { get; set; }
+        public Dictionary<string, Clothing> Gear { get; set; }
 
         //Key -> Augmentation.Name
         public Dictionary<string, Augmentation> Augmentations { get; set; }

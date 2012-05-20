@@ -7,7 +7,7 @@ namespace YAS4CG.Model
 {
 
 
-    class Contact
+    public class Contact
     {
         public string Name { get; set; }
 

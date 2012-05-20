@@ -14,9 +14,17 @@ namespace YAS4CG.Model
         //Key -> Attribute.Name
         public Dictionary<string, Attribute> Attributes { get; set; }
 
-        //Key -> Quality.Name
-        public Dictionary<string, Quality> Qualities { get; set; }
+        public List<string> SpecialAbilities { get; set; }
 
         public string Desc { get; set; }
+
+        public MetaType(string name, int bpCost, string desc)
+        {
+            Name = name;
+            BPCost = bpCost;
+            Desc = desc;
+            Attributes = new Dictionary<string, Attribute>();
+            SpecialAbilities = new List<string>();
+        }
     }
 }

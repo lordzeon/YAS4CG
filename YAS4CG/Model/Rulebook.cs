@@ -5,18 +5,24 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    class Rulebook
+    public class Rulebook
     {
         public string Name { get; set; }
 
         //Key -> Attribute.Name
         public Dictionary<string, Attribute> Attributes { get; set; }
 
+        //Key -> Attribute.Name
+        public Dictionary<string, Attribute> SpecialAttributes { get; set; }
+
         //Key -> Quality.Name
         public Dictionary<string, Quality> Qualities { get; set; }
 
+        //Key -> Quality.Name
+        public Dictionary<string, Quality> NegativeQualities { get; set; }
+
         //Key -> Skill.Name
-        public Dictionary<string, Skill> Skills { get; set; }
+        public Dictionary<string, SkillGroup> Skills { get; set; }
 
         //Key -> Weapon.Name
         public Dictionary<string, Weapon> Weapons { get; set; }
@@ -47,5 +53,16 @@ namespace YAS4CG.Model
 
         //Key -> Sprite.Name
         public Dictionary<string, Sprite> Sprites { get; set; }
+
+        public Rulebook(string name)
+        {
+            Name = name;
+            Attributes = new Dictionary<string, Attribute>();
+            SpecialAttributes = new Dictionary<string, Attribute>();
+            Qualities = new Dictionary<string, Quality>();
+            NegativeQualities = new Dictionary<string, Quality>();
+            Skills = new Dictionary<string, SkillGroup>();
+
+        }
     }
 }

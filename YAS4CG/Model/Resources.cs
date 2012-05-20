@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    internal class Resource
+    public class Resource
     {
         public string Name { get; set; }
 
@@ -14,14 +14,14 @@ namespace YAS4CG.Model
         public string Desc { get; set; }
     }
 
-    internal class WeaponCategory
+    public class WeaponCategory
     {
         public string Name { get; set; }
 
         public List<Weapon> Weapons { get; set; }
     }
 
-    internal class Weapon : Resource
+    public class Weapon : Resource
     {
         public string Type { get; set; }
 
@@ -30,35 +30,35 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class WeaponAccessory : Resource
+    public class WeaponAccessory : Resource
     {
         public string Stats { get; set; }
 
         public string Cost { get; set; }
     }
 
-    internal class Ammo : Resource
+    public class Ammo : Resource
     {
         public string Stats { get; set; }
 
         public string Cost { get; set; }
     }
 
-    internal class Grenade : Resource
+    public class Grenade : Resource
     {
         public string Stats { get; set; }
 
         public string Cost { get; set; }
     }
 
-    internal class Explosive : Resource
+    public class Explosive : Resource
     {
         public string Stats { get; set; }
 
         public string Cost { get; set; }
     }
 
-    internal class RocketMissile : Resource
+    public class RocketMissile : Resource
     {
         public string Type { get; set; }
 
@@ -67,14 +67,14 @@ namespace YAS4CG.Model
         public string Cost { get; set; }
     }
 
-    internal class Clothing : Resource
+    public class Clothing : Resource
     {
         public string Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class ArmorModification : Resource
+    public class ArmorModification : Resource
     {
         public string Stats { get; set; }
 
@@ -83,7 +83,7 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class Commlink : Resource
+    public class Commlink : Resource
     {
         public int Response { get; set; }
 
@@ -92,7 +92,7 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class ElectronicAccessory : Resource
+    public class ElectronicAccessory : Resource
     {
         public DeviceRating DeviceRating { get; set; }
 
@@ -101,7 +101,7 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class CommAccessory : Resource
+    public class CommAccessory : Resource
     {
         public DeviceRating DeviceRating { get; set; }
 
@@ -110,7 +110,7 @@ namespace YAS4CG.Model
         public int CostMultiplier { get; set; }
     }
 
-    internal class OperatingSystem
+    public class OperatingSystem
     {
         public int Firewall { get; set; }
 
@@ -119,13 +119,31 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class MatrixProgram : Resource
+    public class ProgramSuite : Resource
     {
         public string Stats { get; set; }
+
+        public int Cost { get; set; }
+    }
+
+    public class MatrixProgramCategory
+    {
+        public string Name { get; set; }
 
         public int Rating3CostMultiplier { get; set; }
 
         public int Rating6CostMultiplier { get; set; }
+
+        public string Desc { get; set; }
+    }
+
+    public class MatrixProgram : Resource
+    {
+        public string Stats { get; set; }
+
+        public int Rating { get; set; }
+
+        public int Cost { get; set; }
     }
 
     public sealed class DeviceRating
@@ -180,7 +198,7 @@ namespace YAS4CG.Model
         public string Desc { get; set; }
     }
 
-    internal class Augmentation : Resource
+    public class Augmentation : Resource
     {
         public float EssenceCost { get; set; }
 
@@ -212,34 +230,30 @@ namespace YAS4CG.Model
         public string Desc { get; set; }
     }
 
-    internal class Vehicle : Resource
+    public class Vehicle : Resource
     {
         public Dictionary<string, string> Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class Drone : Resource
+    public class Drone : Resource
     {
         public Dictionary<string, string> Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class Spell : Resource
+    public class Spell : Resource
     {
-        public string Name { get; set; }
-
         public string Type { get; set; }
 
         public string Stats { get; set; }
 
-        public string Desc { get; set; }
-
         public int Cost { get { return 3; } }
     }
 
-    internal class Spirit : Resource
+    public class Spirit : Resource
     {
         public Dictionary<string, Attribute> Attributes { get; set; }
 
@@ -248,21 +262,21 @@ namespace YAS4CG.Model
         public int Cost { get; set; }
     }
 
-    internal class BondingFocus : Resource
+    public class BondingFocus : Resource
     {
         public Dictionary<string, string> Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class ComplexForm : Resource
+    public class ComplexForm : Resource
     {
         public Dictionary<string, string> Stats { get; set; }
 
         public int Cost { get; set; }
     }
 
-    internal class Sprite : Resource
+    public class Sprite : Resource
     {
         public string Stats { get; set; }
 
@@ -274,12 +288,10 @@ namespace YAS4CG.Model
 
         public string OptionalCFs { get; set; }
 
-        public string Desc { get; set; }
-
         public int Cost { get; set; }
     }
 
-    internal sealed class LifeStyle
+    public sealed class LifeStyle
     {
         public static readonly LifeStyle Streets = new LifeStyle(0, "The character lives on the streets—or in the sewers, steam tunnels, condemned buildings, or whatever temporary flop she can get. Food is wherever the character  finnds it, bathing is a thing of the past, and the character’s only security is what she creates for herself.  This lifestyle is the bottom of the ladder, inhabited by down-and-outers of all stripes.");
         public static readonly LifeStyle Squatter = new LifeStyle(500, "Life stinks for the squatter, and most of the time so does the character. She eats low-grade nutrisoy and yeast, adding flavors with an eyedropper. Her home is a squatted building, perhaps fixed up a bit, possibly even converted into barracks or divided into closet-sized rooms and shared with other squatters. Or maybe she just rents a coffin-sized sleep tank by the night. The only thing worse than the Squatter lifestyle is living on the streets.");

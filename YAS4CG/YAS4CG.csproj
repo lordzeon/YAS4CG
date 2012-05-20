@@ -69,6 +69,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="Model\Attribute.cs" />
+    <Compile Include="Model\AttributeLoader.cs" />
+    <Compile Include="Model\Character.cs" />
+    <Compile Include="Model\Contact.cs" />
+    <Compile Include="Model\MetaType.cs" />
+    <Compile Include="Model\Quality.cs" />
+    <Compile Include="Model\Resources.cs" />
+    <Compile Include="Model\Rulebook.cs" />
+    <Compile Include="Model\RulebookLoader.cs" />
+    <Compile Include="Model\Skill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
