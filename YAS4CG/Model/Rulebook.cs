@@ -24,6 +24,9 @@ namespace YAS4CG.Model
         //Key -> Weapon.Name
         public Dictionary<string, Weapon> Weapons { get; set; }
 
+        //Key -> WeaponAccessory.Name
+        public Dictionary<string, WeaponAccessory> WeaponAccessories { get; set; }
+
         //Key -> Gear.Name
         public Dictionary<string, Clothing> Gear { get; set; }
 
@@ -59,6 +62,8 @@ namespace YAS4CG.Model
             NegativeQualities = new Dictionary<string, Quality>();
             SkillGroups = new Dictionary<string, SkillGroup>();
             Spells = new Dictionary<string, Spell>();
+            Weapons = new Dictionary<string, Weapon>();
+            WeaponAccessories = new Dictionary<string, WeaponAccessory>();
 
         }
     }

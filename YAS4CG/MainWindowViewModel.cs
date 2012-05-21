@@ -13,6 +13,11 @@ namespace YAS4CG
     {
         public Dictionary<string, Rulebook> Rulebooks { get; set; }
 
+        public MainWindowViewModel()
+        {
+            LoadRulebooks();
+        }
+
         public void LoadRulebooks()
         {
            

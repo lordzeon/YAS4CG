@@ -2394,437 +2394,431 @@
 	</Sprite>
 <!-- End Sprites -->
 <!-- Start Weapons -->
-	<WeaponCategory name="Melee Weapons">
-		<Weapon name="Combat Axe" type="Blade">
+		<Weapon name="Combat Axe" type="Blade" category="Melee Weapons">
 			<Stats>Reach: 2 Damage: (STR/2 + 4)P AP: -1 Availability: 8R </Stats>
 			<Cost>600</Cost>
 			<Desc>This two-handed tungsten alloy axe typically comes with a spring-loaded thrusting point concealed in the handle.</Desc>
 		</Weapon>
-		<Weapon name="Forearm Snap-Blades" type="Blade">
+		<Weapon name="Forearm Snap-Blades" type="Blade" category="Melee Weapons">
 			<Stats>Reach: - Damage: (STR/2 + 2)P AP: - Availability: 6R </Stats>
 			<Cost>150</Cost>
 			<Desc>These external spurs feature a forearm sheath with three blades that extend and retract via muscle-movement commands or wireless link.</Desc>
 		</Weapon>	
-		<Weapon name="Katana" type="Blade">
+		<Weapon name="Katana" type="Blade" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: -1 Availability: 4R </Stats>
 			<Cost>1000</Cost>
 			<Desc>The legendary, two-handed sword of the samurai-chop up your enemies with style.</Desc>
 		</Weapon>	
-		<Weapon name="Knife" type="Blade">
+		<Weapon name="Knife" type="Blade" category="Melee Weapons">
 			<Stats>Reach: - Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
 			<Cost>20</Cost>
 			<Desc>A basic, all-purpose cutting tool.</Desc>
 		</Weapon>	
-		<Weapon name="Monofilament Sword" type="Blade">
+		<Weapon name="Monofilament Sword" type="Blade" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: -1 Availability: 8R </Stats>
 			<Cost>750</Cost>
 			<Desc>This well-balanced broadsword features superfine monofilament wire attached to its edges.</Desc>
 		</Weapon>	
-		<Weapon name="Survival Knife" type="Blade">
+		<Weapon name="Survival Knife" type="Blade" category="Melee Weapons">
 			<Stats>Reach: - Damage: (STR/2 + 1)P AP: -1 Availability: - </Stats>
 			<Cost>50</Cost>
 			<Desc>This fine quality blade features several accessories: retractable GPS monitor, micro-lighter, and a compartment in the handle that will hold one small item. The flat sides of the blade are covered with a non-toxic chemical that can be activated to provide 2 hours of phosphorescent light.</Desc>
 		</Weapon>	
-		<Weapon name="Sword" type="Blade">
+		<Weapon name="Sword" type="Blade" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: (STR/2 + 3)P AP: - Availability: 4R </Stats>
 			<Cost>350</Cost>
 			<Desc>Get medieval with this sharp and heavy toy of destruction. Swords encompass a variety of one-handed blades, from scimitars to machetes to longswords.</Desc>
 		</Weapon>	
-		<Weapon name="Club" type="Club">
+		<Weapon name="Club" type="Club" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
 			<Cost>30</Cost>
 			<Desc>Anything from a hickory "tire-knocker" to a baseball bat to a two-by-four with a rusty nail.</Desc>
 		</Weapon>	
-		<Weapon name="Extendable Baton" type="Club">
+		<Weapon name="Extendable Baton" type="Club" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
 			<Cost>50</Cost>
 			<Desc>The shaft of this club telescopes out when flicked sharply. When retracted, it is more easily concealed (-2).</Desc>
 		</Weapon>	
-		<Weapon name="Sap" type="Club">
+		<Weapon name="Sap" type="Club" category="Melee Weapons">
 			<Stats>Reach: - Damage: (STR/2 + 1)P AP: - Availability: - </Stats>
 			<Cost>30</Cost>
 			<Desc>A small, springy club, specially designed for concealability (-2).</Desc>
 		</Weapon>	
-		<Weapon name="Staff" type="Club">
+		<Weapon name="Staff" type="Club" category="Melee Weapons">
 			<Stats>Reach: 2 Damage: (STR/2 + 2)P AP: - Availability: - </Stats>
 			<Cost>50</Cost>
 			<Desc>A large, heavy stick, popular with some magicians for that traditional look.</Desc>
 		</Weapon>	
-		<Weapon name="Stun Baton" type="Club">
+		<Weapon name="Stun Baton" type="Club" category="Melee Weapons">
 			<Stats>Reach: 1 Damage: 6S(e) AP: -half Availability: 4T </Stats>
 			<Cost>400</Cost>
 			<Desc>The standard riot-control weapon, this weighted stick delivers an electrical charge that deals Electricity damage (p. 163). It has 10 charges; when plugged in, it recharges at a rate of one charge per 10 seconds.</Desc>
 		</Weapon>	
-		<Weapon name="Monofilament Whip" type="Exotic Weapon">
+		<Weapon name="Monofilament Whip" type="Exotic Weapon" category="Melee Weapons">
 			<Stats>Reach: 2 Damage: 8P AP: -4 Availability: 12F </Stats>
 			<Cost>3000</Cost>
 			<Desc>One of the deadliest weapons on the streets, this nanowire whip cuts through bone and armor with horrifying ease. The line extends out to two meters, and retracts into the weapon's haft when not in use. The whip action, the presence of a weighted tip, and the danger of the monofilament line make wielding this weapon difficult at best. If an attacker using a monofilament whip rolls a glitch, she has either tangled the line around itself, gotten the weighted tip stuck on something, or inadvertently cut something nearby apart. If the attacker rolls a critical glitch, she has struck herself and must resist the whip's standard Damage Code.</Desc>
 		</Weapon>	
-		<Weapon name="Pole Arm" type="Exotic Weapon">
+		<Weapon name="Pole Arm" type="Exotic Weapon" category="Melee Weapons">
 			<Stats>Reach: 2 Damage: (STR/2 + 2)P AP: -2 Availability: 4R </Stats>
 			<Cost>1000</Cost>
 			<Desc>This spear-like weapon usually features an axe-head or similar blade and has become quite popular with trolls and other large individuals, even though it's not easy to handle.</Desc>
 		</Weapon>
-		<Weapon name="Shock Glove" type="Unarmed Combat">
+		<Weapon name="Shock Glove" type="Unarmed Combat" category="Melee Weapons">
 			<Stats>Reach: - Damage: 5S(e) AP: -half Availability: 3R </Stats>
 			<Cost>200</Cost>
 			<Desc>This pair of insulated plas-fabric gloves has a wire mesh that discharges electric current when triggered by impact. The gloves deal Electricity damage (p. 163) and have 10 charges (each); when plugged in, they recharge at a rate of one charge per 10 seconds.</Desc>
 		</Weapon>	
-	</WeaponCategory>
-	<WeaponCategory name="Projectile and Throwing Weapons">
-		<Weapon name="Bow" type="Bow">
+		<Weapon name="Bow" type="Bow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: (STR Min + 2)P AP: - Availability: Rating x 2 Cost: Rating x 100</Stats>
 			<Cost>100</Cost>
 			<Desc>A traditional longbow of fiberglass or wood, or a modern compound-and-pulley bow. Reloading the bow takes one "Ready Weapon" Action (p. 147).</Desc>
 		</Weapon>	
-		<Weapon name="Arrow" type="Bow">
+		<Weapon name="Arrow" type="Bow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: - AP: - Availability: Rating x 2 Cost: Rating x 5</Stats>
 			<Cost>5</Cost>
 			<Desc>A basic arrow for use in a bow.</Desc>
 		</Weapon>	
-		<Weapon name="Injection Arrow" type="Bow">
+		<Weapon name="Injection Arrow" type="Bow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: - AP: - Availability: 8R </Stats>
 			<Cost>50</Cost>
 			<Desc>An injection arrow causes the same damage as a regular arrow/bolt, but an attack that inflicts at least 1 point of damage will also deliver one dose of whatever chemical substance the arrow/bolt was loaded with. This counts as an injection attack vector (p. 254).</Desc>
 		</Weapon>	
-		<Weapon name="Light Crossbow" type="Crossbow">
+		<Weapon name="Light Crossbow" type="Crossbow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: 3P AP: - Availability: 2 </Stats>
 			<Cost>300</Cost>
 			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn't require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
 		</Weapon>
-		<Weapon name="Medium Crossbow" type="Crossbow">
+		<Weapon name="Medium Crossbow" type="Crossbow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: 5P AP: - Availability: 4R </Stats>
 			<Cost>500</Cost>
 			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn't require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
 		</Weapon>
-		<Weapon name="Heavy Crossbow" type="Crossbow">
+		<Weapon name="Heavy Crossbow" type="Crossbow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: 7P AP: -1 Availability: 8R </Stats>
 			<Cost>750</Cost>
 			<Desc>Modern crossbows are equipped with automatic reloading devices to allow for faster firing rates (reloading doesn't require a Ready Weapon action, unless you happen to be using a museum piece). Crossbows also feature internal magazines (m) holding up to 4 bolts. Available in Light, Medium, and Heavy sizes.</Desc>
 		</Weapon>
-		<Weapon name="Bolt" type="Crossbow">
+		<Weapon name="Bolt" type="Crossbow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: - AP: - Availability: 2 </Stats>
 			<Cost>5</Cost>
 			<Desc>A basic bolt for use in a crossbow.</Desc>
 		</Weapon>	
-		<Weapon name="Injection Bolt" type="Crossbow">
+		<Weapon name="Injection Bolt" type="Crossbow" category="Projectile and Throwing Weapons">
 			<Stats>Damage: - AP: - Availability: 8R </Stats>
 			<Cost>50</Cost>
 			<Desc>An injection bolt causes the same damage as a regular arrow/bolt, but an attack that inflicts at least 1 point of damage will also deliver one dose of whatever chemical substance the arrow/bolt was loaded with. This counts as an injection attack vector (p. 254).</Desc>
 		</Weapon>
-		<Weapon name="Shuriken" type="Throwing Weapons">
+		<Weapon name="Shuriken" type="Throwing Weapons" category="Projectile and Throwing Weapons">
 			<Stats>Damage: (STR/2)P AP: - Availability: 2 </Stats>
 			<Cost>30</Cost>
 			<Desc>This multi-edged airfoil throwing blade is available in many different styles. A character can ready Agility &#247; 2 shuriken per Ready Weapon action.</Desc>
 		</Weapon>
-		<Weapon name="Throwing Knife" type="Throwing Weapons">
+		<Weapon name="Throwing Knife" type="Throwing Weapons" category="Projectile and Throwing Weapons">
 			<Stats>Damage: (STR/2 + 1)P AP: - Availability: 2 </Stats>
 			<Cost>20</Cost>
 			<Desc>Any of a variety of slim knives or spikes. A character can ready Agility &#247; 2 throwing knives per Ready Weapon action.</Desc>
 		</Weapon>
-	</WeaponCategory>
-	<WeaponCategory name="Firearms">
-		<Weapon name="Defiance EX Shocker" type="Tasers">
+		<Weapon name="Defiance EX Shocker" type="Tasers" category="Firearms">
 			<Stats>Damage: 8S(e) AP: -half Mode: SS RC: - Ammo: 4(m) Availability: - </Stats>
 			<Cost>150</Cost>
 			<Desc>The EX Shocker fires up to 4 darts that trail wires of up to 20 meters long. It also features contacts that allow it to be used as stun weapon in melee.
 			</Desc>
 		</Weapon>
-		<Weapon name="Yamaha Pulsar" type="Tasers">
+		<Weapon name="Yamaha Pulsar" type="Tasers" category="Firearms">
 			<Stats>Damage: 6S(e) AP: -half Mode: SA RC: - Ammo: 4(m) Availability: - </Stats>
 			<Cost>150</Cost>
 			<Desc>The Pulsar fires capacitor darts at a target, eliminating the wires that trail from dart to weapon with other taser models.
 			</Desc>
 		</Weapon>
-		<Weapon name="Raecor Sting" type="Holdouts">
+		<Weapon name="Raecor Sting" type="Holdouts" category="Firearms">
 			<Stats>Damage: 6P(f) AP: +5 Mode: SS RC: - Ammo: 5(c) Availability: 6R</Stats>
 			<Cost>350</Cost>
 			<Desc>This weapon's "lemon-squeezer" design (the gun's barrel protrudes from between the firer's fingers and it's fired by making a fist) and its polyresin composition (undetectable by MAD scanners) makes for a very stealthy weapon. It fires flechette ammunition only (already included in the weapon stats).
 			</Desc>
 		</Weapon>
-		<Weapon name="Raecor Sting" type="Holdouts">
+		<Weapon name="Streetline Special" type="Holdouts" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SS RC: - Ammo: 6(c) Availability: 4R</Stats>
 			<Cost>100</Cost>
 			<Desc>This small, lightweight weapon is made of composite materials (MADs suffer a -2 dice pool modifier to detect it, see p. 262). It is a common weapon among those on society's bottom rung.
 			</Desc>
 		</Weapon>
-		<Weapon name="Colt America L36" type="Light Pistol">
+		<Weapon name="Colt America L36" type="Light Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA RC: - Ammo: 11(c) Availability: 4R</Stats>
 			<Cost>150</Cost>
 			<Desc>An old-timer with a very good reputation, this sleek automatic pistol is easy to conceal and commonly available.
 			</Desc>
 		</Weapon>
-		<Weapon name="Fichetti Security 600" type="Light Pistol">
+		<Weapon name="Fichetti Security 600" type="Light Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA RC: (1) Ammo: 30(c) Availability: 6R</Stats>
 			<Cost>450</Cost>
 			<Desc>Designed as a light sidearm for security personnel, this pistol has a highly efficient feeding mechanism that allows it to hold an incredible 30 bullets. It comes fully equipped with a detachable folding stock and laser sight.
 			</Desc>
 		</Weapon>
-		<Weapon name="Hammerli 620S" type="Light Pistol">
+		<Weapon name="Hammerli 620S" type="Light Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA RC: 1 Ammo: 6(c) Availability: 8R</Stats>
 			<Cost>650</Cost>
 			<Desc>Sleek and stylish, the Hammerli offers the range of a heavy pistol within a light pistol casing (use Heavy Pistol ranges, p. 151). It also includes integral gas-vent and smartgun systems.
 			</Desc>
 		</Weapon>
-		<Weapon name="Yamaha Saukra Fubuki" type="Light Pistol">
+		<Weapon name="Yamaha Saukra Fubuki" type="Light Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA/BF RC: (1) Ammo: 10(ml) x 4 Availability: 10R</Stats>
 			<Cost>2000</Cost>
 			<Desc>The "Cherry-Blossom Storm" is the flagship for Yamaha's new line of electronic weapons that feature no moving parts. Rather than a standard magazine, the bullets are stacked in-line in each of the four barrels, allowing the firing of ultra-fast short bursts. The Fubuki may only fire narrow bursts (not wide), but burst recoil is handled like SA recoil (-1 Recoil on the second burst each Action Phase only). Includes an integral folding stock.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares Predator IV" type="Heavy Pistol">
+		<Weapon name="Ares Predator IV" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 15(c) Availability: 4R</Stats>
 			<Cost>350</Cost>
 			<Desc>The all-time favorite sidearm among mercenaries and security services. Includes a smartgun system.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares Viper Silvergun" type="Heavy Pistol">
+		<Weapon name="Ares Viper Silvergun" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 8P(f) AP: +5 Mode: SA/BF RC: - Ammo: 30(c) Availability: 5R</Stats>
 			<Cost>50</Cost>
 			<Desc>The Slivergun is a sleek weapon with burst fire capabilities and built-in sound suppression. It fires metal slivers that count as flechette ammunition (already factored in to the Damage Code).
 			</Desc>
 		</Weapon>
-		<Weapon name="Colt Manhunter" type="Heavy Pistol">
+		<Weapon name="Colt Manhunter" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 16(c) Availability: 4R</Stats>
 			<Cost>300</Cost>
 			<Desc>Popular among law enforcement, the Manhunter features a built-in laser sight.
 			</Desc>
 		</Weapon>
-		<Weapon name="Remington Roomsweeper" type="Heavy Pistol">
+		<Weapon name="Remington Roomsweeper" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 5P AP: -1 Mode: SA RC: - Ammo: 8(m) Availability: 6R</Stats>
 			<Cost>250</Cost>
 			<Desc>This short-barreled "shotgun pistol" can be loaded with shot rounds rather than slugs, in which cases it uses heavy-pistol ranges but shotgun rules (Shotguns, pp. 154-155).
 			</Desc>
 		</Weapon>
-		<Weapon name="Remington Roomsweeper w/ Flechettes" type="Heavy Pistol">
+		<Weapon name="Remington Roomsweeper w/ Flechettes" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 7P(f) AP: +5 Mode: SA RC: - Ammo: 8(m) Availability: 6R</Stats>
 			<Cost>250</Cost>
 			<Desc>This short-barreled "shotgun pistol" can be loaded with shot rounds rather than slugs, in which cases it uses heavy-pistol ranges but shotgun rules (Shotguns, pp. 154-155).
 			</Desc>
 		</Weapon>
-		<Weapon name="Ruger Super Warhawk" type="Heavy Pistol">
+		<Weapon name="Ruger Super Warhawk" type="Heavy Pistol" category="Firearms">
 			<Stats>Damage: 6P AP: -2 Mode: SS RC: - Ammo: 6(cy) Availability: 3R</Stats>
 			<Cost>250</Cost>
 			<Desc>Feeling lucky, punk? This heavy revolver looks as scary as the holes it tears through things. It cannot be equipped with a silencer.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ceska Black Scorpion" type="Machine Pistol">
+		<Weapon name="Ceska Black Scorpion" type="Machine Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA/BF RC: (1) Ammo: 35(c) Availability: 8R</Stats>
 			<Cost>550</Cost>
 			<Desc>This classic machine pistol combines concealability with burst fire capabilities. It comes equipped with an integral folding stock.
 			</Desc>
 		</Weapon>
-		<Weapon name="Steyr TMP" type="Machine Pistol">
+		<Weapon name="Steyr TMP" type="Machine Pistol" category="Firearms">
 			<Stats>Damage: 4P AP: - Mode: SA/BF/FA RC: - Ammo: 30(c) Availability: 8R</Stats>
 			<Cost>600</Cost>
 			<Desc>This lightweight polymer-frame pistol is capable of full autofire, but its lack of recoil compensation makes it difficult to control.
 			</Desc>
 		</Weapon>
-		<Weapon name="AK-97 Carbine" type="Submachine Gun">
+		<Weapon name="AK-97 Carbine" type="Submachine Gun" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 4R</Stats>
 			<Cost>400</Cost>
 			<Desc>The AK-97 has earned its fame in many campaignsaround the globe. Its reliability is legendary-you can bury it for 10 years, dig it up, and fire it immediately without a single problem. Includes a detachable folding stock.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK-227-X" type="Submachine Gun">
+		<Weapon name="HK-227-X" type="Submachine Gun" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 28(c) Availability: 8R</Stats>
 			<Cost>800</Cost>
 			<Desc>The SMG of choice for many corporate and military security forces. The HK 227-X boasts a retractable stock, smartgun system, and integral sound suppressor.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK MP-5 TX" type="Submachine Gun">
+		<Weapon name="HK MP-5 TX" type="Submachine Gun" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: 2(3) Ammo: 20(c) Availability: 4R</Stats>
 			<Cost>550</Cost>
 			<Desc>Carrying on the classic MP-5 design, an aggressive marketing campaign and featured usage on the blockbuster Combat Mage: TNG sim have made it popular on the streets. The TX includes a gas-vent 2 system, a l laser sight, and a detachable folding stock.
 			</Desc>
 		</Weapon>
-		<Weapon name="Imgram Smartgun X" type="Submachine Gun">
+		<Weapon name="Imgram Smartgun X" type="Submachine Gun" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: BF/FA RC: 2(3) Ammo: 32(c) Availability: 6R</Stats>
 			<Cost>650</Cost>
 			<Desc>This smartgun upgrade features gas-vent 2, a smartgun system, a sound suppressor, and a detachable folding stock.
 			</Desc>
 		</Weapon>
-		<Weapon name="Uzi IV" type="Submachine Gun">
+		<Weapon name="Uzi IV" type="Submachine Gun" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: BF RC: (1) Ammo: 24(c) Availability: 4R</Stats>
 			<Cost>500</Cost>
 			<Desc>A worthy descendent of the famous Israeli weapon, this SMG features an integral folding stock and laser sight.
 			</Desc>
 		</Weapon>
-		<Weapon name="AK-97" type="Assault Rifle">
+		<Weapon name="AK-97" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: - Ammo: 38(c) Availability: 4R</Stats>
 			<Cost>500</Cost>
 			<Desc>The common version of this premier assault rifle, ideal for anyone with a small budget.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares Alpha" type="Assault Rifle">
+		<Weapon name="Ares Alpha" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: 2 Ammo: 42(c) Availability: 12F</Stats>
 			<Cost>1700</Cost>
 			<Desc>Designed for Ares Firewatch special forces, the Alpha includes an underbarrel grenade launcher, a smartgun system, and a special chamber design that provides 2 points of recoil compensation. Comes with the "Ares Alpha Grenade Launcher".
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares Alpha Grenade Launcher" type="Assault Rifle">
+		<Weapon name="Ares Alpha Grenade Launcher" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 6(c) Availability: 12F</Stats>
 			<Cost>0</Cost>
 			<Desc>Designed for Ares Firewatch special forces, the Alpha includes an underbarrel grenade launcher, a smartgun system, and a special chamber design that provides 2 points of recoil compensation. Comes with the "Ares Alpha".
 			</Desc>
 		</Weapon>
-		<Weapon name="FN HAR" type="Assault Rifle">
+		<Weapon name="FN HAR" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: 2 Ammo: 35(c) Availability: 8R</Stats>
 			<Cost>1000</Cost>
 			<Desc>This assault rifle is increasingly popular with corporate response teams and private security forces specializing in high-threat areas. It comes with a laser sight and a Rating 2 gas-vent recoil compensation system.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30" type="Assault Rifle">
+		<Weapon name="HK XM30" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 15F</Stats>
 			<Cost>2500</Cost>
 			<Desc>This award-winning modular "weapons platform" can turn a single soldier into a one-man army. The baseline assault rifle features lightweight composite construction, a smartgun system, rigid stock with shock pad, and an underbarrel grenade launcher with grenade link. The weapon may be reassembled with optional modules- taking an Automatics + Agility (5, 1 minute) Extended Test to swap them in-into either an underbarrel shotgun, compact carbine, sniper rifle (with an imaging scope), or LMG (with bipod) configuration. Comes with the HK XM30 Grenade Launcher.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30 Grenade Launcher" type="Assault Rifle">
+		<Weapon name="HK XM30 Grenade Launcher" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 8(c) Availability: 15F</Stats>
 			<Cost>0</Cost>
 			<Desc>The underbarrel grenade launcher with grenade link on the HK XM30. Comes with the HK XM30.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30 Shotgun" type="Assault Rifle">
+		<Weapon name="HK XM30 Shotgun" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 7P AP: +1 Mode: SA RC: (1) Ammo: 10(c) Availability: 15F</Stats>
 			<Cost>1000</Cost>
 			<Desc>An additional module that replaces the XM30 underbarrel grenade launcher with a shotgun.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30 Carbine" type="Assault Rifle">
+		<Weapon name="HK XM30 Carbine" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 5P AP: - Mode: SA/BF/FA RC: (1) Ammo: 30(c) Availability: 15F</Stats>
 			<Cost>500</Cost>
 			<Desc>An additional module that replaces the XM30 main barrel with a compact carbine.
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30 Sniper" type="Assault Rifle">
+		<Weapon name="HK XM30 Sniper" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 7P AP: -2 Mode: SA RC: (1) Ammo: 10(c) Availability: 15F</Stats>
 			<Cost>1000</Cost>
 			<Desc>An additional module that replaces the XM30 main barrel with a semi-automatic sniper rifle (with an imaging scope).
 			</Desc>
 		</Weapon>
-		<Weapon name="HK XM30 LMG" type="Assault Rifle">
+		<Weapon name="HK XM30 LMG" type="Assault Rifle" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: BF/FA RC: 2(3) Ammo: 100(belt) Availability: 15F</Stats>
 			<Cost>1000</Cost>
 			<Desc>An additional module that replaces the XM30 main barrel with a light machine gun (with bipod).
 			</Desc>
 		</Weapon>
-		<Weapon name="Ruger 100" type="Sport Rifle">
+		<Weapon name="Ruger 100" type="Sport Rifle" category="Firearms">
 			<Stats>Damage: 7P AP: -1 Mode: SA RC: (1) Ammo: 5(m) Availability: 4R</Stats>
 			<Cost>900</Cost>
 			<Desc>This sport rifle is the favorite weapon for many professional hunters. It features a built-in imaging scope and a rigid stock with shock pad.
 			</Desc>
 		</Weapon>
-		<Weapon name="PJSS Elephant Rifle" type="Sport Rifle">
+		<Weapon name="PJSS Elephant Rifle" type="Sport Rifle" category="Firearms">
 			<Stats>Damage: 9P AP: -1 Mode: SS RC: (1) Ammo: 2(b) Availability: 12R</Stats>
 			<Cost>6000</Cost>
 			<Desc>If you want to shoot something big from a safe distance, this huge double-barreled rifle is your weapon of choice. Its two barrels can be shot at once with +1 DV and a -1 Recoil modifier. Includes a rigid stock with shock pad.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ranger Arms SM-4" type="Sniper Rifle">
+		<Weapon name="Ranger Arms SM-4" type="Sniper Rifle" category="Firearms">
 			<Stats>Damage: 8P AP: -3 Mode: SA RC: (1) Ammo: 15(c) Availability: 16F</Stats>
 			<Cost>6200</Cost>
 			<Desc>This rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM-4 disassembles completely in order to fit into a standard briefcase; assembling or disassembling it takes 3 Complex Actions.
 			</Desc>
 		</Weapon>
-		<Weapon name="Walter MA-2100" type="Sniper Rifle">
+		<Weapon name="Walter MA-2100" type="Sniper Rifle" category="Firearms">
 			<Stats>Damage: 7P AP: -3 Mode: SA RC: (1) Ammo: 10(m) Availability: 10F</Stats>
 			<Cost>5000</Cost>
 			<Desc>The chosen sniper rifle of the Confederationof American States Army, the MA-2100 is designed to military specifications. It is far more stable and hardy than other sniper rifles (dispensing with the Edge Test when used in Ranged Combat outside its sniping role, though not Melee Combat). However, the downside to this model is that it cannot be disassembled to fit into a briefcase. It comes with an internal smartgun system and a rigid stock with shock pad.
 			</Desc>
 		</Weapon>
-		<Weapon name="Mossberg AM-CMDT" type="Shotgun">
+		<Weapon name="Mossberg AM-CMDT" type="Shotgun" category="Firearms">
 			<Stats>Damage: 9P(f) AP: +5 Mode: SA/BF/FA RC: - Ammo: 10(c) Availability: 12R</Stats>
 			<Cost>1000</Cost>
 			<Desc>This heavy automatic shotgun can fill a whole room with whirling pellets of shot in an instant, which makes it a terrifying weapon in house-to-house combat. It fires flechette ammuniton only (already included in the weapon stats).
 			</Desc>
 		</Weapon>
-		<Weapon name="Remington 990" type="Shotgun">
+		<Weapon name="Remington 990" type="Shotgun" category="Firearms">
 			<Stats>Damage: 7P AP: -1 Mode: SA RC: (1) Ammo: 8(m) Availability: 4R</Stats>
 			<Cost>550</Cost>
 			<Desc>The Remington includes an imaging scope and a rigid stock with shock pad. It can fire regular slug or flechette ammunition.
 			</Desc>
 		</Weapon>
-		<Weapon name="Remington 990 w/ Flechettes" type="Shotgun">
+		<Weapon name="Remington 990 w/ Flechettes" type="Shotgun" category="Firearms">
 			<Stats>Damage: 9P(f) AP: +5 Mode: SA RC: (1) Ammo: 8(m) Availability: 4R</Stats>
 			<Cost>550</Cost>
 			<Desc>The Remington includes an imaging scope and a rigid stock with shock pad. It can fire regular slug or flechette ammunition.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares S-III Super Squirt" type="Special Weapons">
+		<Weapon name="Ares S-III Super Squirt" type="Special Weapons" category="Firearms">
 			<Stats>Damage: Chemical AP: - Mode: SA RC: - Ammo: 20(c) Availability: 4</Stats>
 			<Cost>500</Cost>
 			<Desc>This popular non-lethal weapon fires dimethyl sulfoxide (DMSO, a carrier that forces the skin to absorb chemicals) gel packs that can deliver a chemical substance over light pistol ranges. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target's bloodstream (Using Toxic Substances, p. 254).
 			</Desc>
 		</Weapon>
-		<Weapon name="Fichetti Pain Inducer" type="Special Weapons">
+		<Weapon name="Fichetti Pain Inducer" type="Special Weapons" category="Firearms">
 			<Stats>Damage: Special AP: -half Mode: SS RC: - Ammo: Special Availability: 8R</Stats>
 			<Cost>2000</Cost>
 			<Desc>This non-lethal weapon uses a microwave beam that excites the molecules of the target's skin, inflicting intense pain (the target feels as if she were on fire). Treat this like a toxin attack (p. 254) with a Power of 8. The target resists with Body + half impact armor (round up). If the modified Power exceeds the target's Willpower, the target must spend her next Action Phase doing whatever it takes to get away from the pain (usually this means running away). The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot flee, she is incapacitated with pain and suffers a dice pool modifier equal to the modified Power on all tests for as long as the beam is trained on her. The Pain Inducer has 10 charges; when attached to a power point, it reloads one charge per 10 seconds.
 			</Desc>
 		</Weapon>
-		<Weapon name="Parashield Dart Pistol" type="Special Weapons">
+		<Weapon name="Parashield Dart Pistol" type="Special Weapons" category="Firearms">
 			<Stats>Damage: As Drug/Toxin AP: -2 Mode: SA RC: - Ammo: 5(c) Availability: 6R</Stats>
 			<Cost>600</Cost>
 			<Desc>The industry standard dart pistol, the Parashield dart pistol fires injection darts ( Injection Darts, p. 324) with narcoject or another payload. The Parashield dart pistol uses heavy pistol ranges.
 			</Desc>
 		</Weapon>
-		<Weapon name="Parashield Dart Rifle" type="Special Weapons">
+		<Weapon name="Parashield Dart Rifle" type="Special Weapons" category="Firearms">
 			<Stats>Damage: As Drug/Toxin AP: -2 Mode: SA RC: 0 Ammo: 10(c) Availability: 6R</Stats>
 			<Cost>1700</Cost>
 			<Desc>The rifle version of the Parashield Dart Pistol, this rifle uses compressed air to fire injection darts. The Parashield rifle uses sporting rifle ranges.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ingram White Knight" type="Light Machine Gun">
+		<Weapon name="Ingram White Knight" type="Light Machine Gun" category="Firearms">
 			<Stats>Damage: 6P AP: -1 Mode: BF/FA RC: 5(6) Ammo: 50(c) or 100(belt) Availability: 12F</Stats>
 			<Cost>2000</Cost>
 			<Desc>When you're looking for a good bang for your buck, the White Knight is your kind of gun. It's equipped with a detachable folding stock and an integral gas-vent system that provides 5 points of recoil compensation and cannot be further upgraded.
 			</Desc>
 		</Weapon>
-		<Weapon name="Stoner-Ares M202" type="Medium Machine Gun">
+		<Weapon name="Stoner-Ares M202" type="Medium Machine Gun" category="Firearms">
 			<Stats>Damage: 7P AP: -2 Mode: FA RC: - Ammo: 50(c) or 100(belt) Availability: 12F</Stats>
 			<Cost>4500</Cost>
 			<Desc>This MMG packs a tremendous punch into a relatively light framework made of extra-durable compounds. Due to its comparatively smaller size, it's a very popular secondary weapon for military vehicles, but can also be equipped with various accessories to make it into a personal weapon.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ultimax HMG-2" type="Heavy Machine Gun">
+		<Weapon name="Ultimax HMG-2" type="Heavy Machine Gun" category="Firearms">
 			<Stats>Damage: 20P AP: -5 Mode: FA RC: 3(10) Ammo: 50(c) or 100(belt) Availability: 15F</Stats>
 			<Cost>7500</Cost>
 			<Desc>Equipped with a detachable tripod, a rigid stock with shock pad, and a gas-vent 3 system, the Ultimax is usually fired from a prone, sitting, or kneeling position, though some trolls might be strong enough to fire it while standing.
 			</Desc>
 		</Weapon>
-		<Weapon name="Panther XXL" type="Assault Cannon">
+		<Weapon name="Panther XXL" type="Assault Cannon" category="Firearms">
 			<Stats>Damage: 10P AP: -5 Mode: SS RC: (1) Ammo: 15(c) Availability: 20F</Stats>
 			<Cost>5500</Cost>
 			<Desc>This enormous assault cannon fires special ammunition common to the primary weapon in many small tanks. It comes with a smartgun system.
 			</Desc>
 		</Weapon>
-		<Weapon name="Ares Antioch-2" type="Grenade Launcher">
+		<Weapon name="Ares Antioch-2" type="Grenade Launcher" category="Firearms">
 			<Stats>Damage: Grenade AP: - Mode: SS RC: - Ammo: 8(m) Availability: 8F</Stats>
 			<Cost>600</Cost>
 			<Desc>The Antioch-2 features a classic grenade launcher design, combined with a smartgun system.
 			</Desc>
 		</Weapon>
-		<Weapon name="ArmTech MGL-12" type="Grenade Launcher">
+		<Weapon name="ArmTech MGL-12" type="Grenade Launcher" category="Firearms">
 			<Stats>Damage: Grenade AP: - Mode: SA RC: - Ammo: 12(c) Availability: 10F</Stats>
 			<Cost>2000</Cost>
 			<Desc>This bullpup-configuration model is popular, since it fires in semi-auto mode and carries more minigrenades than its competitors.
 			</Desc>
 		</Weapon>
-		<Weapon name="Aztechnology Striker" type="Missile Launcher">
+		<Weapon name="Aztechnology Striker" type="Missile Launcher" category="Firearms">
 			<Stats>Damage: Missile AP: - Mode: SS RC: - Ammo: 1(ml) Availability: 10F</Stats>
 			<Cost>1000</Cost>
 			<Desc>The Striker is an extremely light disposable launcher-perfect for shadowrunners who want to deliver a punch and make a quick, unencumbered getaway.
 			</Desc>
 		</Weapon>
-		<Weapon name="Mitsubishi Yakusoku MRL" type="Missile Launcher">
+		<Weapon name="Mitsubishi Yakusoku MRL" type="Missile Launcher" category="Firearms">
 			<Stats>Damage: Missile AP: - Mode: SA RC: - Ammo: 8(m) Availability: 20F</Stats>
 			<Cost>12000</Cost>
 			<Desc>The internal loading mechanism of the Yakusoku Multi Rocket Launcher allows it to insert up to 4 different types of missiles (2 each) and choose freely (via the integrated smartgun connection) which of them to fire with each shooting action. Its two firing tubes also allow for a quicker rate of fire.
 			</Desc>
 		</Weapon>
-	</WeaponCategory>
 <!-- End Weapons -->
 <!-- Start WeaponAccessories -->
 	<WeaponAccessory name="Airburst Link">

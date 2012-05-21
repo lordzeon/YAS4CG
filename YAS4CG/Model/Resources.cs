@@ -14,48 +14,85 @@ namespace YAS4CG.Model
         public string Desc { get; set; }
     }
 
-    public class WeaponCategory
-    {
-        public string Name { get; set; }
-
-        public List<Weapon> Weapons { get; set; }
-    }
-
     public class Weapon : Resource
     {
         public string Type { get; set; }
 
+        public string Category { get; set; }
+
         public string Stats { get; set; }
 
         public int Cost { get; set; }
+
+        public Weapon(string name, string type, string category, int cost, string stats, string desc)
+        {
+            Name = name;
+            Type = type;
+            Category = category;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;
+        }
     }
 
     public class WeaponAccessory : Resource
     {
         public string Stats { get; set; }
 
-        public string Cost { get; set; }
+        public int Cost { get; set; }
+
+        public WeaponAccessory(string name, string stats, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;
+        }
     }
 
     public class Ammo : Resource
     {
         public string Stats { get; set; }
 
-        public string Cost { get; set; }
+        public int Cost { get; set; }
+
+        public Ammo(string name, string stats, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class Grenade : Resource
     {
         public string Stats { get; set; }
 
-        public string Cost { get; set; }
+        public int Cost { get; set; }
+
+        public Grenade(string name, string stats, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class Explosive : Resource
     {
         public string Stats { get; set; }
 
-        public string Cost { get; set; }
+        public int Cost { get; set; }
+
+        public Explosive(string name, string stats, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class RocketMissile : Resource
@@ -64,7 +101,16 @@ namespace YAS4CG.Model
 
         public string Stats { get; set; }
 
-        public string Cost { get; set; }
+        public int Cost { get; set; }
+
+        public RocketMissile(string name, string type, string stats, int cost, string desc)
+        {
+            Name = name;
+            Type = type;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class Clothing : Resource
@@ -72,6 +118,14 @@ namespace YAS4CG.Model
         public string Stats { get; set; }
 
         public int Cost { get; set; }
+
+        public Clothing(string name, string stats, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class ArmorModification : Resource
@@ -81,6 +135,14 @@ namespace YAS4CG.Model
         public int CostMultiplier { get; set; }
 
         public int Cost { get; set; }
+
+        public ArmorModification(string name, string stats, int costmultiplier, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            Cost = costmultiplier;
+            Desc = desc;        
+        }
     }
 
     public class Commlink : Resource
@@ -90,6 +152,14 @@ namespace YAS4CG.Model
         public SignalRating Signal { get; set; }
 
         public int Cost { get; set; }
+
+        public Commlink(string name, SignalRating signal, int costmultiplier, string desc)
+        {
+            Name = name;
+            Signal = signal;
+            Cost = costmultiplier;
+            Desc = desc;        
+        }
     }
 
     public class ElectronicAccessory : Resource
@@ -99,6 +169,15 @@ namespace YAS4CG.Model
         public string Stats { get; set; }
 
         public int Cost { get; set; }
+
+        public ElectronicAccessory(string name, string stats, DeviceRating devicerating, int cost, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            DeviceRating = devicerating;
+            Cost = cost;
+            Desc = desc;        
+        }
     }
 
     public class CommAccessory : Resource
@@ -108,15 +187,34 @@ namespace YAS4CG.Model
         public string Stats { get; set; }
 
         public int CostMultiplier { get; set; }
+
+        public CommAccessory(string name, string stats, DeviceRating devicerating, int costMultiplier, string desc)
+        {
+            Name = name;
+            Stats = stats;
+            DeviceRating = devicerating;
+            CostMultiplier = costMultiplier;
+            Desc = desc;        
+        }
     }
 
     public class OperatingSystem
     {
+        public string Name { get; set; }
+
         public int Firewall { get; set; }
 
         public int System { get; set; }
 
         public int Cost { get; set; }
+
+        public OperatingSystem(string name, int firewall, int system, int cost)
+        {
+            Name = name;
+            Firewall = firewall;
+            System = system;
+            Cost = cost;
+        }
     }
 
     public class ProgramSuite : Resource
@@ -124,6 +222,8 @@ namespace YAS4CG.Model
         public string Stats { get; set; }
 
         public int Cost { get; set; }
+
+        //public ProgramSuite
     }
 
     public class MatrixProgramCategory

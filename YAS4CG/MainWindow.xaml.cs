@@ -23,7 +23,8 @@ namespace YAS4CG
         {
             InitializeComponent();
             MainWindowViewModel mwvm = new MainWindowViewModel();
-            mwvm.LoadRulebooks();
+            this.DataContext = mwvm;
+            this.Show();
         }
     }
 }

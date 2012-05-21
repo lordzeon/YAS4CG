@@ -23,17 +23,69 @@ namespace YAS4CG.Model
             XmlNodeList SkillGroupList = doc.GetElementsByTagName("SkillGroup");
             XmlNodeList MetaTypeList = doc.GetElementsByTagName("Metatype");
             XmlNodeList SpellList = doc.GetElementsByTagName("Spell");
+            XmlNodeList WeaponList = doc.GetElementsByTagName("Weapon");
+            XmlNodeList WeaponAccessoryList = doc.GetElementsByTagName("WeaponAccessory");
 
             rulebook.Qualities = GetQualities(QualityList);
             rulebook.NegativeQualities = GetQualities(NegativeQualityList);
-
             rulebook.SkillGroups = GetSkills(SkillGroupList);
-
             rulebook.MetaTypes = GetMetatypes(MetaTypeList);
-
             rulebook.Spells = GetSpells(SpellList);
+            rulebook.Weapons = GetWeapons(WeaponList);
+            rulebook.WeaponAccessories = GetWeaponAccessories(WeaponAccessoryList);
 
             return rulebook;
+        }
+
+        private static Dictionary<string, WeaponAccessory> GetWeaponAccessories(XmlNodeList WeaponAccessoryList)
+        {
+            Dictionary<string, WeaponAccessory> accessories = new Dictionary<string, WeaponAccessory>();
+
+            foreach (XmlNode node in WeaponAccessoryList)
+            {
+                string name = node.Attributes["name"].InnerText;
+                string stats = string.Empty;
+                int cost = 0;
+                string desc = string.Empty;
+                XmlNode statsNode = node.FindChildByName("Stats");
+                XmlNode costNode = node.FindChildByName("Cost");
+                XmlNode descNode = node.FindChildByName("Desc");
+                if (statsNode == null || costNode == null || descNode == null)
+                    continue;
+                stats = statsNode.InnerText.Trim();
+                cost = Convert.ToInt32(costNode.InnerText.Trim());
+                desc = descNode.InnerText.Trim();
+
+                accessories.Add(name, new WeaponAccessory(name, stats, cost, desc));
+            }
+
+            return accessories;
+        }
+
+        private static Dictionary<string, Weapon> GetWeapons(XmlNodeList WeaponList)
+        {
+            Dictionary<string, Weapon> weapons = new Dictionary<string, Weapon>();
+            foreach (XmlNode node in WeaponList)
+            {
+                string name = node.Attributes["name"].InnerText;
+                string type = node.Attributes["type"].InnerText;
+                string desc = string.Empty;
+                string stats = string.Empty;
+                int cost = 0;
+                string category = node.Attributes["category"].InnerText;
+                XmlNode statsNode = node.FindChildByName("Stats");
+                XmlNode costNode = node.FindChildByName("Cost");
+                XmlNode descNode = node.FindChildByName("Desc");
+                if (statsNode == null || costNode == null || descNode == null)
+                    continue;
+                desc = descNode.InnerText.Trim();
+                stats = statsNode.InnerText.Trim();
+                cost = Convert.ToInt32(costNode.InnerText.Trim());
+
+                weapons.Add(name, new Weapon(name, type, category, cost, stats, desc));
+            }
+
+            return weapons;
         }
 
         private static Dictionary<string, Spell> GetSpells(XmlNodeList SpellList)
