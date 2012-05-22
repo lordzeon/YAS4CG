@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    public class Resource
+    public class Resource : ObservableObject
     {
         public string Name { get; set; }
 
@@ -61,7 +61,7 @@ namespace YAS4CG.Model
             Name = name;
             Stats = stats;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -76,7 +76,7 @@ namespace YAS4CG.Model
             Name = name;
             Stats = stats;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -91,7 +91,7 @@ namespace YAS4CG.Model
             Name = name;
             Stats = stats;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -109,7 +109,7 @@ namespace YAS4CG.Model
             Type = type;
             Stats = stats;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -124,7 +124,7 @@ namespace YAS4CG.Model
             Name = name;
             Stats = stats;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -141,7 +141,7 @@ namespace YAS4CG.Model
             Name = name;
             Stats = stats;
             Cost = costmultiplier;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -158,7 +158,7 @@ namespace YAS4CG.Model
             Name = name;
             Signal = signal;
             Cost = costmultiplier;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -176,7 +176,7 @@ namespace YAS4CG.Model
             Stats = stats;
             DeviceRating = devicerating;
             Cost = cost;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -194,7 +194,7 @@ namespace YAS4CG.Model
             Stats = stats;
             DeviceRating = devicerating;
             CostMultiplier = costMultiplier;
-            Desc = desc;        
+            Desc = desc;
         }
     }
 
@@ -407,7 +407,7 @@ namespace YAS4CG.Model
         public static readonly LifeStyle Middle = new LifeStyle(5000, "The Middle lifestyle offers a nice house or condo with lots of comforts. Characters with this lifestyle sometimes eat nutrisoy as well as higherpriced natural food, but at least the autocook has a full suite of flavor faucets. This is the lifestyle of ordinary successful wage-earners or criminals.");
         public static readonly LifeStyle High = new LifeStyle(10000, "A High lifestyle offers a roomy house or condo, good food, and the technology that makes life easy. The character may not have the same perks as the really big boys, but neither does she have as many people gunning for her. Her home is in a secure zone or protected by good, solid bribes to the local police contractor and gang boss. She has a housekeeping service or enough tech to take care of most chores. This is the life for the well-to-do on either side of the law: mid-level managers, senior Mob bosses, and the like.");
         public static readonly LifeStyle Luxury = new LifeStyle(100000, "This lifestyle o ers the best of everything: ritzy digs, lots of high-tech toys, the best food and drink, you name it. The character has a household staff, maid service, or sophisticated drones to do the chores. She gets by in her massive mansion, snazzy condo, or the penthouse suite in a top hotel. Home security is top-of-the-line, with well-trained guards, astral security, and quick response times. Her home entertainment system is better than that in public theaters and accessible from anywhere in the home. She’s on the VIP list at several exclusive restaurants and clubs, both real and virtual. This is the life for the high-stakes winners in the world of Shadowrun: high-level executives, government big shots, Yakuza bigwigs, and the few shadowrunners who pull o the big scores (and live to spend their pay).");
-        
+
         public LifeStyle(int cost, string desc)
         {
             Cost = cost;
@@ -418,6 +418,4 @@ namespace YAS4CG.Model
 
         public string Desc { get; set; }
     }
-
-
 }

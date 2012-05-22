@@ -5,9 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-
-
-    public class Contact
+    public class Contact : ObservableObject
     {
         public string Name { get; set; }
 
@@ -16,7 +14,6 @@ namespace YAS4CG.Model
         public ContactLoyalty Loyalty { get; set; }
 
         public string Desc { get; set; }
-        
     }
 
     public sealed class ConnectionRating
@@ -58,5 +55,4 @@ namespace YAS4CG.Model
 
         public string Desc { get; set; }
     }
-
 }

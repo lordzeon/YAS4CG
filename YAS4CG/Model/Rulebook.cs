@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    public class Rulebook
+    public class Rulebook : ObservableObject
     {
         public string Name { get; set; }
 
@@ -64,7 +64,6 @@ namespace YAS4CG.Model
             Spells = new Dictionary<string, Spell>();
             Weapons = new Dictionary<string, Weapon>();
             WeaponAccessories = new Dictionary<string, WeaponAccessory>();
-
         }
     }
 }

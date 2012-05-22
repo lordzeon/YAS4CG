@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    internal class Character
+    internal class Character : ObservableObject
     {
         public string Name { get; set; }
 

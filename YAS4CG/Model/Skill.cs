@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    public class Skill
+    public class Skill : ObservableObject
     {
         public string Name { get; set; }
 
@@ -30,10 +30,10 @@ namespace YAS4CG.Model
         }
     }
 
-    public class SkillGroup
+    public class SkillGroup : ObservableObject
     {
         public string Name { get; set; }
-         
+
         public int Value { get; set; }
 
         //Key -> Skill.Name

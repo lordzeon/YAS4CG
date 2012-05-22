@@ -1,13 +1,34 @@
 ﻿<Window x:Class="YAS4CG.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="600" Width="800
-        ">
+        xmlns:local="clr-namespace:YAS4CG"
+        Title="MainWindow" Height="600" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Key="qualityTemplate">
+            <ListBoxItem ClipToBounds="True">
+                <StackPanel ClipToBounds="True">
+                    <TextBlock Text="{Binding Path=Name}"></TextBlock>
+                    <TextBlock Text="{Binding Path=BPCost}"></TextBlock>
+                    <TextBlock Text="{Binding Path=Desc}" TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+        </DataTemplate>
+    </Window.Resources>
     <Grid>
-        <TabControl Height="508" HorizontalAlignment="Left" Margin="12,12,0,0" Name="tabControl1" VerticalAlignment="Top" Width="755
-                    ">
-            <TabItem Header="tabItem1" Name="tabItem1">
-                
+
+        <Menu IsMainMenu="True">
+            <MenuItem Header="File"/>
+            <MenuItem Header="Edit" />
+        </Menu>
+        <TabControl Height="536" HorizontalAlignment="Left" Margin="0,25,0,0" Name="tabControl1" VerticalAlignment="Top" Width="778">
+            <TabItem Header="Attributes &amp; Qualities" Name="attsTab">
+                <Grid Height="510" Width="771">
+                    <ListBox MinHeight="100" MinWidth="100" Width="400" Height="400" MaxWidth="400" MaxHeight="400" ItemsSource="{Binding Qualities}" ItemTemplate="{StaticResource qualityTemplate}" ClipToBounds="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="13,10,358,100"></ListBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Skills" Name="skillsTab">
+                <Grid Height="510" Width="771">
+                </Grid>
             </TabItem>
         </TabControl>
     </Grid>

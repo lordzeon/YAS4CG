@@ -5,7 +5,7 @@ using System.Text;
 
 namespace YAS4CG.Model
 {
-    public class MetaType
+    public class MetaType : ObservableObject
     {
         public string Name { get; set; }
 
